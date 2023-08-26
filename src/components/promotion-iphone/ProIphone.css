@@ -1,0 +1,22 @@
+.promotion-section-hold {
+    background-color: var(--color10);
+    height: 297px;
+    overflow-y: visible;
+}
+.promotion-img-hold.proiphone {
+    text-align: right;
+    margin-top: -80px;
+}
+.promotion-content-hold h2 {
+    font-size: var(--h2_typography-font-size);
+    color: var(--color8);
+    font-weight: var(--font-weight-700);
+    margin-bottom: 16px;
+}
+.promotion-content-hold p {
+    margin-bottom: 40px;
+}
+
+.promotion-img-hold.proiphone img {
+    width: 565px;
+}

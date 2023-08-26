@@ -1,0 +1,40 @@
+.discount-devices-section-hold {
+    background-color: var(--color7);
+    padding: 24px 0px;
+    margin-bottom: 0px;
+}
+.discount-content-left {
+    display: block;
+}
+.discount-content-left .upper-text {
+    display: flex;
+    margin-bottom: 10px;
+}
+.discount-content-left .upper-text h2 {
+    font-size: var(--h3_typography-font-size);
+    color: var(--color1);
+    font-weight: var(--font-weight-700);
+    margin: auto 40px auto 0px;
+}
+.discount-content-left p {
+    color: var(--color9);
+    margin-bottom: 0px;
+    font-size: var(--h6_typography-font-size);
+}
+.discount-content-right {
+    text-align: right;
+}
+.newsletter_two_form_fields_content button {
+    margin-left: 24px;
+}
+.newsletter_two_form_fields_content input {
+    width: 273px;
+}
+.discount-content-right.disdevices img {
+    position: relative;
+    bottom: -25px;
+    width: auto;
+}
+form.disdevices {
+    margin-top: 32px;
+}

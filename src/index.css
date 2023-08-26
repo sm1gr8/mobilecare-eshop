@@ -1,0 +1,492 @@
+/*=============================================================
+   CSS INDEX
+  =============================
+  01. FONTS
+  02. ROOT
+	03. GENERAL STYLE
+	04. HEADER STYLE
+	05. SLIDER STYLE
+	06. HOME PAGE STYLE
+  =============================================================*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01. FONTS
+* ----------------------------------------------------------------------------------------
+*/
+  @font-face {
+    font-family: MC;
+    src: url(/public/fonts/MC-Semibold.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: MC;
+    src: url(/public/fonts/MC-Bold.ttf);
+    font-weight: 700;
+  }
+/*
+* ----------------------------------------------------------------------------------------
+* 02. ROOT
+* ----------------------------------------------------------------------------------------
+*/
+:root {
+  /* Start colors */
+  --color1: #ffffff;
+  --color2: #f5f5f5;
+  --color3: #939393;
+  --color4: #c8befa;
+  --color5: #f44e80;
+  --color6: #d0ff15;
+  --color7: #6a4ef5;
+  --color8: #000000;
+  --color9: #D5CCFF;
+  --color10:rgba(0, 0, 0, 0.04);
+  --primary_color: var(--color5);
+  --footer_text: #808080;
+  --topbar_typography-color: #808080;
+  --footer_text_light: #171717;
+  /* Start typography here */
+  --typography1-font-family: 'Inter', sans-serif;
+  --typography1-font-size: 16px;
+  --typography1-font-weight: 400;
+  --typography1-font-style: normal;
+  --typography1-line-height: 1.2;
+  --typography1-letter-spacing: 0px;
+  --typography1-text-transform: none;
+
+  --typography2-font-family: 'MC',  sans-serif;
+  --typography2-font-size: 32px;
+  --typography2-font-weight: 400;
+  --typography2-font-style: normal;
+  --typography2-line-height: 1.5;
+  --typography2-letter-spacing: 0px;
+  --typography2-text-transform: none;
+
+  /* Set all font weight */
+  --font-weight-100: 100;
+  --font-weight-200: 200;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+
+  /* Start genral spacing here */
+  --site_width: 1400px;
+  --margin_offset-top: 0px;
+  --margin_offset-bottom: 0px;
+  --margin_offset-top-no-percent: 0px;
+  --margin_offset-bottom-no-percent: 0px;
+  --main_padding-top: 0px;
+  --main_padding-top-or-55px: 0px;
+  --main_padding-bottom: 0px;
+
+  --header_padding-top: 0px;
+  --header_padding-bottom: 0px;
+  --header_padding-left: 0px;
+  --header_padding-right: 0px;
+
+/* Start Menu Navigation here */
+  --menu_highlight_background: var(--color5);
+  --menu_arrow_size-width: 23px;
+  --menu_arrow_size-height: 12px;
+  --nav_highlight_border: 3px;
+  --nav_padding: 45px;
+  --nav_padding-no-zero: 45px;
+  --dropdown_menu_top_border_size: 3px;
+  --dropdown_menu_width: 180px;
+  --mainmenu_dropdown_vertical_padding: 7px;
+  --menu_sub_bg_color: var(--color2);
+  --menu_bg_hover_color: var(--color8);
+  --menu_sub_sep_color: rgba(220, 218, 219, 0);
+  --menu_h45_bg_color: var(--color1);
+  --nav_typography-font-family: var(--typography1-font-family);
+  --nav_typography-font-weight: var(--typography1-font-weight);
+  --nav_typography-font-style: var(--typography1-font-style);
+  --nav_typography-color: var(--color1);
+  --nav_typography-color-65a: hsla(var(--color1-h), var(--color1-s), var(--color1-l), calc(var(--color1-a) - 35%));
+  --nav_typography-color-35a: hsla(var(--color1-h), var(--color1-s), var(--color1-l), calc(var(--color1-a) - 65%));
+  --menu_hover_first_color: var(--color4);
+  --menu_hover_first_color-65a: hsla(var(--color4-h), var(--color4-s), var(--color4-l), calc(var(--color4-a) - 35%));
+  --menu_sub_color: var(--color8);
+  --nav_dropdown_font_size: 13px;
+  --flyout_menu_icon_font_size: 20px;
+  --flyout_menu_icon_font_size_px: 20px;
+  --snav_font_size: 12px;
+  --sec_menu_lh: 44px;
+  --mobile_menu_icons_top_margin: 0px;
+  --mobile_menu_nav_height: 35px;
+  --mobile_header_bg_color: var(--color1);
+  --mobile_menu_background_color: var(--color8);
+  --mobile_menu_hover_color: var(--color8);
+  --mobile_menu_border_color: rgba(218, 218, 218, 0);
+  --mobile_menu_toggle_color: var(--color4);
+  --mobile_menu_typography-font-family: var(--typography1-font-family);
+  --mobile_menu_typography-font-size: 12px;
+  --mobile_menu_typography-font-weight: var(--typography1-font-weight);
+  --mobile_menu_typography-line-height: 35px;
+  --mobile_menu_typography-letter-spacing: 0px;
+  --mobile_menu_typography-color: var(--color1);
+  --mobile_menu_typography-font-style: var(--typography1-font-style);
+  --mobile_menu_typography-font-size-30-or-24px: 24px;
+  --mobile_menu_typography-font-size-open-submenu: var(--mobile_menu_typography-font-size,  13px);
+  --mobile_menu_font_hover_color: var(--color4);
+  --menu_icon_size: 14px;
+  --logo_alignment: left;
+  --logo_background_color: var(--color5);
+
+  /* Start Body typography here */
+  --body_typography-font-family: var(--typography1-font-family);
+  --body_typography-font-size: 16px;
+  --body_typography-font-weight: var(--typography1-font-weight);
+  --body_typography-font-style: var(--typography1-font-style);
+  --body_typography-line-height: var(--typography1-line-height);
+  --body_typography-letter-spacing: var(--typography1-letter-spacing);
+  --body_typography-color: var(--color3);
+
+  --topbar_typography-font-size: 12px;
+
+  --link_color: var(--color4);
+  --link_hover_color: var(--color5);
+  --link_decoration_line: underline;
+  --link_no_decoration: unset;
+  --link_decoration_style: solid;
+  --link_decoration_thickness: 1px;
+  --link_decoration_underline_offset: auto;
+  --link_decoration_line_hover: underline;
+  --link_decoration_style_hover: solid;
+  --link_decoration_thickness_hover: 1px;
+  --link_decoration_underline_offset_hover: auto;
+  --link_topbar_color: var(--topbar_typography-color);
+
+  --h1_typography-font-family: var(--typography2-font-family);
+  --h1_typography-font-weight: var(--typography1-font-weight);
+  --h1_typography-line-height: 1.1;
+  --h1_typography-letter-spacing: var(--typography1-letter-spacing);
+  --h1_typography-font-style: var(--typography1-font-style);
+  --h1_typography-font-size: var(--typography1-font-size);
+  --h1_typography-color: var(--color8);
+  --h1_typography-margin-top: 0.67em;
+  --h1_typography-margin-bottom: 0.67em;
+
+  --h2_typography-font-family: var(--typography2-font-family);
+  --h2_typography-font-weight: var(--typography1-font-weight);
+  --h2_typography-line-height: 1.1;
+  --h2_typography-letter-spacing: 0px;
+  --h2_typography-font-style: var(--typography1-font-style);
+  --h2_typography-font-size: 40px;
+  --h2_typography-color: var(--color8);
+  --h2_typography-margin-top: 0em;
+  --h2_typography-margin-bottom: 1.1em;
+
+  --h3_typography-font-family: var(--typography2-font-family);
+  --h3_typography-font-weight: var(--typography1-font-weight);
+  --h3_typography-line-height: 1.1;
+  --h3_typography-letter-spacing: 0px;
+  --h3_typography-font-style: var(--typography1-font-style);
+  --h3_typography-font-size: 32px;
+  --h3_typography-color: var(--color8);
+  --h3_typography-margin-top: 1em;
+  --h3_typography-margin-bottom: 1em;
+
+  --h4_typography-font-family: var(--typography2-font-family);
+  --h4_typography-font-weight: var(--typography1-font-weight);
+  --h4_typography-line-height: 1.1;
+  --h4_typography-letter-spacing: 0px;
+  --h4_typography-font-style: var(--typography1-font-style);
+  --h4_typography-font-size: 26px;
+  --h4_typography-color: var(--color8);
+  --h4_typography-margin-top: 1.33em;
+  --h4_typography-margin-bottom: 1.33em;
+
+  --h5_typography-font-family: var(--typography2-font-family);
+  --h5_typography-font-weight: var(--typography1-font-weight);
+  --h5_typography-line-height: 1.1;
+  --h5_typography-letter-spacing: 0px;
+  --h5_typography-font-style: var(--typography1-font-style);
+  --h5_typography-font-size: 24px;
+  --h5_typography-color: var(--color8);
+  --h5_typography-margin-top: 1.67em;
+  --h5_typography-margin-bottom: 1.67em;
+
+  --h6_typography-font-family: var(--typography2-font-family);
+  --h6_typography-font-weight: var(--typography1-font-weight);
+  --h6_typography-line-height: 1.1;
+  --h6_typography-letter-spacing: 0px;
+  --h6_typography-font-style: var(--typography1-font-style);
+  --h6_typography-font-size: 18px;
+  --h6_typography-color: var(--color8);
+  --h6_typography-margin-top: 2.33em;
+  --h6_typography-margin-bottom: 2.33em;
+
+  
+  --social_bg_color: var(--color2);
+  --social_sharing_padding-top: 1.25em;
+  --social_sharing_padding-right: 1.25em;
+  --social_sharing_padding-bottom: 1.25em;
+  --social_sharing_padding-left: 1.25em;
+  --sharing_social_links_icon_color: var(--color3);
+  --sharing_social_links_box_color: var(--color3);
+  --sharing_social_links_boxed_padding: 8px;
+
+  --slider_nav_box_dimensions-width: 30px;
+  --slider_nav_box_dimensions-height: 30px;
+  --slider_arrow_size: 14px;
+
+  --form_input_height: 48px;
+  --form_input_height-main-menu-search-width: calc(250px + 1.43 * 48px);
+  --form_text_size: 16px;
+  --form_bg_color: var(--color8);
+  --form_text_color: var(--color7);
+  --form_border_width: 1px;
+  --form_border_color: #f7f7f7;
+  --form_focus_border_color: var(--color1);
+  --form_border_radius: 0px;
+  --form_padding-inner: 12px 16px 12px 16px;
+  --form-outline:unset;
+
+  --live_search_results_height: 250px;
+  
+  --scrollbar_background: var(--color3);
+  --scrollbar_handle: var(--color5);
+  
+  --pagination_width_height: 30px;
+  --pagination_box_padding-width: 12px;
+  --pagination_box_padding-height: 5px;
+  --pagination_border_width: 1px;
+  --pagination_border_radius: 4px;
+  --pagination_font_size: 14px;
+
+  --carousel_nav_color: var(--color7);
+  --carousel_hover_color: var(--color7);
+
+  --info_bg_color: var(--color1);
+  --info_accent_color: var(--color7);
+  --danger_bg_color: #d60000;
+  --danger_accent_color: var(--color1);
+  --success_bg_color: #009e41;
+  --success_accent_color: var(--color1);
+  --warning_bg_color: #b59300;
+  --warning_accent_color: var(--color1);
+  --alert_border_size: 1px;
+  /* Start Buttons here */
+  --button_padding-top: 11px;
+  --button_padding-bottom: 11px;
+  --button_padding-left: 26px;
+  --button_padding-right: 26px;
+  --button_typography-font-family: var(--typography1-font-family);
+  --button_typography-font-weight: 700;
+  --button_typography-letter-spacing: var(--typography1-letter-spacing);
+  --button_font_size: var(--typography1-font-size);
+  --button_line_height: var(--typography1-line-height);
+  --button_text_transform: var(--typography1-text-transform);
+  --button_with_border-width: 1px;
+  --button_with_border-style: solid;
+
+  --button_dark-bg: var(--color8);
+  --button_dark-bg-hover: transparent;
+  --button_dark-typography-color: var(--color1);
+  --button_dark-typography-color-hover: var(--color8);
+  --button_dark-border-color-hover: var(--color8);
+
+  --button_with_border-dark-border-color: var(--color8);
+  --button_with_border-dark-border-color-hover: transparent;
+  --button_with_border-dark-bg-color: transparent;
+  --button_with_border-dark-bg-color-hover: var(--color8);
+  --button_with_border-dark-typography-color: var(--color8);
+  --button_with_border-dark-typography-color-hover: var(--color1);
+
+  --button_white-bg: var(--color1);
+  --button_white-bg-hover: transparent;
+  --button_white-typography-color: var(--color8);
+  --button_white-typography-color-hover: var(--color1);
+  --button_white-hover-border: var(--color1);
+  
+  --countdown_background_color: rgba(160, 206, 78, 0);
+  --countdown_counter_box_spacing: 10px;
+  --countdown_counter_box_color: var(--color5);
+  --countdown_counter_padding-top: 0.6em;
+  --countdown_counter_padding-right: 1.1em;
+  --countdown_counter_padding-bottom: 0.6em;
+  --countdown_counter_padding-left: 1.1em;
+  --countdown_counter_border_size: 0;
+  --countdown_counter_border_color: var(--color8);
+  --countdown_counter_border_radius: 4px;
+  --countdown_counter_font_size: 18px;
+  --countdown_counter_text_color: var(--color1);
+  --countdown_label_font_size: 18px;
+  --countdown_label_color: var(--color1);
+  --countdown_heading_font_size: 18px;
+  --countdown_heading_text_color: var(--color1);
+  --countdown_subheading_font_size: 14px;
+  --countdown_subheading_text_color: var(--color1);
+  --countdown_link_text_color: var(--color5);
+
+  --pricing_box_color: var(--color4);
+  --progressbar_text_color: var(--color1);
+  --progressbar_height: 48px;
+  --progressbar_filled_color: var(--color5);
+  --progressbar_unfilled_color: var(--color2);
+  --progressbar_filled_border_size: 0px;
+  --progressbar_filled_border_color: var(--color1);
+  
+  
+  --title_border_color: var(--color3);
+  --title_margin-top: 0px;
+  --title_margin-right: 0px;
+  --title_margin-bottom: 31px;
+  --title_margin-left: 0px;
+  --title_margin_mobile-top: 0px;
+  --title_margin_mobile-right: 0px;
+  --title_margin_mobile-bottom: 20px;
+  --title_margin_mobile-left: 0px;
+
+  /* Start Feature here */
+
+/* Start Feature here */
+
+  --new_product_box_main_heading_size:16px;
+  --new_product_box_main_heading_font_weight:600;
+  --new_product_box_main_heading_color:var(--color8);
+
+  --item_cate_size:14;
+  --item_cate_size_font_weight:500;
+  --item_cate_size_color:rgba(0, 0, 0, 0.40);
+
+  --rice_tag_size:18;
+  --rice_tag_size_font_weight:600;
+  --price_tag_size_color:var(--color8);
+
+  --dis_percentage_color:var(--color5);
+  --item_brand_color:var(--color6);
+
+
+/* Start Footer here */
+
+--footer_links_heading_size:14px;
+--footer_links_heading_color:var(--color1);
+--footer_links_heading_weight:var( --font-weight-700);
+--footer_links_size:14px;
+--footer_links_color:var(--color1);
+--footer_links_weight:var( --font-weight-400);
+
+
+
+}
+
+
+
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* 03. GENERAL STYLE
+* ----------------------------------------------------------------------------------------
+*/
+body {
+  margin: 0;
+  min-width: 320px;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: var(--body_typography-color);
+  font-size: var(--body_typography-font-size);
+  font-family: var(--body_typography-font-family, inherit);
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the page takes up at least the viewport height */
+}
+.content {
+  flex-grow: 1; /* Let the content area grow to fill the space */
+}
+a {
+  transition: 0.5s all ease 0s;
+}
+.dark-bg {
+  background-color: var(--color8);
+}
+.light-bg {
+  background-color: var(--color2);
+}
+.red-bg {
+  background-color: var(--color5);
+}
+.mc-font {
+  font-family: var(--typography2-font-family);
+}
+/* start buttons */
+
+
+
+.button {
+  padding-left: var(--button_padding-left);
+  padding-right: var(--button_padding-right);
+  padding-top: var(--button_padding-top);
+  padding-bottom: var(--button_padding-bottom);
+  font-size: var(--button_font_size);
+  font-family: var(--button_typography-font-family);
+  font-weight: var(--button_typography-font-weight);
+  display: inline-flex;
+  text-decoration: var(--link_no_decoration);
+  border-width: var(--button_with_border-width);
+  border-style: var(--button_with_border-style);
+  border-color: transparent;
+  transition: 0.5s all ease 0s;
+}
+.button-dark {
+  background: var(--button_dark-bg);
+  color: var(--button_dark-typography-color);
+}
+.button-dark:hover {
+  background: var(--color1);
+  color: var(--color7);
+  border-color: var(--color1);
+}
+.button-with-border-dark {
+  border-color: var(--button_with_border-dark-border-color);
+  background: var(--button_with_border-dark-bg-color);
+  color: var(--button_with_border-dark-typography-color);
+}
+.button-with-border-dark:hover {
+  border-color: var(--color7);
+  background: var(--color7);
+  color: var(--button_with_border-dark-typography-color-hover);
+}
+.button-white {
+  background: var(--button_white-bg);
+  color: var(--button_white-typography-color);
+}
+.button-white:hover {
+  border-color: var(--color7);
+  background: var(--color7);
+  color: var(--color1);
+}
+
+.button-with-icon {
+  display: inline-flex;
+  align-items: center;
+}
+.button-with-icon span {
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+input, select, textarea {
+height: var( --form_input_height);
+color: var(--color8);
+font-size: var(--form_text_size);
+border-radius: var(--form_border_radius);
+border-width: var(--form_border_width);
+border-color: var(--form_border_color);
+padding: var(--form_padding-inner);
+outline: var(  --form-outline);
+}
+
+
+
+
+
+
+

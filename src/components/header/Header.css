@@ -1,0 +1,94 @@
+.topbar-content {
+    color: var(--topbar_typography-color);
+    font-size: var(--topbar_typography-font-size);
+    font-weight: var(--font-weight-600);
+  }
+  .topbar-content ul {
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 0px;
+    display: flex;
+  }
+  .header-bottom-pd {
+    padding-top: 24px;
+  }
+  .topbar-content ul li:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .topbar-content a {
+    color: var(--link_topbar_color);
+    text-decoration: var(--link_no_decoration);
+  }
+  .topbar-content ul li a:hover {
+    text-decoration: var(--link_decoration_line);
+  }
+  /* Start announcement bar */
+  .announcement-content {
+    color: var(--color1);
+    font-size: 14px;
+    font-weight: var(--font-weight-700);
+  }
+ /* Start navbar bar */
+ nav.main-menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.menu-toggel {
+  margin-right: 24px;
+}
+  a.navbar-brand {
+    text-align: center;
+    display: block;
+    padding: 12px 24px 0px;
+}
+ul.navbar-nav.left-side li a {
+  color: var(--nav_typography-color);
+  font-weight: var(--font-weight-700);
+  padding: 12px 22px !important;
+}
+ul.navbar-nav.left-side li a:hover {
+  border-color: rgba(178, 165, 235, 0.08);
+  background: rgba(178, 165, 235, 0.08);
+  color:var(--color7);
+}
+ul.navbar-nav.right-side li a {
+  color: var(--nav_typography-color);
+  font-weight: var(--font-weight-700);
+  padding: 12px 8px !important;
+}
+ul.navbar-nav li a span {
+  font-size: 25px !important;
+}
+ul.navbar-nav li a span:hover{
+  color: var(--color7);
+}
+ul.navbar-nav.left-side li a.nav-link span {
+  position: relative;
+  top: 6px;
+  margin-right: 3px;
+}
+ /* Start burger menu */
+ /* Start search menu */
+ .header-search-hold {
+  display: block;
+  width: 100%;
+}
+.header-search-hold .easy-autocomplete {
+  position: relative;
+}
+.header-search-hold .easy-autocomplete input {
+  width: 100%;
+  padding-left: 50px;
+}
+.header-search-hold .easy-autocomplete span.icon-search-outline {
+  position: absolute;
+  left: 12px;
+  color:var(--color8);
+  font-size: var( --h5_typography-font-size);
+  top: 12px;
+}
+
+ 
+
+
+ 

@@ -1,0 +1,11 @@
+/* Start colors */
+
+// Override default variables before the import
+// $body-bg: #000;
+
+$container-max-widths: (
+  xxl: 1400px
+);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';

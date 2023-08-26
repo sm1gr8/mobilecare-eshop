@@ -1,0 +1,27 @@
+.promotion-section-hold {
+    background-color: var(--color10);
+    height: 297px;
+    overflow-y: visible;
+}
+.promotion-content-hold h2 {
+    font-size: var(--h2_typography-font-size);
+    color: var(--color8);
+    font-weight: var(--font-weight-700);
+    margin-bottom: 16px;
+}
+.promotion-content-hold p {
+    margin-bottom: 40px;
+}
+.promotion-img-hold {
+    text-align: right;
+    margin-top: -45px;
+}
+.promotion-img-hold img {
+    width: 565px;
+}
+.promotion-img-hold small {
+    display: block;
+    position: relative;
+    top: -25px;
+    text-align: center;
+}

@@ -1,0 +1,104 @@
+.feature-section {
+    margin-bottom: 48px;
+}
+.main-heading-holds {
+    margin-bottom: 32px;
+}
+.main-heading-holds h2 {
+    font-weight: var(--font-weight-700);
+    font-size: var(--h2_typography-font-size);
+    color: var(--color8);
+}
+.view-more {
+    text-align: right;
+    position: relative;
+    top: -55px;
+}
+.view-more a {
+    text-decoration: unset;
+}
+.new_product_box_text a {
+    text-decoration: unset;
+}
+.new_product_box_main_heading {
+    font-size: var(--new_product_box_main_heading_size);
+    font-weight: var(--new_product_box_main_heading_font_weight);
+    color: var(--new_product_box_main_heading_color);
+    line-height: 26px;
+    margin-bottom: 3px;
+    display: block;
+}
+.categry {
+    font-size: var(--item_cate_size);
+    font-weight: var(--item_cate_size_font_weight);
+    color: var(--item_cate_size_color);
+    line-height: 27px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.price {
+    font-size: var(--rice_tag_size);
+    font-weight: var( --rice_tag_size_font_weight);
+    color: var( --price_tag_size_color);
+    line-height: 22px;
+}
+
+ul.color_select {
+    margin: 10px 0px;
+    display: flex;
+    padding: 0px;
+}
+ul.color_select li {
+    list-style: none;
+}
+ul.color_select li span {
+    display: block;
+    font-size: 35px;
+    border-radius: 30px;
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+}
+.new_product_box {
+    position: relative;
+    display: block;
+}
+.wishlist span {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 28px;
+    padding: 8px 8px 0px 0px;
+    color: var(--color8);
+}
+.dis_percentage {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: var(--dis_percentage_color);
+    color: var(--color1);
+    padding: 3px 8px;
+    font-size: 12px;
+    margin: 8px 8px 0px 0px;
+    font-weight:  var(  --font-weight-600);
+}
+.item_brand {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: var( --item_brand_color);
+    color: var( --color8);
+    padding: 3px 8px;
+    font-size: 12px;
+    margin: 8px 8px 0px 0px;
+    font-weight: var(  --font-weight-600);
+}
+
+.new_product_box_image a img {
+    height: 265px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    object-fit: contain;
+}
