@@ -1,25 +1,31 @@
 .feature-section {
     margin-bottom: 48px;
 }
+
 .main-heading-holds {
     margin-bottom: 32px;
 }
+
 .main-heading-holds h2 {
     font-weight: var(--font-weight-700);
     font-size: var(--h2_typography-font-size);
     color: var(--color8);
 }
+
 .view-more {
     text-align: right;
     position: relative;
     top: -55px;
 }
+
 .view-more a {
     text-decoration: unset;
 }
+
 .new_product_box_text a {
     text-decoration: unset;
 }
+
 .new_product_box_main_heading {
     font-size: var(--new_product_box_main_heading_size);
     font-weight: var(--new_product_box_main_heading_font_weight);
@@ -28,6 +34,7 @@
     margin-bottom: 3px;
     display: block;
 }
+
 .categry {
     font-size: var(--item_cate_size);
     font-weight: var(--item_cate_size_font_weight);
@@ -39,8 +46,8 @@
 
 .price {
     font-size: var(--rice_tag_size);
-    font-weight: var( --rice_tag_size_font_weight);
-    color: var( --price_tag_size_color);
+    font-weight: var(--rice_tag_size_font_weight);
+    color: var(--price_tag_size_color);
     line-height: 22px;
 }
 
@@ -49,9 +56,11 @@ ul.color_select {
     display: flex;
     padding: 0px;
 }
+
 ul.color_select li {
     list-style: none;
 }
+
 ul.color_select li span {
     display: block;
     font-size: 35px;
@@ -60,10 +69,12 @@ ul.color_select li span {
     width: 16px;
     height: 16px;
 }
+
 .new_product_box {
     position: relative;
     display: block;
 }
+
 .wishlist span {
     position: absolute;
     right: 0px;
@@ -72,6 +83,7 @@ ul.color_select li span {
     padding: 8px 8px 0px 0px;
     color: var(--color8);
 }
+
 .dis_percentage {
     position: absolute;
     left: 0px;
@@ -81,18 +93,26 @@ ul.color_select li span {
     padding: 3px 8px;
     font-size: 12px;
     margin: 8px 8px 0px 0px;
-    font-weight:  var(  --font-weight-600);
+    font-weight: var(--font-weight-600);
 }
+
 .item_brand {
     position: absolute;
     left: 0px;
     top: 0px;
-    background-color: var( --item_brand_color);
-    color: var( --color8);
+    background-color: var(--item_brand_color);
+    color: var(--color8);
     padding: 3px 8px;
     font-size: 12px;
     margin: 8px 8px 0px 0px;
-    font-weight: var(  --font-weight-600);
+    font-weight: var(--font-weight-600);
+}
+
+.new_product_box_image {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    height: 265px;
 }
 
 .new_product_box_image a img {
@@ -101,4 +121,49 @@ ul.color_select li span {
     margin: auto;
     width: 100%;
     object-fit: contain;
+    justify-content: center;
+    display: flex;
 }
+
+.new_product_box_image .hoverImg {
+    opacity:0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.new_product_box_image:hover .main-img {
+    display: none;
+}
+
+.new_product_box_image:hover .hoverImg {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/******card-btn-holds start******/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-button {
+  padding: 10px;
+  position: relative;
+}
+.dropdown-options {
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  background: white;
+  border: 1px solid #ccc;
+}
+.selected-option {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+

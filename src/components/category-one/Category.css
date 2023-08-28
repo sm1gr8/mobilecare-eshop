@@ -12,6 +12,7 @@
 .cate-item-box {
     display: flex;
     background-color: var(--color2);
+    transition:transform .3s;
 }
 .cate-item-box a {
     width: 100%;
@@ -20,9 +21,8 @@
 }
 .cate-item-box .cate-img-holder {
     width: 40%;
-    transition:transform .3s;
 }
-.cate-item-box .cate-img-holder:hover {
+.cate-item-box:hover .cate-img-holder img {
     transform: scale(1.07);
 }
 .cate-item-box .cate-content-hold {

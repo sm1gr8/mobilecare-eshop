@@ -317,6 +317,33 @@ $(function () {
 });
 
 
+$(document).ready(function() {
+  $('.cart-button').each(function() {
+    const cartButton = $(this);
+    const dropdownButton = cartButton.find('.cart-button');
+    const productOptions = cartButton.find('.dropdown-options');
+    const selectedOption = $('<div class="selected-option"><i class="fas fa-check"></i></div>');
+    dropdownButton.append(selectedOption);
+    let itemSelected = false;
+    dropdownButton.click(function() {
+      if (!itemSelected) {
+        productOptions.toggle();
+      }
+    });
+    productOptions.on('click', 'li', function() {
+      const selectedText = $(this).text();
+      dropdownButton.text('Added to Cart');
+      dropdownButton.addClass('item-selected');
+      productOptions.hide();
+      selectedOption.show();
+      itemSelected = true;
+    });
+  });
+});
+
+
+
+
 // Close the dropdown if the user clicks outside of it
 
 // window.onclick = function(event) {

@@ -73,6 +73,9 @@ ul.footer-detail-box-content-list li a {
     list-style: none;
     display: inline-block;
 }
+.footer-bottom-links .footerfooter-bottom a {
+    text-decoration: unset;
+}
 .footer-bottom-links .footerfooter-bottom h3 {
     margin: 80px 0px 120px;
     color: var(--color1);

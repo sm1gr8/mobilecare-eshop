@@ -102,22 +102,22 @@ function Footer() {
         <div className='row footer-bottom-links'>
           <div className='col-md-3'>
             <div className='footerfooter-bottom'>
-              <h3>Slovensko</h3>
+              <a href='#'><h3>Slovensko</h3></a>
             </div>
           </div>
           <div className='col-md-3'>
             <div className='footerfooter-bottom'>
-              <h3>Česká republika</h3>
+            <a href='#'><h3>Česká republika</h3></a>
             </div>
           </div>
           <div className='col-md-3'>
             <div className='footerfooter-bottom'>
-              <h3>România</h3>
+            <a href='#'><h3>România</h3></a>
             </div>
           </div>
           <div className='col-md-3'>
             <div className='footerfooter-bottom'>
-              <h3>Polska</h3>
+            <a href='#'><h3>Polska</h3></a>
             </div>
           </div>
 
