@@ -10,7 +10,7 @@ const Features = [
     item_brand: 'Novinka',
   },
   {
-    id: 1,
+    id: 2,
     image: './images/feature/item-00.jpg',
     name: 'iPhone 17 PRO (2023)',
     category: 'Smartfóny',
@@ -20,7 +20,7 @@ const Features = [
     item_brand: 'Novinka',
   },
   {
-    id: 1,
+    id: 3,
     image: './images/feature/item-00.jpg',
     name: 'iPhone 17 PRO (2023)',
     category: 'Smartfóny',
@@ -30,7 +30,7 @@ const Features = [
     item_brand: 'Novinka',
   },
   {
-    id: 1,
+    id: 4,
     image: './images/feature/item-00.jpg',
     name: 'iPhone 17 PRO (2023)',
     category: 'Smartfóny',

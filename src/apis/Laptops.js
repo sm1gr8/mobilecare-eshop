@@ -1,6 +1,6 @@
 const Features = [
   {
-    id: 2,
+    id: 1,
     image: './images/feature/item-01.jpg',
     name: 'Samsung Galaxy S22',
     category: 'Smartfóny',
@@ -20,7 +20,7 @@ const Features = [
     item_brand: '',
   },
   {
-    id: 2,
+    id: 3,
     image: './images/feature/item-01.jpg',
     name: 'Samsung Galaxy S22',
     category: 'Smartfóny',
@@ -30,7 +30,7 @@ const Features = [
     item_brand: '',
   },
   {
-    id: 2,
+    id: 4,
     image: './images/feature/item-01.jpg',
     name: 'Samsung Galaxy S22',
     category: 'Smartfóny',

@@ -1,6 +1,6 @@
 const Features = [
   {
-    id: 3,
+    id: 1,
     image: './images/feature/item-02.jpg',
     name: 'Samsung Galaxy S22',
     category: 'Smartfóny',
@@ -20,7 +20,7 @@ const Features = [
     item_brand: '',
   },
   {
-    id: 1,
+    id: 3,
     image: './images/feature/item-00.jpg',
     name: 'iPhone 17 PRO (2023)',
     category: 'Smartfóny',
@@ -30,7 +30,7 @@ const Features = [
     item_brand: '',
   },
   {
-    id: 3,
+    id: 4,
     image: './images/feature/item-02.jpg',
     name: 'Samsung Galaxy S22',
     category: 'Smartfóny',
@@ -40,7 +40,7 @@ const Features = [
     item_brand: '',
   },
   {
-    id: 1,
+    id: 5,
     image: './images/feature/item-00.jpg',
     name: 'iPhone 17 PRO (2023)',
     category: 'Smartfóny',
@@ -50,7 +50,7 @@ const Features = [
     item_brand: '',
   },
   {
-    id: 2,
+    id: 6,
     image: './images/feature/item-01.jpg',
     name: 'Samsung Galaxy S22',
     category: 'Smartfóny',
@@ -60,7 +60,7 @@ const Features = [
     item_brand: '',
   },
   {
-    id: 3,
+    id: 7,
     image: './images/feature/item-02.jpg',
     name: 'Samsung Galaxy S22',
     category: 'Smartfóny',
@@ -70,7 +70,7 @@ const Features = [
     item_brand: '',
   },
   {
-    id: 3,
+    id: 8,
     image: './images/feature/item-02.jpg',
     name: 'Samsung Galaxy S22',
     category: 'Smartfóny',

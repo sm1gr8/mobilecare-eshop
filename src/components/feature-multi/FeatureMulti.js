@@ -12,10 +12,10 @@ export default function FeatureMulti() {
             FeaturesMulti.map((curelm) => {
               const { id, image, name, category, price, color_select, wishlist, dis_percentage, item_brand } = curelm;
               return (
-                <div className='col-md-3' key={id}>
+                <div className='col-md-3' key={id} curelm={id}>
 
                   <div className='new_product_box'>
-                    <div className='new_product_box_image'><a href='#'><img src={image}></img></a></div>
+                    <div className='new_product_box_image'><a href='#'><img src={image} alt={name} /></a></div>
                     <div className='new_product_box_text'>
                       <a href='#'>
                         <span className='new_product_box_main_heading'>

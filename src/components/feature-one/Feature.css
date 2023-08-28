@@ -143,23 +143,25 @@ ul.color_select li span {
 }
 
 /******card-btn-holds start******/
-.dropdown {
+.cart-button .dropdown {
   position: relative;
   display: inline-block;
 }
-.dropdown-button {
+.cart-button .dropdown-button {
   padding: 10px;
   position: relative;
 }
-.dropdown-options {
-  display: none;
+.cart-button .dropdown-options {
   position: absolute;
   list-style: none;
   padding: 0;
   background: white;
   border: 1px solid #ccc;
 }
-.selected-option {
+.cart-button .dropdown-options li {
+    cursor: pointer;
+}
+.cart-button .selected-option {
   display: none;
   position: absolute;
   top: 50%;

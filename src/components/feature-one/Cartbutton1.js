@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-function Cartbutton() { // Changed the component name to CartButton
+
+function CartButton() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState('');
   const options = ['iPhone 32GB', 'iPhone 64GB', 'iPhone 128GB'];
+
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
@@ -16,16 +18,15 @@ function Cartbutton() { // Changed the component name to CartButton
     }
   };
 
-  // handle open click
   const handleOptionClick = (option) => {
     setSelectedOption(option);
     setIsDropdownOpen(false);
   };
 
   return (
-    <div className="cart-button">
+    <div className="cart-dropdown">
       <button
-        className={`cart-button ${isDropdownOpen ? 'item-selected' : ''}`}
+        className={`cart-button ${selectedOption ? 'item-selected' : ''}`}
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
       >
         {selectedOption || 'Select Product Variation'}
@@ -42,4 +43,5 @@ function Cartbutton() { // Changed the component name to CartButton
     </div>
   );
 }
-export default Cartbutton; // Export the updated component as CartButton
+
+export default CartButton;
