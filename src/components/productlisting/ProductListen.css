@@ -1,0 +1,59 @@
+ul.breadcrumbs {
+    padding: 8px 0px 10px;
+    background-color: var(--color2);
+    display: inline-block;
+}
+ul.breadcrumbs li {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+ul.breadcrumbs li a {
+    text-decoration: unset;
+    font-weight: 600;
+    color: var(--color3);
+    font-size: var(--pagination_font_size);
+    padding: 8px 12px;
+}
+
+ul.breadcrumbs li a.active {
+    color: var(--color8);
+}
+ul.breadcrumbs li+li::before {
+    color: var(--color8);
+    position: absolute;
+    content: '\203A';
+    font-size: 27px;
+    margin: 0px;
+    top: -9px;
+    font-weight: 500;
+    margin-left: -15px;
+}
+
+  /* end Breadcrumbs here */
+
+  .filter-button a:hover {
+    background-color: var(--color7);
+    color: var(--color1);
+}
+.filter-button a span {
+    margin-left: 12px;
+}
+.productlisting-main-heading {
+    text-align: center;
+}
+.productlisting-main-heading p {
+    color: var(--color3);
+    font-size: var(--item_cate_size);
+}
+.productlisting-main-heading h5 {
+    color: var(--color8);
+    font-weight: var( --font-weight-700);
+}
+.selectdropdwon-prolist {
+    display: flex;
+    width: 273px;
+    align-items: flex-end;
+    margin-left: auto;
+}

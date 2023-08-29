@@ -8,6 +8,7 @@ import Výpredaj from './Výpredaj';
 import Novinky from './Novinky';
 import McServis from './McServis';
 import ErrorPage from './404Page';
+import ProductListen from './components/productlisting/ProductListen';
 function App() {
   return (
     <div className="app">
@@ -18,6 +19,7 @@ function App() {
           <Route path='/výpredaj' element={<Výpredaj/>}></Route>
           <Route path='/novinky' element={<Novinky/>}></Route>
           <Route path='/mcservis' element={<McServis/>}></Route>
+          <Route path='/productlisten' element={<ProductListen/>}></Route>
           <Route path='*' element={<ErrorPage/>}></Route>
         </Routes>
       <div className="content">

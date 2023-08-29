@@ -43,3 +43,6 @@
     color: var(--color8);
     text-decoration: unset;
 }
+.coninfo-section-hold {
+    padding-bottom: 80px;
+}

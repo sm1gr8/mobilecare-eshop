@@ -233,7 +233,7 @@
   --slider_nav_box_dimensions-height: 30px;
   --slider_arrow_size: 14px;
 
-  --form_input_height: 48px;
+  --form_input_height: 50px;
   --form_input_height-main-menu-search-width: calc(250px + 1.43 * 48px);
   --form_text_size: 16px;
   --form_bg_color: var(--color8);
@@ -241,7 +241,7 @@
   --form_border_width: 1px;
   --form_border_color: #f7f7f7;
   --form_focus_border_color: var(--color1);
-  --form_border_radius: 0px;
+  --form_border_radius: 0px !important;
   --form_padding-inner: 12px 16px 12px 16px;
   --form-outline:unset;
 
@@ -477,11 +477,14 @@ input, select, textarea {
 height: var( --form_input_height);
 color: var(--color8);
 font-size: var(--form_text_size);
-border-radius: var(--form_border_radius);
 border-width: var(--form_border_width);
 border-color: var(--form_border_color);
 padding: var(--form_padding-inner);
 outline: var(  --form-outline);
+box-shadow: unset !important;
+border: var(--color2);
+border-radius: unset !important;
+
 }
 
 
