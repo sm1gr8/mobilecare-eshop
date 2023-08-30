@@ -22,6 +22,7 @@ function CartButton() {
   };
   return (
     <div className="cart-dropdown">
+      {/* start main button */}
       <button
         className={`cart-button ${selectedOption ? 'item-selected' : ''}`}
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
