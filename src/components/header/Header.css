@@ -219,4 +219,87 @@ ul.navbar-nav.left-side li.nav-item.active.dropdown ul.dropdown-menu.show {
 /* End dropdown menu */
 
 /* Star Toggle burger menu */
+.sidebar{
+  width: 424px;
+  flex-shrink: 0;
+  background-color: var(--color7);
+  height: 100%;
+  display:none;
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.sidebar-item{
+  padding: .75em 1em;
+  display: block;
+  transition: background-color .15s;
+  border-radius: 5px;
+}
+.sidebar-item:hover{
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar-title{
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+}
+.sidebar-title span i{
+  display: inline-block;
+  width: 1.5em;
+}
+.sidebar-title .toggle-btn{
+  cursor: pointer;
+  transition: transform .3s;
+}
+.sidebar-item.open > .sidebar-title .toggle-btn{
+  transform: rotate(180deg);
+}
+.sidebar-content{
+  padding-top: .25em;
+  height: 0;
+  overflow: hidden;
+}
+.sidebar-item.open > .sidebar-content{
+  position: absolute;
+    left: 100%;
+    top: 0;
+    background: #000;
+    width: 289px;
+    height: 100%;
+    padding-top: 6rem;
+    z-index: 999;
+    overflow: visible;
+}
+
+.sidebar-item.plain{
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar-item.plain:hover{
+  text-decoration: underline;
+}
+.sidebar-item.plain i{
+  display: inline-block;
+  width: 1.7em;
+}
+.show.btnn .sidebar {
+  display: inline-block;
+  padding-top: 2.5rem;
+}
+button.btn-close {
+  position: absolute;
+  background: unset;
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  right: 11px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 

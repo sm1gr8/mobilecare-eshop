@@ -1,0 +1,252 @@
+[
+    {
+        "title": "Všetky kategórie",
+        "childrens": [
+            {
+                "title": "Iphone",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            },
+            {
+                "title": "Apple AirPods",
+                "childrens": [
+                    {
+                        "title": "AirPods 32 GB"
+                    },
+                    {
+                        "title": "AirPods 64 GB"
+                    },
+                    {
+                        "title": "AirPods 128 GB"
+                    }
+                ]
+            },
+            {
+                "title": "Airpods",
+                "childrens": [
+                    {
+                        "title": "Product 1"
+                    },
+                    {
+                        "title": "Product 2"
+                    },
+                    {
+                        "title": "Product 3"
+                    }
+                ]
+            },
+            {
+                "title": "Macbook",
+                "childrens": [
+                    {
+                        "title": "Macbook 32 GB"
+                    },
+                    {
+                        "title": "Macbook 64 GB"
+                    },
+                    {
+                        "title": "Macbook 128 GB"
+                    }
+                ]
+            }
+            
+            
+        ]
+    },
+    {
+        "title": "Všetky kategórie",
+        "childrens": [
+            {
+                "title": "Iphone",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            },
+            {
+                "title": "Apple AirPods",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            },
+            {
+                "title": "Zobraziť všetko",
+                "childrens": [
+                    {
+                        "title": "Product 1"
+                    },
+                    {
+                        "title": "Product 2"
+                    },
+                    {
+                        "title": "Product 3"
+                    }
+                ]
+            },
+            {
+                "title": "Macbook",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            }
+            
+            
+        ]
+    },{
+        "title": "Všetky kategórie",
+        "childrens": [
+            {
+                "title": "Iphone",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            },
+            {
+                "title": "Apple AirPods",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            },
+            {
+                "title": "Zobraziť všetko",
+                "childrens": [
+                    {
+                        "title": "Product 1"
+                    },
+                    {
+                        "title": "Product 2"
+                    },
+                    {
+                        "title": "Product 3"
+                    }
+                ]
+            },
+            {
+                "title": "Macbook",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            }
+            
+            
+        ]
+    },{
+        "title": "Všetky kategórie",
+        "childrens": [
+            {
+                "title": "Iphone",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            },
+            {
+                "title": "Apple AirPods",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            },
+            {
+                "title": "Zobraziť všetko",
+                "childrens": [
+                    {
+                        "title": "Product 1"
+                    },
+                    {
+                        "title": "Product 2"
+                    },
+                    {
+                        "title": "Product 3"
+                    }
+                ]
+            },
+            {
+                "title": "Macbook",
+                "childrens": [
+                    {
+                        "title": "Iphone 32 GB"
+                    },
+                    {
+                        "title": "Iphone 64 GB"
+                    },
+                    {
+                        "title": "Iphone 128 GB"
+                    }
+                ]
+            }
+            
+            
+        ]
+    }
+]

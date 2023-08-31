@@ -1,9 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-export default function McServis() {
-  return (
-    <div>
-      <h1>McService Page</h1>
-    </div>
+
+const McServis = () => {
+  
+  const [btnshow, setBtnShow] = useState(false);
+
+  return (   
+    <div>McService Page</div>
   )
+ 
 }
+
+export default McServis;
+

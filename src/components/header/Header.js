@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
+import Sidebar from './Sidebar'
 import './Header.css';
 function Header() {
+
+  const [btnshow, setBtnShow] = useState(false);
+
   return (
     <header>
       {/* Start topbar here  */}
@@ -114,8 +118,11 @@ function Header() {
           </div>
           <div className='row header-bottom-pd'>
             <div className='col-sm-9 d-flex'>
-              <button className='button button-white button-with-icon menu-toggel'>Všetky kategórie <span className='icon-burgermenu'></span>
+            <div className={btnshow? 'show btnn' : "btnn"}>
+              <button className='button button-white button-with-icon menu-toggel' onClick={()=>setBtnShow(!btnshow)}>Všetky kategórie <span className='icon-burgermenu'></span>
               </button>
+              <Sidebar setBtnShow={setBtnShow}/>
+              </div>
               <nav className='navbar navbar-expand-lg navbar-dark main-menu'>
                 <div className='collapse navbar-collapse justify-content-left'>
                   <ul className='navbar-nav left-side'>
