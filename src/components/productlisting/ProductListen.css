@@ -64,7 +64,7 @@ ul.breadcrumbs li+li::before {
 div#filter {
     z-index: 9999;
     width: 424px;
-    padding: 0px 48px;
+    padding: 0px 40px;
 }
 div#filter .offcanvas-header {
     padding: 20px 0px;
@@ -250,6 +250,8 @@ button.accordion-button.collapsed {
 }
 .main-filter-footer-section {
     display: flex;
+    position: absolute;
+    bottom: 40px;
 }
 .main-filter-footer-section a {
     font-size: 15px;
@@ -260,4 +262,17 @@ button.accordion-button.collapsed {
     border-color: var(--color7);
     background: var(--color7);
     color: var(--button_with_border-dark-typography-color-hover);
+}
+.main-border-holds {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.selected-filtered-items-pd {
+    margin: 24px 0px 0px 0px;
+}
+.selected-filtered-items-pd .slect-item-filter-box {
+    background: rgba(245, 245, 245, 1);
+    width: 80px;
+    text-align: center;
+    border: 1px solid rgba(245, 245, 245, 1);
+    padding: 4px 7px 7px;
 }

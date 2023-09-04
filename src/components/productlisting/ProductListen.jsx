@@ -240,6 +240,8 @@ function ProductListen() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className='container'>
         <div className='row'>
           <div className='col-md-4'>
             <div className='filter-button'>
@@ -479,9 +481,9 @@ function ProductListen() {
                 </div>
               </div>
               <div className='main-filter-footer-section'>
-                    <a href='' className='bt-one-filter button'>Vymazať filter</a>
-                    <a href='' className='bt-second-filter button-dark button'>1772 výsledkov</a>
-                  </div>
+                <a href='' className='bt-one-filter button'>Vymazať filter</a>
+                <a href='' className='bt-second-filter button-dark button'>1772 výsledkov</a>
+              </div>
             </div>
           </div>
           <div className='col-md-4'>
@@ -501,6 +503,16 @@ function ProductListen() {
             </div>
           </div>
         </div>
+      </div>
+      <div className='main-border-holds'></div>
+      <div className='container'>
+      <div className='row'>
+        <div className='selected-filtered-items-pd'>
+          <div className='d-flex slect-item-filter-box'>
+            Apple <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
         <div className='row'>
           {AirPodes.map((product) => (
             <div className='col-md-3' key={product.id}>
