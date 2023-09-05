@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductListen.css';
-import Features from '../../apis/Features';
-import Cartbutton from '../Cartbutton1';
+import ProductList from '../ProductList'; // call the product boxs where we define products with category
+import Products from '../Products'; // also call the data API of products
 
 function ProductListen() {
   return (
@@ -56,23 +56,23 @@ function ProductListen() {
                           <div className="easy-autocomplete"><input id="search-on-button-click" placeholder="Search" />
                             <span className="icon-search-outline"></span>
                           </div>
-                          <ul className='ul-filter'>
+                          <ul className='ul-filter form-check'>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>Apple</span>
+                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev0' />
+                              <label className='span1-filter' for='mobile-dev0'>Apple</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>Samsung</span>
+                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev1' />
+                              <label className='span1-filter' for='mobile-dev1'>Samsung</label>
                             </li>
 
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>Xiaomi</span>
+                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev2' />
+                              <label className='span1-filter' for='mobile-dev2'>Xiaomi</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>Raketa</span>
+                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev3' />
+                              <label className='span1-filter' for='mobile-dev3'>Raketa</label>
                             </li>
                           </ul>
                         </div>
@@ -91,31 +91,31 @@ function ProductListen() {
                           <div className="easy-autocomplete"><input id="search-on-button-click" placeholder="Search" />
                             <span className="icon-search-outline"></span>
                           </div>
-                          <ul className='ul-filter'>
+                          <ul className='ul-filter form-check'>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>iPhone</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev4' />
+                            <label className='span1-filter' for='mobile-dev4'>iPhone</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>iPad</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev5' />
+                            <label className='span1-filter' for='mobile-dev5'>iPad</label>
                             </li>
 
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>MacBook</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev6' />
+                            <label className='span1-filter' for='mobile-dev6'>MacBook</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>Apple Airods</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev7' />
+                            <label className='span1-filter' for='mobile-dev7'>Apple Airods</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>Vision X PRO</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev8' />
+                            <label className='span1-filter' for='mobile-dev8'>Vision X PRO</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>Príslušenstvo</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev9' />
+                            <label className='span1-filter' for='mobile-dev9'>Príslušenstvo</label>
                             </li>
                           </ul>
                         </div>
@@ -134,31 +134,30 @@ function ProductListen() {
                           <div className="easy-autocomplete"><input id="search-on-button-click" placeholder="Search" />
                             <span className="icon-search-outline"></span>
                           </div>
-                          <ul className='ul-filter'>
+                          <ul className='ul-filter form-check'>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>14 PRO</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev00' />
+                            <label className='span1-filter' for='mobile-dev00'>14 PRO</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>14 X</span>
-                            </li>
-
-                            <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>13 PRO</span>
+                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev01' />
+                              <label className='span1-filter' for='mobile-dev01'>14 X</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>13 Mini</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev02' />
+                            <label className='span1-filter' for='mobile-dev02'>13 PRO</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>X</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev03' />
+                            <label className='span1-filter' for='mobile-dev03'>13 Mini</label>
                             </li>
                             <li className='li-filter '>
-                              <input className='input-filter' type='checkbox' name='cat_filter[]' value='' />
-                              <span className='span1-filter'>12 Mini</span>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev04' />
+                            <label className='span1-filter' for='mobile-dev04'>X</label>
+                            </li>
+                            <li className='li-filter '>
+                            <input className='input-filter' type='checkbox' name='cat_filter[]' value='' id='mobile-dev05' />
+                              <label className='span1-filter' for='mobile-dev05'>12 Mini</label>
                             </li>
                           </ul>
                         </div>
@@ -283,99 +282,43 @@ function ProductListen() {
       </div>
       <div className='main-border-holds'></div>
       <div className='container'>
-      <div className='row'>
-        <div className='selected-filtered-items-pd'>
-          <div className='d-flex slect-item-filter-box'>
-            Apple <i class="fas fa-times"></i>
-          </div>
-          <div className='d-flex slect-item-filter-box'>
-          iPhone <i class="fas fa-times"></i>
-          </div>
-          <div className='d-flex slect-item-filter-box'>
-          14 PRO <i class="fas fa-times"></i>
-          </div>
-          <div className='d-flex slect-item-filter-box'>
-          256 GB <i class="fas fa-times"></i>
-          </div>
-          <div className='d-flex slect-item-filter-box'>
-          233 € - 677 € <i class="fas fa-times"></i>
-          </div>
-          <div className='d-flex slect-item-filter-box underline-btn'>
-          Vyčistiť všetko
+        <div className='row'>
+          <div className='selected-filtered-items-pd'>
+            <div className='d-flex slect-item-filter-box'>
+              Apple <i class="fas fa-times"></i>
+            </div>
+            <div className='d-flex slect-item-filter-box'>
+              iPhone <i class="fas fa-times"></i>
+            </div>
+            <div className='d-flex slect-item-filter-box'>
+              14 PRO <i class="fas fa-times"></i>
+            </div>
+            <div className='d-flex slect-item-filter-box'>
+              256 GB <i class="fas fa-times"></i>
+            </div>
+            <div className='d-flex slect-item-filter-box'>
+              233 € - 677 € <i class="fas fa-times"></i>
+            </div>
+            <div className='d-flex slect-item-filter-box underline-btn'>
+              Vyčistiť všetko
+            </div>
           </div>
         </div>
-      </div>
-      <div className="row">
-            {Features.map((curelm) => {
-              const {
-                id,
-                image,
-                hoverImg,
-                name,
-                category,
-                price,
-                color_select,
-                wishlist,
-                dis_percentage,
-                item_brand,
-              } = curelm;
-              return (
-                <div className="col-md-3" key={id} curelm={id}>
-                  <div className="new_product_box">
-                    <div className="product-cart-button-container">
-                      <div className="new_product_box_image">
-                        <a href="#">
-                          <img className="main-img" src={image}></img>
-                          <img className="hoverImg" src={hoverImg}></img>
-                        </a>
-                      </div>
-                      <Cartbutton />
-                    </div>
-                    <div className="new_product_box_text">
-                      <a href="#">
-                        <span className="new_product_box_main_heading">
-                          {name}
-                        </span>
-                      </a>
-                      <p className="category"> {category} </p>
-                      <span className="price"> {price} </span>
-                      <ul className="color_select">
-                        <li>
-                          <span
-                            className="item_color_00"
-                            style={{ backgroundColor: "#F4E8CE" }}
-                          ></span>
-                        </li>
-                        <li>
-                          <span
-                            className="item_color_01"
-                            style={{ backgroundColor: "#594F63" }}
-                          ></span>
-                        </li>
-                        <li>
-                          <span
-                            className="item_color_02"
-                            style={{ backgroundColor: "#F0F2F2" }}
-                          ></span>
-                        </li>
-                        <li>
-                          <span
-                            className="item_color_03"
-                            style={{ backgroundColor: "#403E3D" }}
-                          ></span>
-                        </li>
-                      </ul>
-                      <div className="wishlist">
-                        <span class="icon-favourite-border"></span>
-                      </div>
-                      {/* <span className='dis_percentage'>{item_brand}</span> */}
-                      {/* <span className='item_brand'>{dis_percentage}</span> */}
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+        <div className="row">
+          <ProductList products={Products} categories={['Smartfóny']} />
+        </div>
+        <div className="row">
+          <ProductList products={Products} categories={['Smartfóny']} />
+        </div>
+        <div className="row">
+          <ProductList products={Products} categories={['Smartfóny']} />
+        </div>
+        <div className="row">
+          <ProductList products={Products} categories={['Smartfóny']} />
+        </div>
+        <div className="row">
+          <ProductList products={Products} categories={['Smartfóny']} />
+        </div>
       </div>
     </div>
   );

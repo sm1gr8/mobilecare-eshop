@@ -14,7 +14,7 @@ export default function ProDisTags() {
           </div>
           <div className='col-md-6'>
             <div className='promotion-img-hold pro-dis-tag'>
-             <img src='images/pro-dis-tags-00.png'></img>
+             <img src='images/pro-dis-tags-00.Svg'/>
             </div>
           </div>
         </div>

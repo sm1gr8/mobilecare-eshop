@@ -66,6 +66,17 @@ const Products = [
         dis_percentage: '',
         item_brand: '',
     },
+    {
+        id: 7,
+        image: './images/feature/item-00.jpg',
+        hoverImg: './images/feature/item-001.png',
+        name: 'iPhone 17 PRO (2023)',
+        category: 'Smartfone1',
+        price: '1299 €',
+        wishlist: 'Add to Wishlist',
+        dis_percentage: '-39%',
+        item_brand: 'Novinka',
+    },
 ];
 
 export default Products;

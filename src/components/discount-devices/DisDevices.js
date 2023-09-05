@@ -8,7 +8,7 @@ export default function DisDevices() {
           <di className='col-md-6'>
             <div className='discount-content-left'>
               <div className='upper-text'>
-                <h2>Získaj 10% zľavu</h2><span><img src='images/dis-tag.png'></img></span>
+                <h2>Získaj 10% zľavu</h2><span><img src='images/dis-tag.svg'/></span>
               </div>
               <p>Pripojte sa ešte dnes k našej komunite neewsletrákov.</p>
             </div>

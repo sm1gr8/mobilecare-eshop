@@ -176,6 +176,9 @@ button.accordion-button.collapsed {
 .filter-count-menu-scroll ul.ul-filter li.li-filter span.span1-filter {
     color:var(--color11);
 }
+.filter-count-menu-scroll ul.ul-filter li.li-filter label.span1-filter {
+    color:var(--color11);
+}
 .filter-count-menu-scroll .easy-autocomplete {
     border: 2px solid #f5f5f5;
     margin: 8px 0px 10px;
@@ -208,6 +211,7 @@ button.accordion-button.collapsed {
     display: inline-block;
     text-align: center;
     margin: 0px 5px 5px -2px;
+    cursor: pointer;
 }
 .filter-count-menu-scroll .modal-sizes .size-mobile span {
     font-size: 14px;
@@ -227,6 +231,7 @@ button.accordion-button.collapsed {
     display: flex;
     font-size: 18px;
     font-weight: var(--font-weight-600);
+    cursor: pointer;
 }
 .filter-count-menu-scroll ul.ul-filter li.li-colors .color-select span {
     width: 20px;
