@@ -14,7 +14,7 @@ import ProDisTags from './components/Pro-dis-tags/ProDisTags';
 import FeatureMulti from './components/feature-multi/FeatureMulti';
 import ConInfo from './components/con-info/ConInfo';
 
-const Home = ()=> {
+const Home = () => {
   return (
     <>
       <Slider />
@@ -23,14 +23,14 @@ const Home = ()=> {
       <Feature />
       <ProIphone />
       <Mobile />
-      <ProLaptop/>
-      <Laptop/>
-      <ProAirpods/>
-      <AirPods/>
-      <DisDevices/>
-      <ProDisTags/>
+      <ProLaptop />
+      <Laptop />
+      <ProAirpods />
+      <AirPods />
+      <DisDevices />
+      <ProDisTags />
       <FeatureMulti />
-      <ConInfo/>
+      <ConInfo />
     </>
   )
 }
