@@ -4,6 +4,9 @@ import Features from "../../apis/Features";
 import Cartbutton from '../Cartbutton1';
 
 export default function Feature() {
+
+  
+
   return (
     <div className="feature-section">
       <div className="container">
