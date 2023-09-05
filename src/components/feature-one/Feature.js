@@ -24,7 +24,7 @@ export default function Feature() {
             </div>
           </di>
           <div className="row">
-            <ProductList products={Products} categories={['Smartfóny']} />
+            <ProductList products={Products} categories={['Smartfóny',]} />
           </div>
         </div>
       </div>
