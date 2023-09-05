@@ -1,7 +1,7 @@
 import React from "react";
 import "./Feature.css";
 import Features from "../../apis/Features";
-import Cartbutton from "./Cartbutton1";
+import Cartbutton from '../Cartbutton1';
 
 export default function Feature() {
   return (

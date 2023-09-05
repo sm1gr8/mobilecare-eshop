@@ -267,12 +267,29 @@ button.accordion-button.collapsed {
     border: 1px solid rgba(0, 0, 0, 0.08);
 }
 .selected-filtered-items-pd {
-    margin: 24px 0px 0px 0px;
+    display: flex;
+    margin: 0px;
+    padding-top: 16px;
 }
 .selected-filtered-items-pd .slect-item-filter-box {
     background: rgba(245, 245, 245, 1);
-    width: 80px;
     text-align: center;
     border: 1px solid rgba(245, 245, 245, 1);
-    padding: 4px 7px 7px;
+    padding: 12px 14px 12px 14px;
+    color: var(--color8);
+    font-weight: var(--font-weight-600);
+    margin-right: 24px;
+}
+.selected-filtered-items-pd .slect-item-filter-box i.fas.fa-times {
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 2px;
+    font-weight: var(--font-weight-600);
+    cursor: pointer;
+}
+.selected-filtered-items-pd .slect-item-filter-box.underline-btn {
+    background-color: unset;
+    border: unset;
+    cursor: pointer;
+    text-decoration: underline;
 }

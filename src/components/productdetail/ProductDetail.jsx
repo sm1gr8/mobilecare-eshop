@@ -1,6 +1,11 @@
 import React from 'react';
 import './ProductDetail.css';
+import Features from '../../apis/Features';
+import Cartbutton from '../Cartbutton1';
 function ProductDetail() {
+
+
+
     return (
         <div className='productlisting-page'>
             <div className='container'>
@@ -19,26 +24,26 @@ function ProductDetail() {
                         <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="carousel">
                             {/* Thumbnails */}
                             <div className="my-slider carousel-indicators" style={{ marginBottom: '10px' }}>
-                                        <div className="container op position-relative">
-                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" style={{ width: '100px' }}>
-                                                <img className="d-block w-100" src="images/pdslider/small03.png" alt="Slide 1" />
-                                            </button>
-                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ width: '100px' }}>
-                                                <img className="d-block w-100" src="images/pdslider/small00.png" alt="Slide 2" />
-                                            </button>
-                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style={{ width: '100px' }}>
-                                                <img className="d-block w-100" src="images/pdslider/small01.png" alt="Slide 3" />
-                                            </button>
-                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3" style={{ width: '100px' }}>
-                                                <img className="d-block w-100" src="images/pdslider/small02.png" alt="Slide 4" />
-                                            </button>
-                                        </div>
-                                    </div>
+                                <div className="container op position-relative">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" style={{ width: '100px' }}>
+                                        <img className="d-block w-100" src="images/pdslider/small03.png" alt="Slide 1" />
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ width: '100px' }}>
+                                        <img className="d-block w-100" src="images/pdslider/small00.png" alt="Slide 2" />
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style={{ width: '100px' }}>
+                                        <img className="d-block w-100" src="images/pdslider/small01.png" alt="Slide 3" />
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3" style={{ width: '100px' }}>
+                                        <img className="d-block w-100" src="images/pdslider/small02.png" alt="Slide 4" />
+                                    </button>
+                                </div>
+                            </div>
                             {/* Thumbnails */}
                             {/* Slides */}
                             <div className="carousel-inner mb-5">
                                 <div className="carousel-item active">
-                                    <img src="images/pdslider/slider-main.png" className="d-block w-100" alt="Slide 1" />
+                                    <img src="images/pdslider/small03.png" className="d-block w-100" alt="Slide 1" />
                                 </div>
                                 <div className="carousel-item">
                                     <img src="images/pdslider/small00.png" className="d-block w-100" alt="Slide 2" />
@@ -295,9 +300,85 @@ function ProductDetail() {
                                     <a className='btn submit-btn-holds' href='#'>Zobraziť recenzie</a>
                                 </div>
                             </div>
-
-
                         </div>
+                    </div>
+                </div>
+                <div className='related-products-row row'>
+                    <div className='col-md-12'>
+                        <div className='productd-main-heading'>
+                            <h5><span class="icon-bestseller"></span> Podobné produkty</h5>
+                        </div>
+                    </div>
+                    <div className="row">
+                        {Features.map((curelm) => {
+                            const {
+                                id,
+                                image,
+                                hoverImg,
+                                name,
+                                category,
+                                price,
+                                color_select,
+                                wishlist,
+                                dis_percentage,
+                                item_brand,
+                            } = curelm;
+                            return (
+                                <div className="col-md-3" key={id} curelm={id}>
+                                    <div className="new_product_box">
+                                        <div className="product-cart-button-container">
+                                            <div className="new_product_box_image">
+                                                <a href="#">
+                                                    <img className="main-img" src={image}></img>
+                                                    <img className="hoverImg" src={hoverImg}></img>
+                                                </a>
+                                            </div>
+                                            <Cartbutton />
+                                        </div>
+                                        <div className="new_product_box_text">
+                                            <a href="#">
+                                                <span className="new_product_box_main_heading">
+                                                    {name}
+                                                </span>
+                                            </a>
+                                            <p className="category"> {category} </p>
+                                            <span className="price"> {price} </span>
+                                            <ul className="color_select">
+                                                <li>
+                                                    <span
+                                                        className="item_color_00"
+                                                        style={{ backgroundColor: "#F4E8CE" }}
+                                                    ></span>
+                                                </li>
+                                                <li>
+                                                    <span
+                                                        className="item_color_01"
+                                                        style={{ backgroundColor: "#594F63" }}
+                                                    ></span>
+                                                </li>
+                                                <li>
+                                                    <span
+                                                        className="item_color_02"
+                                                        style={{ backgroundColor: "#F0F2F2" }}
+                                                    ></span>
+                                                </li>
+                                                <li>
+                                                    <span
+                                                        className="item_color_03"
+                                                        style={{ backgroundColor: "#403E3D" }}
+                                                    ></span>
+                                                </li>
+                                            </ul>
+                                            <div className="wishlist">
+                                                <span class="icon-favourite-border"></span>
+                                            </div>
+                                            {/* <span className='dis_percentage'>{item_brand}</span> */}
+                                            {/* <span className='item_brand'>{dis_percentage}</span> */}
+                                        </div>
+                                    </div>
+                                </div>
+                            );
+                        })}
                     </div>
                 </div>
             </div>

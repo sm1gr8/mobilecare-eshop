@@ -1,230 +1,7 @@
 import React from 'react';
 import './ProductListen.css';
-
-// Placeholder data for products
-const AirPodes = [
-  {
-    id: 1,
-    image: './images/feature/item-02.jpg',
-    name: 'Product 1',
-    category: 'Category 1',
-    price: '$100',
-    color_select: ['Color 1', 'Color 2'],
-    wishlist: true,
-    dis_percentage: '10%',
-    item_brand: 'Brand 1',
-  },
-  {
-    id: 2,
-    image: './images/feature/item-00.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 3,
-    image: './images/feature/item-01.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 4,
-    image: './images/feature/item-001.png',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 5,
-    image: './images/feature/item-02.jpg',
-    name: 'Product 1',
-    category: 'Category 1',
-    price: '$100',
-    color_select: ['Color 1', 'Color 2'],
-    wishlist: true,
-    dis_percentage: '10%',
-    item_brand: 'Brand 1',
-  },
-  {
-    id: 6,
-    image: './images/feature/item-00.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 7,
-    image: './images/feature/item-01.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 8,
-    image: './images/feature/item-001.png',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 9,
-    image: './images/feature/item-02.jpg',
-    name: 'Product 1',
-    category: 'Category 1',
-    price: '$100',
-    color_select: ['Color 1', 'Color 2'],
-    wishlist: true,
-    dis_percentage: '10%',
-    item_brand: 'Brand 1',
-  },
-  {
-    id: 10,
-    image: './images/feature/item-00.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 11,
-    image: './images/feature/item-01.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 12,
-    image: './images/feature/item-001.png',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 13,
-    image: './images/feature/item-00.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 14,
-    image: './images/feature/item-00.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 15,
-    image: './images/feature/item-00.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 16,
-    image: './images/feature/item-00.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 17,
-    image: './images/feature/item-01.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 18,
-    image: './images/feature/item-01.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 19,
-    image: './images/feature/item-01.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  {
-    id: 20,
-    image: './images/feature/item-01.jpg',
-    name: 'Product 2',
-    category: 'Category 2',
-    price: '$200',
-    color_select: ['Color 1', 'Color 3'],
-    wishlist: false,
-    dis_percentage: '15%',
-    item_brand: 'Brand 2',
-  },
-  // Add more product objects as needed
-];
+import Features from '../../apis/Features';
+import Cartbutton from '../Cartbutton1';
 
 function ProductListen() {
   return (
@@ -511,38 +288,94 @@ function ProductListen() {
           <div className='d-flex slect-item-filter-box'>
             Apple <i class="fas fa-times"></i>
           </div>
+          <div className='d-flex slect-item-filter-box'>
+          iPhone <i class="fas fa-times"></i>
+          </div>
+          <div className='d-flex slect-item-filter-box'>
+          14 PRO <i class="fas fa-times"></i>
+          </div>
+          <div className='d-flex slect-item-filter-box'>
+          256 GB <i class="fas fa-times"></i>
+          </div>
+          <div className='d-flex slect-item-filter-box'>
+          233 € - 677 € <i class="fas fa-times"></i>
+          </div>
+          <div className='d-flex slect-item-filter-box underline-btn'>
+          Vyčistiť všetko
+          </div>
         </div>
       </div>
-        <div className='row'>
-          {AirPodes.map((product) => (
-            <div className='col-md-3' key={product.id}>
-              <div className='new_product_box'>
-                <div className='new_product_box_image'>
-                  <a href='#'><img src={product.image} alt={product.name} /></a>
-                </div>
-                <div className='new_product_box_text'>
-                  <a href='#'>
-                    <span className='new_product_box_main_heading'>
-                      {product.name}
-                    </span>
-                  </a>
-                  <p className='category'> {product.category} </p>
-                  <span className='price'> {product.price} </span>
-                  <ul className='color_select'>
-                    {product.color_select.map((color, index) => (
-                      <li key={index}><span className={`item_color_${index}`} style={{ backgroundColor: color }}></span></li>
-                    ))}
-                  </ul>
-                  <div className='wishlist'>
-                    {product.wishlist && <span className='icon-favourite-border'></span>}
+      <div className="row">
+            {Features.map((curelm) => {
+              const {
+                id,
+                image,
+                hoverImg,
+                name,
+                category,
+                price,
+                color_select,
+                wishlist,
+                dis_percentage,
+                item_brand,
+              } = curelm;
+              return (
+                <div className="col-md-3" key={id} curelm={id}>
+                  <div className="new_product_box">
+                    <div className="product-cart-button-container">
+                      <div className="new_product_box_image">
+                        <a href="#">
+                          <img className="main-img" src={image}></img>
+                          <img className="hoverImg" src={hoverImg}></img>
+                        </a>
+                      </div>
+                      <Cartbutton />
+                    </div>
+                    <div className="new_product_box_text">
+                      <a href="#">
+                        <span className="new_product_box_main_heading">
+                          {name}
+                        </span>
+                      </a>
+                      <p className="category"> {category} </p>
+                      <span className="price"> {price} </span>
+                      <ul className="color_select">
+                        <li>
+                          <span
+                            className="item_color_00"
+                            style={{ backgroundColor: "#F4E8CE" }}
+                          ></span>
+                        </li>
+                        <li>
+                          <span
+                            className="item_color_01"
+                            style={{ backgroundColor: "#594F63" }}
+                          ></span>
+                        </li>
+                        <li>
+                          <span
+                            className="item_color_02"
+                            style={{ backgroundColor: "#F0F2F2" }}
+                          ></span>
+                        </li>
+                        <li>
+                          <span
+                            className="item_color_03"
+                            style={{ backgroundColor: "#403E3D" }}
+                          ></span>
+                        </li>
+                      </ul>
+                      <div className="wishlist">
+                        <span class="icon-favourite-border"></span>
+                      </div>
+                      {/* <span className='dis_percentage'>{item_brand}</span> */}
+                      {/* <span className='item_brand'>{dis_percentage}</span> */}
+                    </div>
                   </div>
-                  <span className='dis_percentage'>{product.dis_percentage}</span>
-                  <span className='item_brand'>{product.item_brand}</span>
                 </div>
-              </div>
-            </div>
-          ))}
-        </div>
+              );
+            })}
+          </div>
       </div>
     </div>
   );
