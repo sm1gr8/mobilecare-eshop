@@ -14,7 +14,8 @@ export default function SidebarItem({ item, level, openLevels, setOpenLevels }) 
     <div className={open ? "sidebar-item open" : "sidebar-item"}>
       <div className="sidebar-title" onClick={handleItemClick}>
         <span>{item.title}</span>
-        <i className={`fa-solid ${open ? "fa-arrow-down" : "fa-arrow-right"} toggle-btn`}></i>
+        {/* <i className={`fa-solid ${open ? "fa-arrow-down" : "fa-arrow-right"} toggle-btn`}></i> */}
+        <i className={`fas ${open ? "fa-chevron-right" : "fa-chevron-right"} toggle-btn`}></i>
       </div>
       {open && item.childrens && (
         <div className="sidebar-content">
