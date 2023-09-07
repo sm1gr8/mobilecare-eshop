@@ -246,6 +246,7 @@ ul.navbar-nav.left-side li.nav-item.active.dropdown ul.dropdown-menu.show {
   display: flex;
   font-size: 1.2em;
   justify-content: space-between;
+  color: #D5CCFF;
 }
 .sidebar-title span i{
   display: inline-block;
