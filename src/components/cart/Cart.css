@@ -1,0 +1,265 @@
+.empty-cart-secton-hold {
+    margin: 70px 0px 50px 0px;
+}
+.main-empty-cart {
+    text-align: center;
+}
+.main-empty-cart .cart-content-hold img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.main-empty-cart .cart-content-hold span {
+    color: var(--color8);
+    text-align: center;
+    font-family: var(--typography2-font-family);
+    font-size: var(--h5_typography-font-size);
+    font-style: normal;
+    font-weight: var(--font-weight-700);
+    margin-bottom: 8px;
+    display: block;
+}
+.main-empty-cart .cart-content-hold p {
+    font-weight: 600;
+    color: var(--color11);
+}
+
+/****** empty item cart add ******/
+
+.item-add-cart-box {
+    width: 100%;
+    display: flex;
+    border-bottom: 1.7px solid #f5f5f5;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+.item-add-cart-box .item-cart-img-lef {
+    width:20%;
+}
+.item-add-cart-box .item-content-detail-all {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-des span.pro-name {
+    color: var(--color8);
+    font-family: Inter;
+    font-size: var(--h6_typography-font-size);
+    font-style: normal;
+    font-weight: var(--font-weight-600);
+    line-height: 190%;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-des p.descrip {
+    color: var(--color3);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: var(--font-weight-500);
+    line-height: 180%;
+    margin-bottom: 24px;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-des a.add-to-cart-items span {
+    font-size: 20px;
+    margin-right: 8px;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-des a.add-to-cart-items {
+    border: 2px solid;
+    padding: 9px 10px 8px;
+    font-size: 12px;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-des a.add-to-cart-items:hover {
+    border: 2px solid #6a4ef5;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-prices span.pro-price {
+    text-align: right;
+    color: var(--color8);
+    font-family: Inter;
+    font-size: var(--h6_typography-font-size);
+    font-style: normal;
+    font-weight: var(--font-weight-700);
+    display: block;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-prices span.pro-price a.trash {
+    width: 24px;
+    height: 24px;
+    color: var(--color8);
+    margin-left: 16px;
+    font-size: 16px;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-prices p.percentage-hold-item {
+    text-align: right;
+    color: var(--secondary-red-1, #F54E80);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-prices .select-items label {
+    color: var(--color8);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: var(--font-weight-500);
+    line-height: 130%;
+    margin-bottom: 12px;
+}
+.item-add-cart-box .item-content-detail-all .pro-items-prices .select-items select.form-select.select {
+    height: 44px !important;
+    font-weight: var(--font-weight-600);
+    width: 100%;
+    display: inline-block;
+}
+.item-add-cart-box .item-cart-img-lef img {
+    display: flex;
+    width: 104px;
+    height: 128px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.item-add-cart-box .item-content-detail-all span.pro-price.decurated-hold b {
+    color: var(--secondary-red-1, #F54E80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 190%;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.item-add-cart-box .item-content-detail-all .select-items {
+    margin-top: 50px;
+}
+b.old-price {
+    color: #939393 !important;
+    font-weight: 600 !important;
+    text-decoration: line-through;
+}
+
+
+/************* main-payemnt-content-box *************/
+.main-payemnt-content-box {
+    border: 2px solid var(--greyscale-4, #F5F5F5);
+    background: var(--primary-white, #FFF);
+    padding-bottom: 24px;
+}
+
+.main-payemnt-content-box .dlivery-one-box {
+    background-color: #f5f5f5;
+    display: flex;
+    height: 72px;
+    padding: 5px 24px 5px 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.main-payemnt-content-box .dlivery-one-box .delvery-icons img {
+    margin-right: 24px;
+}
+.main-payemnt-content-box .dlivery-one-box .delvery-icons span {
+    font-weight: var(--font-weight-600);
+    color: var(--color8);
+}
+.main-payemnt-content-box .dlivery-one-box .delvery-content p {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: var(--font-weight-500);
+}
+.main-payemnt-content-box .payment-methods-holds {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+.main-payemnt-content-box .payment-methods-holds .payment-heads {
+    font-size: 14px;
+    font-weight: var(--font-weight-500);
+    color: var(--color8);
+}
+.main-payemnt-content-box .payment-methods-holds ul.payment-cards li {
+    list-style: none;
+    display: inline-block;
+}
+.main-payemnt-content-box .payment-methods-holds ul.payment-cards {
+    padding: 0px;
+    margin: 0px;
+}
+.main-payemnt-content-box .voucher-box {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-payemnt-content-box .voucher-box .voucher-content span {
+    color: var(--color8);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: var(--font-weight-500);
+    line-height: 190%;
+}
+.main-payemnt-content-box .voucher-box .voucher-input input {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+.main-payemnt-content-box .payment-add-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px 12px;
+}
+.main-payemnt-content-box .payment-add-box .content-left span {
+    color: var(--color8);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: var(--font-weight-500);
+    line-height: 190%;
+}
+.main-payemnt-content-box .payment-add-box .content-right p {
+    color: var(--color8);
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: var(--font-weight-500);
+    line-height: 190%;
+}
+.main-payemnt-content-box .payment-add-box .content-right h2 {
+    color: var(--color8);
+    text-align: right;
+    font-family: var(--typography2-font-family);
+    font-size: var( --h2_typography-font-size);
+    font-style: normal;
+    font-weight: var(--font-weight-700);
+    line-height: 120%;
+}
+.main-payemnt-content-box .payment-add-box .content-left span small {
+    color: var(--color11);
+    margin-left: 3px;
+}
+.main-payemnt-content-box .payment-check {
+    display: flex;
+    padding: 0px 24px 12px;
+}
+.main-payemnt-content-box .payment-check input {
+    height: 24px;
+    margin-right: 12px;
+    width: 24px;
+    outline: unset !important;
+    accent-color: black;
+    border: 1px solid var(--color8);
+    border-radius: unset !important;
+}
+.main-payemnt-content-box .payment-btn-holds {
+    display: flex;
+    padding: 24px 24px 0px;
+}
+.main-payemnt-content-box .payment-btn-holds a {
+    width: 100%;
+    justify-content: center;
+    margin: 0px 12px;
+}
+.main-payemnt-content-box .payment-btn-holds a:hover {
+    border-color: var(--color7);
+    background: var(--color7);
+    color: var(--button_with_border-dark-typography-color-hover);
+}
