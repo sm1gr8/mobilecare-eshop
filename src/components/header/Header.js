@@ -267,10 +267,25 @@ function Header() {
           <div className='modal-dialog'>
             <div className='modal-content'>
               <div className='modal-body'>
-              <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label='Close'><i className="fa-solid fa-xmark"></i></button>
+                <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label='Close'><i className='fa-solid fa-xmark'></i></button>
                 <div className='discount-content-upper'>
-                  <img src='images/popup-00.svg'/>
+                  <img src='images/popup-00.svg' />
                   <span>Získaj 10% zľavu</span>
+                </div>
+                <div className='discount-form-hold'>
+                  <form method='' action='' id='' >
+                    <div className='form_input_fields_data'>
+                      <input type='email' className='' placeholder='Zadajte vašu e-mailovú adresu' value='' />
+                      <label for='' generated='true' className='error'></label>
+                    </div>
+                    <div className='form_btn'>
+                     <a href='#' className='button button-dark one'> Odoslať </a>
+                     <a href='#' className='button second'> Nechcem zľavu </a>
+                    </div>
+                    <div className='description-hold'>
+                      <p>Zadaním vášho e-mailu súhlasíte s našimi <a href=''> obchodnými podmienkami a </a> podmienkami <a href=''> ochrany osobných údajov </a></p>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>

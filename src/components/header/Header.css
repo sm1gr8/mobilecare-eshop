@@ -506,6 +506,9 @@ button.btn-close {
 .discount-popups .modal-content {
   border-radius: unset;
   background-color: var(--color8);
+  width: 448px;
+  max-width: 448px;
+  margin: auto;
 }
 .discount-popups .modal-body button.btn-close {
   opacity: unset;
@@ -514,12 +517,83 @@ button.btn-close {
   padding: 8px;
 }
 .discount-popups .modal-body {
-  padding: 32px;
+  padding: 0px;
 }
 .discount-popups .modal-body button.btn-close i.fa-solid.fa-xmark {
   color: #fff;
   font-size: 18px;
   padding: 10px !important;
 }
+.discount-content-upper {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.discount-popups .discount-content-upper img {
+  width: 248.135px;
+  margin: auto;
+  margin-bottom: 24px;
+  height: 220px;
+}
+
+element.style {
+}
+.discount-popups .discount-content-upper span {
+    color: var(--color1);
+    text-align: center;
+    font-family: MC;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: var(--font-weight-700);
+    line-height: 100%;
+}
+.discount-popups .discount-form-hold {
+  background-color: var(--color1);
+  display: block;
+  padding: 32px 32px 24px 32px;
+}
+.discount-popups .discount-form-hold .form_input_fields_data {
+  margin-bottom: 24px;
+}
+.discount-popups .discount-form-hold .form_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.discount-popups .discount-form-hold .form_btn a {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.discount-popups .discount-form-hold .form_btn a.one:hover {
+  border-color: var(--color7);
+  background: var(--color7);
+  color: var(--button_with_border-dark-typography-color-hover);
+}
+.discount-popups .discount-form-hold .form_btn a.second {
+  color: var(--color8);
+}
+.discount-popups .discount-form-hold .form_input_fields_data input {
+  width: 100%;
+}
+.discount-popups .discount-form-hold .description-hold p {
+  font-size: 10px;
+  text-align: center;
+}
+.discount-popups .discount-form-hold .description-hold p a {
+  color: var(--primary-black-1, #000);
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+  justify-content: center;
+}
+
 
 /********* End Popups header   ********/
