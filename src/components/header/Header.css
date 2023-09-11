@@ -241,19 +241,38 @@ ul.navbar-nav.left-side li.nav-item.active.dropdown ul.dropdown-menu.show {
   left: 0;
   z-index: 99;
 }
-
-
+.sidebar-item.open>.sidebar-content .sidebar-item .sidebar-title {
+  color: var(--color8) !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px;
+}
+.show.btnn .sidebar .sidebar-item.open .sidebar-title i.fas.fa-chevron-right.toggle-btn {
+  background-color:var(--color1);
+  padding: 8px 12px 8px !important;
+  color: var(--color7);
+  rotate: 180deg;
+}
+.sidebar-item.open>.sidebar-content .sidebar-item .sidebar-title i.fas.fa-chevron-right.toggle-btn {
+  rotate: unset !important;
+  color: unset !important;
+}
+.sidebar-logo {
+  margin-bottom: 35px;
+}
 .sidebar-item {
-  padding: .75em 1em;
+  padding: 8px 24px;
   display: block;
   transition: background-color .15s;
   border-radius: 5px;
 }
-
-.sidebar-item:hover {
-  background-color: rgba(255, 255, 255, .1);
+.border-holds {
+  border-bottom: 2px solid rgba(117, 91, 240, 1);
+  padding: 8px 0px;
+  margin: 0px 24px;
 }
-
+.show.btnn .sidebar .sidebar-item.open .sidebar-title {
+  color: var(--color1);
+}
 .sidebar-title {
   display: flex;
   font-size: 1.2em;
@@ -269,6 +288,7 @@ ul.navbar-nav.left-side li.nav-item.active.dropdown ul.dropdown-menu.show {
 .sidebar-title .toggle-btn {
   cursor: pointer;
   transition: transform .3s;
+  padding: 8px 12px 8px !important;
 }
 
 .sidebar-item.open>.sidebar-title .toggle-btn {
@@ -479,3 +499,27 @@ button.btn-close {
   justify-content: center;
   text-align: center;
 }
+/* End menu dropdown cart  */
+
+/********* Start Popups header   ********/
+
+.discount-popups .modal-content {
+  border-radius: unset;
+  background-color: var(--color8);
+}
+.discount-popups .modal-body button.btn-close {
+  opacity: unset;
+  top: 32px;
+  right: 32px;
+  padding: 8px;
+}
+.discount-popups .modal-body {
+  padding: 32px;
+}
+.discount-popups .modal-body button.btn-close i.fa-solid.fa-xmark {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px !important;
+}
+
+/********* End Popups header   ********/

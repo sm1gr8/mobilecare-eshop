@@ -111,7 +111,7 @@ function Header() {
                         <span className='icon-shopping-bag-outline'></span>
                       </NavLink>
                       <ul className='dropdown-menu dropdown-menu-dark'>
-                        <li className=''><button className="btn-close"><i className="fa-solid fa-xmark"></i></button></li>
+                        <li className=''><button className='btn-close'><i className='fa-solid fa-xmark'></i></button></li>
                         <li><h5>Nákupný košík</h5></li>
                         <li>
                           <div className='cart-dropdown-box'>
@@ -122,7 +122,7 @@ function Header() {
                               <span className='pro-item-prices-h'><b className='new-price'>899 €</b><b className='old-price'>1199 €</b></span>
                               <span className='pro-item-name-h'>iPhone 14 PRO, 256 GB, Silver</span>
                               <span className='pro-item-count'>Množstvo: 1</span>
-                              <div className='cart-item-icons'><span class="icon-favourite-border"></span> <span class="icon-shopping-bag-outline"></span></div>
+                              <div className='cart-item-icons'><span className='icon-favourite-border'></span> <span className='icon-shopping-bag-outline'></span></div>
                             </div>
                           </div>
                         </li>
@@ -135,7 +135,7 @@ function Header() {
                               <span className='pro-item-prices-h'><b className='new-price'>899 €</b><b className='old-price'>1199 €</b></span>
                               <span className='pro-item-name-h'>iPhone 14 PRO, 256 GB, Silver</span>
                               <span className='pro-item-count'>Množstvo: 1</span>
-                              <div className='cart-item-icons'><span class="icon-favourite-border"></span> <span class="icon-shopping-bag-outline"></span></div>
+                              <div className='cart-item-icons'><span className='icon-favourite-border'></span> <span className='icon-shopping-bag-outline'></span></div>
                             </div>
                           </div>
                         </li>
@@ -243,7 +243,7 @@ function Header() {
                       </NavLink>
                     </li>
                     <li className='nav-item'>
-                      <NavLink className='nav-link' href='#'>
+                      <NavLink className='nav-link' href='#' data-bs-toggle='modal' data-bs-target='#exampleModal'>
                         Príslušenstvo
                       </NavLink>
                     </li>
@@ -256,6 +256,21 @@ function Header() {
                 <div className='easy-autocomplete'>
                   <input id='search-on-button-click' placeholder='Zadajte názov produktu'></input>
                   <span className='icon-search-outline'></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='discount-popups'>
+        <div className='modal fade' id='exampleModal' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
+          <div className='modal-dialog'>
+            <div className='modal-content'>
+              <div className='modal-body'>
+              <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label='Close'><i className="fa-solid fa-xmark"></i></button>
+                <div className='discount-content-upper'>
+                  <img src='images/popup-00.svg'/>
+                  <span>Získaj 10% zľavu</span>
                 </div>
               </div>
             </div>
