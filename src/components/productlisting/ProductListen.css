@@ -275,6 +275,7 @@ button.accordion-button.collapsed {
     display: flex;
     margin: 0px;
     padding-top: 16px;
+    padding-bottom: 32px;
 }
 .selected-filtered-items-pd .slect-item-filter-box {
     background: rgba(245, 245, 245, 1);

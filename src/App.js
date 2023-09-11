@@ -10,7 +10,9 @@ import McServis from './McServis';
 import ErrorPage from './404Page';
 import ProductListen from './components/productlisting/ProductListen';
 import ProductDetail from './components/productdetail/ProductDetail';
+import EmptyCart from './components/emptycart/EmptyCart';
 import Cart from './components/cart/Cart';
+import CheckOut from './components/checkout/CheckOut';
 function App() {
   return (
     <div className="app">
@@ -23,7 +25,9 @@ function App() {
           <Route path='/mcservis' element={<McServis/>}></Route>
           <Route path='/productlisten' element={<ProductListen/>}></Route>
           <Route path='/productdetail' element={<ProductDetail/>}></Route>
+          <Route path='/emptycart' element={<EmptyCart/>}></Route>
           <Route path='/cart' element={<Cart/>}></Route>
+          <Route path='/checkout' element={<CheckOut/>}></Route>
           <Route path='*' element={<ErrorPage/>}></Route>
         </Routes>
       <div className="content">

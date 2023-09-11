@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import Sidebar from './Sidebar'
 import './Header.css';
@@ -106,10 +106,53 @@ function Header() {
                         <span className='icon-favourite-border'></span>
                       </NavLink>
                     </li>
-                    <li className='nav-item'>
-                      <NavLink className='nav-link' href='#'>
+                    <li className='nav-item custom-cart-dropdown'>
+                      <NavLink className='nav-link dropdown-toggle' data-bs-toggle='dropdown' aria-expanded='false' href='#'>
                         <span className='icon-shopping-bag-outline'></span>
                       </NavLink>
+                      <ul className='dropdown-menu dropdown-menu-dark'>
+                        <li className=''><button className="btn-close"><i className="fa-solid fa-xmark"></i></button></li>
+                        <li><h5>Nákupný košík</h5></li>
+                        <li>
+                          <div className='cart-dropdown-box'>
+                            <div className='cart-img-side-one'>
+                              <img src='images/cart-item-00.png' />
+                            </div>
+                            <div className='cart-img-side-two'>
+                              <span className='pro-item-prices-h'><b className='new-price'>899 €</b><b className='old-price'>1199 €</b></span>
+                              <span className='pro-item-name-h'>iPhone 14 PRO, 256 GB, Silver</span>
+                              <span className='pro-item-count'>Množstvo: 1</span>
+                              <div className='cart-item-icons'><span class="icon-favourite-border"></span> <span class="icon-shopping-bag-outline"></span></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='cart-dropdown-box'>
+                            <div className='cart-img-side-one'>
+                              <img src='images/cart-item-01.png' />
+                            </div>
+                            <div className='cart-img-side-two'>
+                              <span className='pro-item-prices-h'><b className='new-price'>899 €</b><b className='old-price'>1199 €</b></span>
+                              <span className='pro-item-name-h'>iPhone 14 PRO, 256 GB, Silver</span>
+                              <span className='pro-item-count'>Množstvo: 1</span>
+                              <div className='cart-item-icons'><span class="icon-favourite-border"></span> <span class="icon-shopping-bag-outline"></span></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='cart-dropdown-taotal-payment'>
+                            <div className='cart-drop-total-box1'>
+                              <span className='price-left-hold'>Doprava</span>
+                              <span className='price-right-hold'>Bezplatná doprava </span>
+                            </div>
+                            <div className='cart-drop-total-box1'>
+                              <span className='price-left-hold'>Spolu:<b className='subtotal-hold'>(vrátane DPH)</b></span>
+                              <span className='price-right-hold total'> <h6>899.99 €</h6> </span>
+                            </div>
+                            <div className='cart-drop-sub-box'><a href='#' className='button button-dark'>Do pokladne</a></div>
+                          </div>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </div>
@@ -118,10 +161,10 @@ function Header() {
           </div>
           <div className='row header-bottom-pd'>
             <div className='col-sm-9 d-flex'>
-            <div className={btnshow? 'show btnn' : "btnn"}>
-              <button className='button button-white button-with-icon menu-toggel' onClick={()=>setBtnShow(!btnshow)}>Všetky kategórie <span className='icon-burgermenu'></span>
-              </button>
-              <Sidebar setBtnShow={setBtnShow}/>
+              <div className={btnshow ? 'show btnn' : 'btnn'}>
+                <button className='button button-white button-with-icon menu-toggel' onClick={() => setBtnShow(!btnshow)}>Všetky kategórie <span className='icon-burgermenu'></span>
+                </button>
+                <Sidebar setBtnShow={setBtnShow} />
               </div>
               <nav className='navbar navbar-expand-lg navbar-dark main-menu'>
                 <div className='collapse navbar-collapse justify-content-left'>
@@ -162,7 +205,7 @@ function Header() {
                             <div className='dropdown-img box-one'>
                               <div className='content-hold'>
                                 <h2>Nové</h2>
-                                <a className='button-dark' href='#'>Nakupovať <i class="fas fa-angle-right"></i></a>
+                                <a className='button-dark' href='#'>Nakupovať <i className='fas fa-angle-right'></i></a>
                               </div>
                               <div className='img-hold'><img src='images/dropdown/nav-drop-00.png'></img></div>
                             </div>
@@ -171,7 +214,7 @@ function Header() {
                             <div className='dropdown-img box-second'>
                               <div className='content-hold'>
                                 <h2>Výpredaj</h2>
-                                <a className='button-dark' href='#'>Nakupovať <i class="fas fa-angle-right"></i></a>
+                                <a className='button-dark' href='#'>Nakupovať <i className='fas fa-angle-right'></i></a>
                               </div>
                               <div className='img-hold'><img src='images/dropdown/nav-drop-01.png'></img></div>
                             </div>
