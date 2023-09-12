@@ -602,6 +602,9 @@ element.style {
 /********* Start  header  Responsive ********/
 
 @media (max-width: 1400px) {
+  ul.navbar-nav.left-side li a {
+    padding: 12px 14px !important;
+}
 
 }
 
@@ -614,7 +617,15 @@ element.style {
 }
 
 @media(max-width:768px){
-
+  .topbar {
+    text-align: center;
+}
+  .topbar-content {
+    justify-content: center !important;
+}
+.topbar-announcement {
+  text-align: center;
+}
 }
 
 
