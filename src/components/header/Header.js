@@ -275,7 +275,7 @@ function Header() {
                 <div className='discount-form-hold'>
                   <form method='' action='' id='' >
                     <div className='form_input_fields_data'>
-                      <input type='email' className='' placeholder='Zadajte vašu e-mailovú adresu' value='' />
+                      <input class="form-input input" type="text" id="" name="" placeholder="Zadajte vašu e-mailovú adresu" ></input>
                       <label for='' generated='true' className='error'></label>
                     </div>
                     <div className='form_btn'>
