@@ -104,3 +104,31 @@ ul.footer-detail-box-social-media li {
 ul.footer-detail-box-social-media li a {
     color: #fff;
 }
+
+/********* Start  header  Responsive ********/
+
+@media (max-width: 1400px) {
+ 
+  }
+  
+  @media (max-width: 1200px) {
+  
+
+  }
+  
+  @media (max-width: 1024px) {
+  
+  }
+  
+  @media(max-width:768px){
+    .footer-upper-content-holds img {
+        width: 250px;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+
+  }
+  
+  
+  /********* Start  header  Responsive ********/

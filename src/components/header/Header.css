@@ -598,6 +598,146 @@ element.style {
 
 /********* End Popups header   ********/
 
+/*********** start Side navbar header   ***********/
+
+.site-sidenav-menu {
+  min-width: 424px;
+  max-width:  424px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -424px;
+  /* Move the sidebar to the left initially */
+  /* top layer */
+  z-index: 9999;
+  transition: left 0.3s;
+  /* Add a transition for the left property */
+}
+.custom-side-navbar-hold .site-sidenav-menu {
+  background-color: var(--color7);
+}
+/* Open the sidebar when it has the .active class */
+.site-sidenav-menu.active {
+  left: 0;
+}
+/* Add styling for the close button */
+#dismiss {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  z-index: 99999;
+  background-color: unset;
+  border: 2px solid var(--color8);
+  border-radius: unset;
+}
+/* Style the close button icon */
+#dismiss i {
+  font-size: 20px;
+  color: var(--color8);
+  position: relative;
+  top: 2px;
+}
+/* Style the close button on hover */
+#dismiss:hover {
+  background-color: var(--color1);
+  border: 2px solid var(--color1);
+  /* Change to your desired hover color */
+}
+.overlay {
+  display: none;
+  position: fixed;
+  /* full screen */
+  width: 100vw;
+  height: 100vh;
+  /* transparent black */
+  background: rgba(0, 0, 0, 0.7);
+  /* middle layer, i.e., appears below the sidebar */
+  z-index: 998;
+  opacity: 0;
+  /* animate the transition */
+  transition: all 0.5s ease-in-out;
+}
+/* display .overlay when it has the .active class */
+.overlay.active {
+  display: block;
+  opacity: 1;
+}
+.back-level a {
+  display: none;
+}
+/* Initially hide all sub-items and grand-sub-items */
+.site-menu-sub,
+.site-menu-grand {
+  display: none;
+}
+/* Style for the active level 1 submenu */
+.site-menu-sub-active {
+  display: block;
+  /* Show the submenu */
+}
+/* Style for the active level 3 submenu */
+.site-menu-sub-item.active .site-menu-grand {
+  display: block;
+  /* Show the submenu */
+}
+ul.site-menu-sub {
+  min-width: 424px;
+  max-width: 424px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 424px;
+  z-index: 9999;
+  transition: left 0.3s;
+  background-color:var(--color1);
+}
+.site-menu-sub-item .site-menu-grand{
+  min-width: 424px;
+  max-width: 424px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 848px;
+  z-index: 9999;
+  transition: left 0.3s;
+  background-color:var(--color1);
+}
+.sidenav-logos a img {
+  padding: 32px;
+}
+.site-sidenav-menu ul.site-menu-root {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 48px;
+}
+.site-sidenav-menu ul.site-menu-root li {
+  list-style: none;
+  margin: 4px 0px;
+}
+.site-sidenav-menu ul.site-menu-root li a {
+  display: flex;
+  width: 328px;
+  padding: 4px 4px 4px 0px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #D5CCFF;
+}
+.site-sidenav-menu ul.site-menu-root li.site-menu-root-item.active span.icon-holder {
+  background-color:var(--color1);
+  padding: 8px 10px;
+  color: var(--color8);
+  rotate: 180deg;
+}
+.site-sidenav-menu ul.site-menu-root li.site-menu-root-item span.icon-holder {
+  background-color: unset;
+  padding: 8px 10px;
+  color: unset;
+  rotate: unset;
+}
+
+
+/*********** End Side navbar header   ***********/
 
 /********* Start  header  Responsive ********/
 
