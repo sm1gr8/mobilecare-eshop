@@ -626,6 +626,14 @@ element.style {
 .topbar-announcement {
   text-align: center;
 }
+.topbar-content {
+  text-align: center !important;
+  justify-content: center !important;
+}
+.topbar-content {
+  text-align: center !important;
+  justify-content: center !important;
+}
 }
 
 
