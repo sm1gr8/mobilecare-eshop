@@ -311,6 +311,74 @@ $(document).ready(function() {
 
 
 
+$(document).ready(function() {
+  // Add a click event listener to each menu item
+  $('.site-menu-root-item').on('click', function(e) {
+    // Prevent the default behavior of links
+    e.preventDefault();
+    // Get the parent's ID
+    var parentId = $(this).attr('id');
+    // Check if the clicked item is already active
+    if (!$(this).hasClass('active')) {
+      // Remove 'active' class from all menu items and subitems
+      $('.site-menu-root-item, .site-menu-sub-item, .site-menu-grand-item').removeClass('active');
+      $('.site-menu-sub, .site-menu-grand').removeClass('site-menu-sub-active site-menu-grand-active');
+    }
+    // Toggle the 'active' class for the clicked menu item
+    $(this).toggleClass('active');
+    // Check if the parent is active
+    if ($(this).hasClass('active')) {
+      // Add the 'site-menu-sub-active' class to related subitems
+      $('.site-menu-sub.' + parentId).addClass('site-menu-sub-active');
+      // $('.site-menu-sub.' + parentId).find('.back-level').addClass('back-active');
+    } else {
+      // Remove the 'site-menu-sub-active' class from related subitems
+      $('.site-menu-sub.' + parentId).removeClass('site-menu-sub-active');
+      // $('.site-menu-sub.' + parentId).find('.back-level').removeClass('back-active');
+    }
+    // If this is a 1st-level menu item, remove 'active' class from siblings
+    if ($(this).hasClass('site-menu-root-item')) {
+      $(this).siblings('.site-menu-root-item').removeClass('active');
+    }
+    // Prevent click events on third-level items from propagating to their parents
+    if ($(this).hasClass('site-menu-sub-item') || $(this).hasClass('site-menu-grand-item')) {
+      e.stopPropagation();
+    }
+  });
+  // Handle click events for third-level menu items separately
+  $('.site-menu-sub-item').on('click', function(e) {
+    // Prevent the default behavior of links
+    e.preventDefault();
+    // Toggle the 'active' class for the clicked menu item
+    $(this).toggleClass('active');
+    // Remove 'active' class from siblings
+    $(this).siblings('.site-menu-sub-item').removeClass('active');
+  });
+   // Handle clicks on the "Toggle Sidebar" button
+  $('#sidebarCollapse').on('click', function() {
+    // Toggle sidebar by changing the left property
+    $('.site-sidenav-menu').toggleClass('active');
+    $('.overlay').toggleClass('active');
+    // Toggle the aria-expanded attribute for accessibility
+    // $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+  });
+  // Handle the click event for the close button
+  $('#dismiss, .overlay').on('click', function() {
+  // Hide the sidebar when the close button is clicked
+  $('.site-sidenav-menu').removeClass('active');
+  $('.overlay').removeClass('active');
+  
+  // Reset all menus and classes
+  resetMenus();
+});
+// Function to reset all menus and classes
+function resetMenus() {
+  $('.site-menu-root-item, .site-menu-sub-item, .site-menu-grand-item').removeClass('active');
+  $('.site-menu-sub, .site-menu-grand').removeClass('site-menu-sub-active site-menu-grand-active');
+}
+  
+});
+
 
 // Close the dropdown if the user clicks outside of it
 

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Sidebar from './Sidebar'
 import './Header.css';
 function Header() {
 
@@ -161,10 +160,8 @@ function Header() {
           </div>
           <div className='row header-bottom-pd'>
             <div className='col-sm-9 d-flex'>
-              <div className={btnshow ? 'show btnn' : 'btnn'}>
-                <button className='button button-white button-with-icon menu-toggel' onClick={() => setBtnShow(!btnshow)}>Všetky kategórie <span className='icon-burgermenu'></span>
-                </button>
-                <Sidebar setBtnShow={setBtnShow} />
+              <div className='btnn'>
+                <button className='button button-white button-with-icon' id='sidebarCollapse'>Všetky kategórie <span className='icon-burgermenu'></span></button>
               </div>
               <nav className='navbar navbar-expand-lg navbar-dark main-menu'>
                 <div className='collapse navbar-collapse justify-content-left'>
@@ -262,6 +259,167 @@ function Header() {
           </div>
         </div>
       </div>
+      <div className='custom-side-navbar-hold'>
+        {/* <!-- start navigation here --> */}
+        <div className='site-sidenav-menu'>
+          {/* <!-- Add a close icon for the sidebar --> */}
+          <div className='sidenav-logos'>
+            <a href='#'><img src='images/logo.png'/></a>
+          </div>
+          <a href='#' id='dismiss' className='btn btn-secondary btn-sm'>
+            <i className='fas fa-times'></i>
+          </a>
+          <ul className='site-menu-root'>
+            <li className='site-menu-root-item' id='Level_1_Category_No1'>
+              <a className=''>
+                <span className='txt-holder'>Všetky kategórie</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No2'>
+              <a className=''>
+                <span className='txt-holder'>iPhone</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No3'>
+            <a className=''>
+                <span className='txt-holder'>Apple AirPods</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No4'>
+            <a className=''>
+                <span className='txt-holder'>Macbook</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No5'>
+            <a className=''>
+                <span className='txt-holder'>iPad</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No6'>
+            <a className=''>
+                <span className='txt-holder'>Apple Watch</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No7'>
+            <a className=''>
+                <span className='txt-holder'>Príslušenstvo</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+      
+            {/* <!-- start level two items --> */}
+            <ul className='site-menu-sub Level_1_Category_No1'>
+              <div className='back-level'>
+                <a href='#' className='btn btn-secondary btn-sm'>
+                  <i className='fas fa-arrow-left'></i>
+                </a>
+              </div>
+              <li className='site-menu-sub-item'>
+                <a href='javascript:;' className=''>
+                  <span className='txt-holder'>Fresh Produce</span>
+                  <span className='icon-holder'><i className='level-1-icon'></i></span>
+                </a>
+                {/* <!-- start third level menu--> */}
+                <ul className='site-menu-grand'>
+                  {/* <!-- <li id='site-menu-third-layer-heading' className='sub-heading'>
+            <a href='javascript:;'>
+              <span>Fresh Produce</span>
+            </a>
+          </li> --> */}
+                  <div className='back-level'>
+                    <a href='#' className='btn btn-secondary btn-sm'>
+                      <i className='fas fa-arrow-left'></i>
+                    </a>
+                  </div>
+                  <ul className='inner-container'>
+                    <li className='site-menu-grand-item'>
+                      <a href='javascript:;' className='catLink'>
+                        <img src='//icms-image.slatic.net/images/ims-web/2368c088-d475-4f01-a6c0-6e7749454a49.jpg'
+                          data-ks-lazyload='//icms-image.slatic.net/images/ims-web/2368c088-d475-4f01-a6c0-6e7749454a49.jpg'
+                          alt='Fresh Fruit' className='catCircleImg' />
+                        <span>Fresh Fruit</span>
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+                {/* <!-- Ends third level menu--> */}
+              </li>
+              <li className='site-menu-sub-item'>
+                <a href='javascript:;' className=''>
+                  <span className='txt-holder'>Breakfast, Choco &amp; Snacks</span>
+                  <span className='icon-holder'><i className='level-1-icon'></i></span>
+                </a>
+                {/* <!-- start third level menu--> */}
+                <ul className='site-menu-grand'>
+                  {/* <!-- <li id='site-menu-third-layer-heading' className='sub-heading'>
+            <a href='javascript:;'>
+              <span>Breakfast, Choco &amp; Snacks</span>
+            </a>
+          </li> --> */}
+                  <div className='back-level'>
+                    <a href='#' className='btn btn-secondary btn-sm'>
+                      <i className='fas fa-arrow-left'></i>
+                    </a>
+                  </div>
+                  <ul className='inner-container'>
+                    <li className='site-menu-grand-item'>
+                      <a href='javascript:;' className='catLink'>
+                        <img src='//icms-image.slatic.net/images/ims-web/596c193f-f061-4a25-a35d-5f3aa2e72c82.jpg'
+                          data-ks-lazyload='//icms-image.slatic.net/images/ims-web/596c193f-f061-4a25-a35d-5f3aa2e72c82.jpg'
+                          alt='Breakfast Cereals' className='catCircleImg' />
+                        <span>Breakfast Cereals</span>
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+                {/* <!-- Ends third level menu--> */}
+              </li>
+            </ul>
+            {/* <!-- Ends level two items -->
+    <!-- start level two items --> */}
+            <ul className='site-menu-sub Level_1_Category_No2'>
+              <div className='back-level'>
+                <a href='#' className='btn btn-secondary btn-sm'>
+                  <i className='fas fa-arrow-left'></i>
+                </a>
+              </div>
+              <li className='site-menu-sub-item'>
+                <a href='javascript:;'>
+                  <span className='txt-holder'>Makeup</span>
+                  <span className='icon-holder'><i className='level-1-icon'></i></span>
+                </a>
+                {/* <!-- Start third level menu--> */}
+                <ul className='site-menu-grand'>
+                  <div className='back-level'>
+                    <a href='#' className='btn btn-secondary btn-sm'>
+                      <i className='fas fa-arrow-left'></i>
+                    </a>
+                  </div>
+                  <ul className='inner-container'>
+                    <li className='site-menu-grand-item'>
+                      <a href='javascript:;' className='catLink'>
+                        <img src='//icms-image.slatic.net/images/ims-web/8e9fb487-3d91-4b1d-8c9e-fbcdbfbde74e.jpg'
+                          data-ks-lazyload='//icms-image.slatic.net/images/ims-web/8e9fb487-3d91-4b1d-8c9e-fbcdbfbde74e.jpg'
+                          alt='Makeup Accessories' className='catCircleImg' />
+                        <span>Makeup Accessories</span>
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+                {/* <!-- Ends third level menu--> */}
+              </li>
+            </ul>
+            {/* <!-- Ends level two items --> */}
+          </ul>
+        </div>
+      </div>
+
       <div className='discount-popups'>
         <div className='modal fade' id='exampleModal' tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true'>
           <div className='modal-dialog'>
@@ -279,8 +437,8 @@ function Header() {
                       <label for='' generated='true' className='error'></label>
                     </div>
                     <div className='form_btn'>
-                     <a href='#' className='button button-dark one'> Odoslať </a>
-                     <a href='#' className='button second'> Nechcem zľavu </a>
+                      <a href='#' className='button button-dark one'> Odoslať </a>
+                      <a href='#' className='button second'> Nechcem zľavu </a>
                     </div>
                     <div className='description-hold'>
                       <p>Zadaním vášho e-mailu súhlasíte s našimi <a href=''> obchodnými podmienkami a </a> podmienkami <a href=''> ochrany osobných údajov </a></p>
@@ -296,3 +454,5 @@ function Header() {
   );
 }
 export default Header;
+
+
