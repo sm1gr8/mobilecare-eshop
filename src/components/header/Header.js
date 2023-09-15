@@ -313,6 +313,55 @@ function Header() {
               </a>
             </li>
             <div className='border-holds'></div>
+
+            <li className='site-menu-root-item' id='Level_1_Category_No7'>
+            <a className=''>
+                <span className='txt-holder'>Najpredávanejšie</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No7'>
+            <a className=''>
+                <span className='txt-holder'><span class="icon-element-02 icon-custom"></span> Najnovšie</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No7'>
+            <a className=''>
+                <span className='txt-holder'><span class="icon-sale icon-custom"></span> Zľavy</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <div className='border-holds'></div>
+            <li className='site-menu-root-item' id='Level_1_Category_No7'>
+            <a className=''>
+                <span className='txt-holder'>Kontakt</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No7'>
+            <a className=''>
+                <span className='txt-holder'>Často kladené otázky</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <li className='site-menu-root-item' id='Level_1_Category_No7'>
+            <a className=''>
+                <span className='txt-holder'>Blog</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <div className='border-holds'></div>
+            <li className='site-menu-root-item' id='Level_1_Category_No7'>
+            <a className=''>
+                <span className='txt-holder'><span class="icon-favourite-border icon-custom"></span> Obľúbené produkty</span>
+                <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+              </a>
+            </li>
+            <div className='border-holds'></div>
+               <li className='site-menu-root-item' id='Level_1_Category_No7'>
+               <span> Sledujte nás</span>
+            </li>
       
             {/* <!-- start level two items --> */}
             <ul className='site-menu-sub Level_1_Category_No1'>

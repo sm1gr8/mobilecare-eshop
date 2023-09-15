@@ -267,8 +267,9 @@ ul.navbar-nav.left-side li.nav-item.active.dropdown ul.dropdown-menu.show {
 }
 .border-holds {
   border-bottom: 2px solid rgba(117, 91, 240, 1);
-  padding: 8px 0px;
-  margin: 0px 24px;
+  padding: 0px 0px;
+  margin: 0px 0px 0px 0px;
+  width: 320px;
 }
 .show.btnn .sidebar .sidebar-item.open .sidebar-title {
   color: var(--color1);
@@ -735,7 +736,45 @@ ul.site-menu-sub {
   color: unset;
   rotate: unset;
 }
+.site-sidenav-menu ul.site-menu-root {
+  padding: 0px;
+  padding-left: 48px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 490px;
+  min-height: 490px;
+}
+.site-sidenav-menu ul.site-menu-root::-webkit-scrollbar {
+  -webkit-appearance: none !important;
+  width: 8px !important;
+}
 
+.site-sidenav-menu ul.site-menu-root::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+.site-sidenav-menu ul.site-menu-root::-webkit-scrollbar-thumb {
+  background-color: var(--color7);
+}
+.site-sidenav-menu ul.site-menu-root::-webkit-scrollbar-track {
+  border-radius: 10px !important;
+  background-color: unset;
+}
+.site-sidenav-menu ul.site-menu-root::-webkit-scrollbar-track {
+  background: unset;
+}
+.site-sidenav-menu ul.site-menu-root::-webkit-scrollbar-track {
+  -webkit-box-shadow: unset;
+  border-radius: 10px;
+}
+.site-sidenav-menu ul.site-menu-root::-webkit-scrollbar-track {
+  border-radius: 10px !important;
+}
+
+.site-sidenav-menu ul.site-menu-root li span.txt-holder span.icon-custom {
+  font-size: 22px;
+  position: relative;
+  top: 4px;
+}
 
 /*********** End Side navbar header   ***********/
 
