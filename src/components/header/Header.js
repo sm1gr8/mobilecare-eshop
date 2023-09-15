@@ -312,6 +312,7 @@ function Header() {
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
+            <div className='border-holds'></div>
       
             {/* <!-- start level two items --> */}
             <ul className='site-menu-sub Level_1_Category_No1'>
