@@ -709,20 +709,30 @@ ul.site-menu-sub {
 .site-sidenav-menu ul.site-menu-root {
   padding: 0px;
   margin: 0px;
-  padding-left: 48px;
+  padding-left: 40px;
 }
 .site-sidenav-menu ul.site-menu-root li {
   list-style: none;
   margin: 4px 0px;
+  cursor: pointer;
 }
 .site-sidenav-menu ul.site-menu-root li a {
   display: flex;
   width: 328px;
-  padding: 4px 4px 4px 0px;
+  padding: 4px 4px 4px 8px;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
   color: #D5CCFF;
+}
+.site-sidenav-menu ul.site-menu-root li.site-menu-root-item:hover a, .site-sidenav-menu ul.site-menu-root li.site-menu-root-item.active a {
+  background-color: #856ef7;
+}
+.site-sidenav-menu ul.site-menu-root li.site-menu-root-item:hover a span.icon-holder, .site-sidenav-menu ul.site-menu-root li.site-menu-root-item.active span.icon-holder{
+  background-color: var(--color1);
+  padding: 8px 10px;
+  color: var(--color8);
+  rotate: 180deg;
 }
 .site-sidenav-menu ul.site-menu-root li.site-menu-root-item.active span.icon-holder {
   background-color:var(--color1);
@@ -775,6 +785,126 @@ ul.site-menu-sub {
   position: relative;
   top: 4px;
 }
+.site-sidenav-menu ul.site-menu-root li span .tage-one {
+  background-color: var(--color6);
+  color: var(--color8);
+  padding: 3px 6px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.site-sidenav-menu ul.site-menu-root li span .tage-second {
+  background-color: var(--color5);
+  color: var(--color1);
+  padding: 3px 6px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+ul.site-menu-sub li.site-menu-sub-item a {
+  color: var(--color8);
+  width: 328px;
+  padding: 4px 4px 4px 0px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+ul.site-menu-sub li.site-menu-sub-item a .icon-holder {
+  padding: 8px 10px;
+}
+ul.site-menu-sub li.site-menu-sub-item.active span.icon-holder {
+  background-color: var(--color8);
+  padding: 8px 10px;
+  color: var(--color1);
+  rotate: 180deg;
+}
+.site-sidenav-menu ul.site-menu-root li:hover a, ul.site-menu-sub li.site-menu-sub-item.active a {
+  background-color: #f0f0f0;
+}
+.site-sidenav-menu ul.site-menu-root li:hover a span.icon-holder, .site-sidenav-menu ul.site-menu-sub li.site-menu-sub-item.active span.icon-holder{
+  background-color: var(--color8);
+  padding: 8px 10px;
+  color: var(--color1);
+  rotate: 180deg;
+}
+ul.site-menu-sub li.site-menu-sub-item a .txt-holder img {
+  width: 32px;
+  height: 25px;
+  margin-right: 10px;
+}
+.site-sidenav-menu ul.site-menu-root li .pro-banner-side {
+  padding-top: 38px;
+}
+ul.site-menu-sub .back-level h4 {
+  color: var(--color7);
+  font-family: MC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+ul.site-menu-sub .back-level {
+  padding: 40px 0px 25px 0px;
+}
+ul.site-menu-sub .scroll-hold {
+  padding: 0px;
+  padding:0px 48px 0px 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 490px;
+  min-height: 490px;
+}
+ul.site-menu-sub .scroll-hold::-webkit-scrollbar {
+  -webkit-appearance: none !important;
+  width: 8px !important;
+}
+
+ul.site-menu-sub .scroll-hold::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+ul.site-menu-sub .scroll-hold::-webkit-scrollbar-thumb {
+  background-color: var(--color2);
+}
+ul.site-menu-sub .scroll-hold::-webkit-scrollbar-track {
+  border-radius: 10px !important;
+  background-color: unset;
+}
+ul.site-menu-sub .scroll-hold::-webkit-scrollbar-track {
+  background: unset;
+}
+ul.site-menu-sub .scroll-hold::-webkit-scrollbar-track {
+  -webkit-box-shadow: unset;
+  border-radius: 10px;
+}
+ul.site-menu-sub .scroll-hold::-webkit-scrollbar-track {
+  border-radius: 10px !important;
+}
+.site-menu-sub-item.active .site-menu-grand .back-level {
+  display: flex;
+}
+.site-menu-sub-item.active .site-menu-grand .back-level a.btn.btn-secondary.btn-sm {
+  padding: 10px 14px;
+  width: 40px;
+  background-color: #86b7fe3b;
+  color: #6a4ef5;
+  border: unset;
+  position: relative;
+  top: -15px;
+}
+.site-menu-sub-item.active .site-menu-grand .back-level h4 {
+  margin-left: 30px;
+}
+ul.site-menu-grand li.site-menu-sub-item.third-menu-gard a:hover {
+  background-color: #f0f0f0 !important;
+}
+ul.site-menu-grand li.site-menu-sub-item.third-menu-gard a {
+  background-color: unset !important;
+  width: 328px;
+    padding: 4px 4px 4px 0px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+
 
 /*********** End Side navbar header   ***********/
 

@@ -264,7 +264,7 @@ function Header() {
         <div className='site-sidenav-menu'>
           {/* <!-- Add a close icon for the sidebar --> */}
           <div className='sidenav-logos'>
-            <a href='#'><img src='images/logo.png'/></a>
+            <a href='#'><img src='images/logo.png' /></a>
           </div>
           <a href='#' id='dismiss' className='btn btn-secondary btn-sm'>
             <i className='fas fa-times'></i>
@@ -283,153 +283,248 @@ function Header() {
               </a>
             </li>
             <li className='site-menu-root-item' id='Level_1_Category_No3'>
-            <a className=''>
+              <a className=''>
                 <span className='txt-holder'>Apple AirPods</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
             <li className='site-menu-root-item' id='Level_1_Category_No4'>
-            <a className=''>
+              <a className=''>
                 <span className='txt-holder'>Macbook</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
             <li className='site-menu-root-item' id='Level_1_Category_No5'>
-            <a className=''>
+              <a className=''>
                 <span className='txt-holder'>iPad</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
             <li className='site-menu-root-item' id='Level_1_Category_No6'>
-            <a className=''>
+              <a className=''>
                 <span className='txt-holder'>Apple Watch</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
             <li className='site-menu-root-item' id='Level_1_Category_No7'>
-            <a className=''>
+              <a className=''>
                 <span className='txt-holder'>Príslušenstvo</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
             <div className='border-holds'></div>
 
-            <li className='site-menu-root-item' id='Level_1_Category_No7'>
-            <a className=''>
+            <li className='site-menu-root-item' id='Level_1_Category_No8'>
+              <a className=''>
                 <span className='txt-holder'>Najpredávanejšie</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
-            <li className='site-menu-root-item' id='Level_1_Category_No7'>
-            <a className=''>
-                <span className='txt-holder'><span class="icon-element-02 icon-custom"></span> Najnovšie</span>
+            <li className='site-menu-root-item' id='Level_1_Category_No9'>
+              <a className=''>
+                <span className='txt-holder'><span class="icon-element-02 icon-custom"></span> Najnovšie <small className='tage-one'>Novinka</small></span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
-            <li className='site-menu-root-item' id='Level_1_Category_No7'>
-            <a className=''>
-                <span className='txt-holder'><span class="icon-sale icon-custom"></span> Zľavy</span>
+            <li className='site-menu-root-item' id='Level_1_Category_No10'>
+              <a className=''>
+                <span className='txt-holder'><span class="icon-sale icon-custom"></span> Zľavy <small className='tage-second'>Výpredaj</small></span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
             <div className='border-holds'></div>
-            <li className='site-menu-root-item' id='Level_1_Category_No7'>
-            <a className=''>
+            <li className='site-menu-root-item' id='Level_1_Category_No11'>
+              <a className=''>
                 <span className='txt-holder'>Kontakt</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
-            <li className='site-menu-root-item' id='Level_1_Category_No7'>
-            <a className=''>
+            <li className='site-menu-root-item' id='Level_1_Category_No12'>
+              <a className=''>
                 <span className='txt-holder'>Často kladené otázky</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
-            <li className='site-menu-root-item' id='Level_1_Category_No7'>
-            <a className=''>
+            <li className='site-menu-root-item' id='Level_1_Category_No13'>
+              <a className=''>
                 <span className='txt-holder'>Blog</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
             <div className='border-holds'></div>
-            <li className='site-menu-root-item' id='Level_1_Category_No7'>
-            <a className=''>
+            <li className='site-menu-root-item' id='Level_1_Category_No14'>
+              <a className=''>
                 <span className='txt-holder'><span class="icon-favourite-border icon-custom"></span> Obľúbené produkty</span>
                 <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
               </a>
             </li>
             <div className='border-holds'></div>
-               <li className='site-menu-root-item' id='Level_1_Category_No7'>
-               <span> Sledujte nás</span>
+            <li className='site-menu-root-item' id='Level_1_Category_No15'>
+              <a className=''>
+                <span> Sledujte nás</span>
+              </a>
             </li>
-      
+
             {/* <!-- start level two items --> */}
             <ul className='site-menu-sub Level_1_Category_No1'>
               <div className='back-level'>
-                <a href='#' className='btn btn-secondary btn-sm'>
-                  <i className='fas fa-arrow-left'></i>
-                </a>
+                <h4>Všetky kategórie</h4>
+                {/* <a href='#' className='btn btn-secondary btn-sm'>
+                  <<<i className='fas fa-arrow-left'></i>>>
+                </a> */}
               </div>
-              <li className='site-menu-sub-item'>
-                <a href='javascript:;' className=''>
-                  <span className='txt-holder'>Fresh Produce</span>
-                  <span className='icon-holder'><i className='level-1-icon'></i></span>
-                </a>
-                {/* <!-- start third level menu--> */}
-                <ul className='site-menu-grand'>
-                  {/* <!-- <li id='site-menu-third-layer-heading' className='sub-heading'>
+              <div className='scroll-hold'>
+                <li className='site-menu-sub-item'>
+                  <a href='javascript:;' className=''>
+                    <span className='txt-holder'><img src='images/sidnav/nav-000.png' /> iPhone</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                  {/* <!-- start third level menu--> */}
+                  <ul className='site-menu-grand'>
+                    {/* <!-- <li id='site-menu-third-layer-heading' className='sub-heading'>
             <a href='javascript:;'>
               <span>Fresh Produce</span>
             </a>
           </li> --> */}
-                  <div className='back-level'>
-                    <a href='#' className='btn btn-secondary btn-sm'>
+                    <div className='back-level'>
+                      {/* <a href='#' className='btn btn-secondary btn-sm'>
                       <i className='fas fa-arrow-left'></i>
-                    </a>
-                  </div>
-                  <ul className='inner-container'>
-                    <li className='site-menu-grand-item'>
-                      <a href='javascript:;' className='catLink'>
-                        <img src='//icms-image.slatic.net/images/ims-web/2368c088-d475-4f01-a6c0-6e7749454a49.jpg'
-                          data-ks-lazyload='//icms-image.slatic.net/images/ims-web/2368c088-d475-4f01-a6c0-6e7749454a49.jpg'
-                          alt='Fresh Fruit' className='catCircleImg' />
-                        <span>Fresh Fruit</span>
+                    </a> */}
+                      <h4>MacBook</h4>
+                    </div>
+                    <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>Macbook</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                      </a>
+                    </li>
+                    <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>Air</span>
+                      </a>
+                    </li>
+                    <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>Pro</span>
+                      </a>
+                    </li>
+                    <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>iMac 24”</span>
+                      </a>
+                    </li>
+                    <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>Mini</span>
+                      </a>
+                    </li>
+                     <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>Studio</span>
+                      </a>
+                    </li>
+                    <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>Mac Pro</span>
+                      </a>
+                    </li>
+                    <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>Displeje</span>
+                      </a>
+                    </li>
+                    <li className='site-menu-sub-item third-menu-gard'>
+                      <a className=''>
+                        <span className='txt-holder'>Doplnky pre Mac</span>
                       </a>
                     </li>
                   </ul>
-                </ul>
-                {/* <!-- Ends third level menu--> */}
-              </li>
-              <li className='site-menu-sub-item'>
-                <a href='javascript:;' className=''>
-                  <span className='txt-holder'>Breakfast, Choco &amp; Snacks</span>
-                  <span className='icon-holder'><i className='level-1-icon'></i></span>
-                </a>
-                {/* <!-- start third level menu--> */}
-                <ul className='site-menu-grand'>
-                  {/* <!-- <li id='site-menu-third-layer-heading' className='sub-heading'>
+                  {/* <!-- Ends third level menu--> */}
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a href='javascript:;' className=''>
+                    <span className='txt-holder'><img src='images/sidnav/nav-001.png' />Apple AirPods</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                  {/* <!-- start third level menu--> */}
+                  <ul className='site-menu-grand'>
+                    {/* <!-- <li id='site-menu-third-layer-heading' className='sub-heading'>
             <a href='javascript:;'>
               <span>Breakfast, Choco &amp; Snacks</span>
             </a>
           </li> --> */}
-                  <div className='back-level'>
-                    <a href='#' className='btn btn-secondary btn-sm'>
-                      <i className='fas fa-arrow-left'></i>
-                    </a>
-                  </div>
-                  <ul className='inner-container'>
-                    <li className='site-menu-grand-item'>
-                      <a href='javascript:;' className='catLink'>
-                        <img src='//icms-image.slatic.net/images/ims-web/596c193f-f061-4a25-a35d-5f3aa2e72c82.jpg'
-                          data-ks-lazyload='//icms-image.slatic.net/images/ims-web/596c193f-f061-4a25-a35d-5f3aa2e72c82.jpg'
-                          alt='Breakfast Cereals' className='catCircleImg' />
-                        <span>Breakfast Cereals</span>
+                    <div className='back-level'>
+                      <a href='#' className='btn btn-secondary btn-sm'>
+                        <i className='fas fa-arrow-left'></i>
                       </a>
-                    </li>
+                    </div>
+                    <ul className='inner-container'>
+                      <li className='site-menu-grand-item'>
+                        <a href='javascript:;' className='catLink'>
+                          <img src='//icms-image.slatic.net/images/ims-web/596c193f-f061-4a25-a35d-5f3aa2e72c82.jpg'
+                            data-ks-lazyload='//icms-image.slatic.net/images/ims-web/596c193f-f061-4a25-a35d-5f3aa2e72c82.jpg'
+                            alt='Breakfast Cereals' className='catCircleImg' />
+                          <span>Breakfast Cereals</span>
+                        </a>
+                      </li>
+                    </ul>
                   </ul>
-                </ul>
-                {/* <!-- Ends third level menu--> */}
-              </li>
+                  {/* <!-- Ends third level menu--> */}
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a className=''>
+                    <span className='txt-holder'><img src='images/sidnav/003.png' />Macbook</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a className=''>
+                    <span className='txt-holder'><img src='images/sidnav/002.png' />iPad</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a className=''>
+                    <span className='txt-holder'><img src='images/sidnav/004.png' />Smarthome</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a className=''>
+                    <span className='txt-holder'><img src='images/sidnav/005.png' />Príslušenstvo</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a className=''>
+                    <span className='txt-holder'><img src='images/sidnav/006.png' />Herná zóna</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a className=''>
+                    <span className='txt-holder'><img src='images/sidnav/007.png' />Smarthome</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a className=''>
+                    <span className='txt-holder'><img src='images/sidnav/008.png' />PC</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </li>
+                <li className='site-menu-sub-item'>
+                  <a className=''>
+                    <span className='txt-holder'><img src='images/sidnav/009.png' />Spotrebiče a elektronika</span>
+                    <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </li>
+                <li className='site-menu-sub-item'>
+                  <div className='pro-banner-side'>
+                    <img src='images/sidnav/prom-banner.jpg' />
+                  </div>
+                </li>
+              </div>
             </ul>
             {/* <!-- Ends level two items -->
     <!-- start level two items --> */}
