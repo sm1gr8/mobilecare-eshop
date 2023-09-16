@@ -393,49 +393,57 @@ function Header() {
                       <h4>MacBook</h4>
                     </div>
                     <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>Macbook</span>
                         <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                     <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>Air</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                     <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>Pro</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                     <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>iMac 24”</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                     <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>Mini</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                      <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>Studio</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                     <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>Mac Pro</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                     <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>Displeje</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                     <li className='site-menu-sub-item third-menu-gard'>
-                      <a className=''>
+                      <a className='' href='#'>
                         <span className='txt-holder'>Doplnky pre Mac</span>
+                        <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                       </a>
                     </li>
                   </ul>
@@ -446,30 +454,6 @@ function Header() {
                     <span className='txt-holder'><img src='images/sidnav/nav-001.png' />Apple AirPods</span>
                     <span className='icon-holder'><i class="fas fa-chevron-right"></i></span>
                   </a>
-                  {/* <!-- start third level menu--> */}
-                  <ul className='site-menu-grand'>
-                    {/* <!-- <li id='site-menu-third-layer-heading' className='sub-heading'>
-            <a href='javascript:;'>
-              <span>Breakfast, Choco &amp; Snacks</span>
-            </a>
-          </li> --> */}
-                    <div className='back-level'>
-                      <a href='#' className='btn btn-secondary btn-sm'>
-                        <i className='fas fa-arrow-left'></i>
-                      </a>
-                    </div>
-                    <ul className='inner-container'>
-                      <li className='site-menu-grand-item'>
-                        <a href='javascript:;' className='catLink'>
-                          <img src='//icms-image.slatic.net/images/ims-web/596c193f-f061-4a25-a35d-5f3aa2e72c82.jpg'
-                            data-ks-lazyload='//icms-image.slatic.net/images/ims-web/596c193f-f061-4a25-a35d-5f3aa2e72c82.jpg'
-                            alt='Breakfast Cereals' className='catCircleImg' />
-                          <span>Breakfast Cereals</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </ul>
-                  {/* <!-- Ends third level menu--> */}
                 </li>
                 <li className='site-menu-sub-item'>
                   <a className=''>

@@ -732,14 +732,16 @@ ul.site-menu-sub {
   background-color: var(--color1);
   padding: 8px 10px;
   color: var(--color8);
+}
+.site-sidenav-menu ul.site-menu-root li.site-menu-root-item.active span.icon-holder{
   rotate: 180deg;
 }
-.site-sidenav-menu ul.site-menu-root li.site-menu-root-item.active span.icon-holder {
+/* .site-sidenav-menu ul.site-menu-root li.site-menu-root-item.active span.icon-holder {
   background-color:var(--color1);
   padding: 8px 10px;
   color: var(--color8);
   rotate: 180deg;
-}
+} */
 .site-sidenav-menu ul.site-menu-root li.site-menu-root-item span.icon-holder {
   background-color: unset;
   padding: 8px 10px;
@@ -810,19 +812,23 @@ ul.site-menu-sub li.site-menu-sub-item a {
 ul.site-menu-sub li.site-menu-sub-item a .icon-holder {
   padding: 8px 10px;
 }
-ul.site-menu-sub li.site-menu-sub-item.active span.icon-holder {
+/* ul.site-menu-sub li.site-menu-sub-item.active span.icon-holder {
   background-color: var(--color8);
   padding: 8px 10px;
   color: var(--color1);
   rotate: 180deg;
-}
-.site-sidenav-menu ul.site-menu-root li:hover a, ul.site-menu-sub li.site-menu-sub-item.active a {
+} */
+.site-sidenav-menu ul.site-menu-sub .scroll-hold > li.site-menu-sub-item:hover a,
+.site-sidenav-menu ul.site-menu-sub .scroll-hold > li.site-menu-sub-item.active a {
   background-color: #f0f0f0;
 }
-.site-sidenav-menu ul.site-menu-root li:hover a span.icon-holder, .site-sidenav-menu ul.site-menu-sub li.site-menu-sub-item.active span.icon-holder{
+.site-sidenav-menu ul.site-menu-sub .scroll-hold > li.site-menu-sub-item:hover a span.icon-holder,
+.site-sidenav-menu ul.site-menu-sub .scroll-hold > li.site-menu-sub-item.active span.icon-holder{
   background-color: var(--color8);
   padding: 8px 10px;
   color: var(--color1);
+}
+.site-sidenav-menu ul.site-menu-sub .scroll-hold > li.site-menu-sub-item.active span.icon-holder {
   rotate: 180deg;
 }
 ul.site-menu-sub li.site-menu-sub-item a .txt-holder img {
@@ -892,16 +898,29 @@ ul.site-menu-sub .scroll-hold::-webkit-scrollbar-track {
 .site-menu-sub-item.active .site-menu-grand .back-level h4 {
   margin-left: 30px;
 }
-ul.site-menu-grand li.site-menu-sub-item.third-menu-gard a:hover {
-  background-color: #f0f0f0 !important;
-}
-ul.site-menu-grand li.site-menu-sub-item.third-menu-gard a {
+.site-sidenav-menu ul.site-menu-grand li.site-menu-sub-item.third-menu-gard a {
   background-color: unset !important;
   width: 328px;
     padding: 4px 4px 4px 0px;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+}
+.site-sidenav-menu ul.site-menu-sub ul.site-menu-grand li.site-menu-sub-item.third-menu-gard:hover a,
+.site-sidenav-menu ul.site-menu-sub ul.site-menu-grand li.site-menu-sub-item.third-menu-gard.active a {
+  background-color: #f0f0f0 !important;
+}
+.site-sidenav-menu ul.site-menu-sub ul.site-menu-grand li.site-menu-sub-item.third-menu-gard a span.icon-holder {
+  background-color: unset;
+  padding: 8px 10px;
+  color: var(--color8);
+  rotate: unset;
+}
+.site-sidenav-menu ul.site-menu-sub ul.site-menu-grand li.site-menu-sub-item.third-menu-gard:hover a span.icon-holder,
+.site-sidenav-menu ul.site-menu-sub ul.site-menu-grand li.site-menu-sub-item.third-menu-gard.active a span.icon-holder {
+  rotate: unset !important;
+  background-color: var(--color8);
+  color: var(--color1);
 }
 
 
