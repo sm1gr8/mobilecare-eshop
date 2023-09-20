@@ -88,7 +88,7 @@ function Header() {
             </div>
             <div className='col-sm-4'>
               <NavLink className='navbar-brand' to='/'>
-                <img src='images/logo.png' alt='Logo' className='img-fluid' />
+                <img src='images/logo.svg' alt='Logo' className='img-fluid' />
               </NavLink>
             </div>
             <div className='col-sm-4'>

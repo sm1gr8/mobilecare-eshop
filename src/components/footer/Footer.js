@@ -7,7 +7,7 @@ function Footer() {
         <div className='row footer-upper'>
           <div className='col-md-6'>
             <div className='footer-upper-content-holds left-side'>
-              <img src='images/footer-logo.png'></img>
+              <img src='images/footer-logo.svg'></img>
               <h2>Postaráme sa o vás</h2>
               <p>Odomknite nekonečné možnosti s naším prémiovým  <br /> výberom Apple produktov.</p>
             </div>
@@ -133,13 +133,13 @@ function Footer() {
           <div className='col-md-6'>
             <div className='footerfooter-bottom-content right-side'>
               <ul className='payment-cards'>
-                <li><img src='images/payment/paymt-00.png'></img></li>
-                <li><img src='images/payment/paymt-01.png'></img></li>
-                <li><img src='images/payment/paymt-02.png'></img></li>
-                <li><img src='images/payment/paymt-03.png'></img></li>
-                <li><img src='images/payment/paymt-04.png'></img></li>
-                <li><img src='images/payment/paymt-05.png'></img></li>
-                <li><img src='images/payment/paymt-06.png'></img></li>
+                <li><img src='images/payment/paymt-00.svg'></img></li>
+                <li><img src='images/payment/paymt-01.svg'></img></li>
+                <li><img src='images/payment/paymt-02.svg'></img></li>
+                <li><img src='images/payment/paymt-03.svg'></img></li>
+                <li><img src='images/payment/paymt-04.svg'></img></li>
+                <li><img src='images/payment/paymt-05.svg'></img></li>
+                <li><img src='images/payment/paymt-06.svg'></img></li>
               </ul>
             </div>
           </div>
