@@ -270,11 +270,8 @@ jQuery("#carousel").owlCarousel({
       });
     }
     
-
-    $(function() {
-      // Owl Carousel
-      var owl = $(".owl-carousel");
-      owl.owlCarousel({
+    $(document).ready(function(){
+      $(".owl-carousel-1").owlCarousel({
         items: 3,
         margin: 10,
         loop: true,
@@ -283,26 +280,21 @@ jQuery("#carousel").owlCarousel({
           0: {
             items: 1
           },
-      
           600: {
             items: 2
           },
-      
           1024: {
             items: 2
           },
-      
           1366: {
             items: 3
           }
         }
       });
     });
-    
-    $(function() {
-      // Owl Carousel
-      var owl = $(".owl-carousel-1");
-      owl.owlCarousel({
+
+    $(document).ready(function(){
+      $(".owl-carousel-2").owlCarousel({
         margin: 0,
         loop: true,
         nav: true,
@@ -310,17 +302,14 @@ jQuery("#carousel").owlCarousel({
           0: {
             items: 1
           },
-      
           600: {
-            items: 2
-          },
-      
-          1024: {
             items: 3
           },
-      
+          1024: {
+            items: 4
+          },
           1366: {
-            items:4
+            items: 4
           }
         }
       });

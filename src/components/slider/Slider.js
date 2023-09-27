@@ -4,7 +4,7 @@ function Slider() {
   return (
     <div>
       <div className="main-slider-hold">
-        <div class="owl-carousel owl-theme">
+      <div class="owl-carousel owl-carousel-1">
           <div class="item">
             <div className='middle-slider one-slider-h'>
               <div className='box-content'>
@@ -14,7 +14,7 @@ function Slider() {
                 <a href=''>Kúpiť</a>
               </div>
               <div className='box-img-holds'>
-                <div className='price-tag-head'><span className='price-tag'>188€</span></div>
+                <div className='price-tag-head' style={{ backgroundImage: 'url("./images/price-tag.svg")' }}><span className='price-tag'>188€</span></div>
                 <img src='images/head-phone.png'></img></div>
             </div>
           </div>
@@ -27,7 +27,7 @@ function Slider() {
                 <a href=''>Kúpiť</a>
               </div>
               <div className='box-img-holds'>
-              <div className='price-tag-head'><span className='price-tag'>899€</span></div>
+              <div className='price-tag-head-second' style={{ backgroundImage: 'url("./images/price-tag.svg")' }}><span className='price-tag'>899€</span></div>
                 <img src='images/mobile-ss.png'></img></div>
             </div>
           </div>
