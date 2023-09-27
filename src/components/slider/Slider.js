@@ -14,7 +14,7 @@ function Slider() {
                 <a href=''>Kúpiť</a>
               </div>
               <div className='box-img-holds'>
-                <span className='price-tag'>188€</span>
+                <div className='price-tag-head'><span className='price-tag'>188€</span></div>
                 <img src='images/head-phone.png'></img></div>
             </div>
           </div>
@@ -27,7 +27,7 @@ function Slider() {
                 <a href=''>Kúpiť</a>
               </div>
               <div className='box-img-holds'>
-                <span className='price-tag'>899€</span>
+              <div className='price-tag-head'><span className='price-tag'>899€</span></div>
                 <img src='images/mobile-ss.png'></img></div>
             </div>
           </div>

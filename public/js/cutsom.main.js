@@ -232,7 +232,7 @@ jQuery("#carousel").owlCarousel({
     },
 
     1366: {
-      items: 6
+      items: 3
     }
   }
 });
@@ -271,19 +271,60 @@ jQuery("#carousel").owlCarousel({
     }
     
 
-  
-$(function () {
-  // Owl Carousel
-  var owl = $(".owl-carousel");
-  owl.owlCarousel({
-    stagePadding: 450,
-    items: 1,
-    margin: 10,
-    loop: true,
-    nav: true
-  });
-});
-
+    $(function() {
+      // Owl Carousel
+      var owl = $(".owl-carousel");
+      owl.owlCarousel({
+        items: 3,
+        margin: 10,
+        loop: true,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+      
+          600: {
+            items: 2
+          },
+      
+          1024: {
+            items: 2
+          },
+      
+          1366: {
+            items: 3
+          }
+        }
+      });
+    });
+    
+    $(function() {
+      // Owl Carousel
+      var owl = $(".owl-carousel-1");
+      owl.owlCarousel({
+        margin: 0,
+        loop: true,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+      
+          600: {
+            items: 2
+          },
+      
+          1024: {
+            items: 3
+          },
+      
+          1366: {
+            items:4
+          }
+        }
+      });
+    });
 
 $(document).ready(function() {
   $('.cart-button').each(function() {

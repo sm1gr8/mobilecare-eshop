@@ -7,7 +7,7 @@ import Products from '../Products'; // also call the data API of products
 
 export default function Feature() {
 
-  
+
 
   return (
     <div className="feature-section">
@@ -24,7 +24,9 @@ export default function Feature() {
             </div>
           </di>
           <div className="row">
-            <ProductList products={Products} categories={['Smartfóny',]} />
+            <div className="owl-carousel owl-carousel-1 owl-theme">
+              <ProductList products={Products} categories={['Smartfóny',]} />
+            </div>
           </div>
         </div>
       </div>
