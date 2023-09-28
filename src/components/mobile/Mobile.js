@@ -6,7 +6,7 @@ export default function Mobile() {
   return (
     <div className='feature-section'>
       <div className='container'>
-          <div className='row item-box-pd-row'>
+          <div className='row item-box-pd-row owl-carousel owl-carousel-2 custom-colum-hide'>
             <ProductList products={Products} categories={['iphone-4']} />
           </div>
         </div>

@@ -25,3 +25,29 @@
     top: -25px;
     text-align: center;
 }
+
+/********* Start  Style  Responsive ********/
+@media (min-width: 1500px) {
+
+}
+@media (max-width: 1400px) {
+
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media(max-width:768px){
+    .promotion-img-hold img {
+        width: 100% !important;
+    }
+}
+
+
+/********* End  Style  Responsive ********/

@@ -161,7 +161,7 @@ function Header() {
           <div className='row header-bottom-pd'>
             <div className='col-sm-9 d-flex'>
               <div className='btnn'>
-                <button className='button button-white button-with-icon' id='sidebarCollapse'>Všetky kategórie <span className='icon-burgermenu'></span></button>
+                <button className='button button-white button-with-icon' id='sidebarCollapse'><small> Všetky kategórie  </small><span className='icon-burgermenu'></span></button>
               </div>
               <nav className='navbar navbar-expand-lg navbar-dark main-menu'>
                 <div className='collapse navbar-collapse justify-content-left'>

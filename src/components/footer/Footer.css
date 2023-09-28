@@ -127,6 +127,14 @@ ul.footer-detail-box-social-media li a {
         text-align: center;
         display: block;
     }
+    .footer-upper-content-holds.right-side .discount-content-left .upper-text span img {
+        width: unset;
+    }
+    .footer-bottom-links .footerfooter-bottom h3 {
+        margin: 12px 0px 12px;
+        opacity: 0.1;
+
+    }
 
   }
   

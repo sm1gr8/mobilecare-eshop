@@ -9,7 +9,7 @@ export default function AirPods() {
         <div className='row'>
           <div className='feature-section'>
             <div className='container'>
-              <div className='row item-box-pd-row'>
+              <div className='row item-box-pd-row owl-carousel owl-carousel-2 custom-colum-hide'>
                 <ProductList products={Products} categories={['airpods-4']} />
               </div>
             </div>

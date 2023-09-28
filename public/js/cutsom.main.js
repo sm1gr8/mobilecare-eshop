@@ -287,7 +287,7 @@ jQuery("#carousel").owlCarousel({
             items: 2
           },
           1366: {
-            items: 3
+            items: 2
           }
         }
       });

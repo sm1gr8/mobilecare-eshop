@@ -38,3 +38,28 @@
 form.disdevices {
     margin-top: 32px;
 }
+/********* Start  Style  Responsive ********/
+@media (min-width: 1500px) {
+
+}
+@media (max-width: 1400px) {
+
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media(max-width:768px){
+    .discount-content-right.disdevices img {
+        width: 100% !important;
+    }
+}
+
+
+/********* End  Style  Responsive ********/

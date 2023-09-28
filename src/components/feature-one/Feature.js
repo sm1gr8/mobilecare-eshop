@@ -23,10 +23,8 @@ export default function Feature() {
               </div>
             </div>
           </di>
-          <div className="">
-            <div class="row owl-carousel owl-carousel-2 custom-colum-hide">
-              <ProductList products={Products} categories={['Smartfóny',]} />
-            </div>
+          <div class="row owl-carousel owl-carousel-2 custom-colum-hide">
+            <ProductList products={Products} categories={['Smartfóny',]} />
           </div>
         </div>
       </div>

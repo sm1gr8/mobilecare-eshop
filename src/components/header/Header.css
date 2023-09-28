@@ -962,6 +962,66 @@ ul.site-menu-sub .scroll-hold::-webkit-scrollbar-track {
   text-align: center !important;
   justify-content: center !important;
 }
+.site-sidenav-menu {
+  height: 100%;
+}
+.topbar {
+  display: none;
+}
+.btnn button small {
+  display: none !important;
+}
+.btnn {
+  position: relative;
+}
+.button-with-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 6px 7px 6px 0px !important;
+  background-color: unset !important;
+  color:var(--color1) !important;
+  border: 2px solid var(--color1) !important;
+  position: absolute;
+  top: -70px;
+}
+.button-with-icon span {
+  font-size: 24px;
+  margin-left: 8px;
+  rotate: -180deg;
+}
+.site-sidenav-menu ul.site-menu-root {
+  padding: 0px;
+  padding-left: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 550px;
+  min-height: 550px;
+}
+.sidenav-logos a img {
+  padding: 32px 10px;
+  width: 205px;
+}
+.site-sidenav-menu {
+  min-width: 90%;
+  max-width: 90%;
+}
+a.navbar-brand {
+  text-align: left !important;
+  display: block !important;
+  padding: 0px 0px 0px 65px !important;
+}
+a.navbar-brand img.img-fluid {
+  width: 130px !important;
+}
+.item {
+  padding: 0px 0px !important;
+}
+.main-slider-hold {
+  padding: 0px 0px 12px !important;
+}
+.navbar-hold {
+  margin-bottom: 0px !important;
+}
 }
 
 
