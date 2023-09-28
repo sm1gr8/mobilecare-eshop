@@ -93,7 +93,7 @@ function Header() {
             </div>
             <div className='col-sm-4'>
               <nav className='navbar navbar-expand-lg navbar-dark'>
-                <div className='collapse navbar-collapse justify-content-end'>
+                <div className='collapse navbar-collapse justify-content-end mobile-resp-h'>
                   <ul className='navbar-nav right-side'>
                     <li className='nav-item active'>
                       <NavLink className='nav-link' href='#'>

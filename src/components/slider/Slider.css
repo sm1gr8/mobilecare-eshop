@@ -184,6 +184,39 @@ button.owl-next span {
   .owl-carousel.owl-carousel-1 .owl-stage-outer .owl-stage {
     margin-left: unset !important;
 }
+.middle-slider .box-content {
+  padding: 0px 15px 0px 16px;
+}
+.main-slider-hold {
+  padding: 0px 0px 0px !important;
+}
+.middle-slider .box-content h2 {
+  font-size: 24px;
+}
+.main-slider-hold .owl-nav button.owl-next {
+  right: 0%;
+}
+.main-slider-hold .owl-nav button.owl-prev {
+  position: absolute;
+  left: 0%;
+}
+.middle-slider {
+  height: 185px;
+}
+.owl-carousel .owl-item img {
+  width: 200px !important;
+}
+.middle-slider.third-slider-h .box-img-holds img {
+  width: unset !important;
+}
+.price-tag-head-second {
+  top: 0px;
+  right: 15px;
+}
+.price-tag-head {
+  top: 0px;
+  right: 0px;
+}
 }
 
 

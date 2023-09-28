@@ -36,5 +36,47 @@
     font-size: var(--h5_typography-font-size);
 }
 
+/********* Start  header  Responsive ********/
 
+@media (max-width: 1400px) {
+ 
+  }
+  
+  @media (max-width: 1200px) {
+  
+  }
+  
+  @media (max-width: 1024px) {
+  
+  }
+  
+  @media(max-width:768px){
+    .category-section {
+        margin-bottom: 24px;
+    }
+    .main-heading-holds {
+        margin-bottom: 16px !important;
+    }
+    .main-heading-holds h2 {
+        font-size: 24px !important;
+    }
+    .cate-item-box {
+        margin-bottom: 8px;
+    }
+    .cate-item-box .cate-content-hold span {
+        font-size: 16px;
+    }
+    .cate-img-holder img {
+        width: 73px;
+        height: 52px;
+    }
+    .cate-item-box .cate-content-hold {
+        width: 75%;
+    }
+    .cate-item-box .cate-img-holder {
+        width: 25%;
+    }
+  }
+
+  /********* End  Slider  Responsive ********/
  

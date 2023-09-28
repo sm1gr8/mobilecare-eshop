@@ -30,3 +30,45 @@
 .newsletter_two_form_fields_content input {
     width: 273px;
 }
+
+/********* Start  header  Responsive ********/
+
+@media (max-width: 1400px) {
+ 
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media(max-width:768px){
+    .newsletter_two_form_fields_content input {
+        width: 100% !important;
+    }
+    .newsletter_two_form_fields_content {
+        display: flex;
+        width: 100%;
+    }
+    .newsletter_two_form_fields_content button {
+        margin-left: 8px !important;
+    }
+    .discount-content-left .upper-text {
+        justify-content: space-between;
+    }
+    .discount-content-left .upper-text h2 {
+        font-size: 24px !important;
+        margin: auto 10px auto 0px !important;
+    }
+    .discount-content-left p {
+        margin-bottom: 12px !important;
+        font-size: 14px !important;
+        padding-right: 20px !important;
+        margin-top: -15px !important;
+    }
+}
+
+/********* End  Slider  Responsive ********/
