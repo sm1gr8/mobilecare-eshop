@@ -998,13 +998,28 @@ ul.site-menu-sub .scroll-hold::-webkit-scrollbar-track {
   max-height: 550px;
   min-height: 550px;
 }
+ul.site-menu-sub {
+  min-width: 95%;
+  max-width: 95%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  padding-left: 15px;
+}
+.site-menu-sub-item .site-menu-grand {
+  min-width: 95%;
+  max-width: 95%;
+  left: 0px;
+  padding-left: 15px;
+}
 .sidenav-logos a img {
   padding: 32px 10px;
   width: 205px;
 }
 .site-sidenav-menu {
-  min-width: 90%;
-  max-width: 90%;
+  min-width: 95%;
+  max-width: 95%;
 }
 a.navbar-brand {
   text-align: left !important;
@@ -1035,7 +1050,27 @@ a.navbar-brand img.img-fluid {
 .header-bottom-pd {
   padding-top: 12px;
 }
+ul.site-menu-sub .scroll-hold {
+  padding-left: 0px;
 }
-
+}
+@media(max-width:375px){
+  ul.site-menu-sub .scroll-hold {
+    padding-left: 0px;
+}
+  .site-sidenav-menu {
+    min-width: 100%;
+    max-width: 100%;
+}
+ul.site-menu-sub {
+  min-width: 100%;
+  max-width: 100%;
+}
+.site-menu-sub-item .site-menu-grand {
+  min-width: 100%;
+  max-width: 100%;
+  padding-left: 0px;
+}
+}
 
 /********* Start  header  Responsive ********/

@@ -3,23 +3,39 @@
     height: 297px;
     overflow-y: visible;
 }
+
 .promotion-img-hold {
     text-align: right;
     margin-top: -50px;
 }
+
 .promotion-content-hold h2 {
     font-size: var(--h2_typography-font-size);
     color: var(--color8);
     font-weight: var(--font-weight-700);
     margin-bottom: 16px;
 }
+
 .promotion-content-hold p {
     margin-bottom: 40px;
 }
 
 .promotion-img-hold.airpods img {
-    width: 440px;
+    width: unset;
+    height: 350px;
 }
+
+.airpods .price-tages-pro-h {
+    right: 95px;
+    float: right;
+    bottom: 160px;
+    left: unset;
+}
+
+.airpods .price-tages-pro-h span.price-tag {
+    rotate: 15deg;
+}
+
 .promotion-img-hold.airpods small {
     display: block;
     position: relative;
@@ -30,26 +46,34 @@
 
 
 /********* Start  Style  Responsive ********/
-@media (min-width: 1500px) {
+@media (min-width: 1500px) {}
 
-}
-@media (max-width: 1400px) {
+@media (max-width: 1400px) {}
 
+@media (max-width: 1200px) {}
 
-}
+@media (max-width: 1024px) {}
 
-@media (max-width: 1200px) {
+@media(max-width:768px) {
 
-}
-
-@media (max-width: 1024px) {
-
-}
-
-@media(max-width:768px){
-  .promotion-img-hold.proiphone img {
-      width: 100% !important;
-  }
+    .promotion-img-hold.airpods img {
+        width: 140px !important;
+        height: 126px;
+        float: right;
+        margin-top: -60px;
+    }
+    .promotion-img-hold.airpods {
+        position: relative;
+    }
+    .airpods .price-tages-pro-h {
+        height: 85px;
+        width: 85px;
+        background-size: contain;
+        right: 95px;
+        float: right;
+        bottom: 18px;
+        left: 65px;
+    }
 }
 
 

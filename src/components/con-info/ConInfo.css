@@ -34,10 +34,13 @@
     margin: auto 0px;
     color: var(--color8);
     font-weight: var(--font-weight-600);
+    display: flex;
+    flex-direction: column;
 }
-.coninfo-content-hold .coninfo-box-second span a {
+.coninfo-box-second span a {
     color: var(--color8);
     text-decoration: unset;
+    font-weight: var(--font-weight-600);
 }
 .coninfo-icons-hold a {
     color: var(--color8);
@@ -45,4 +48,76 @@
 }
 .coninfo-section-hold {
     padding-bottom: 80px;
+}
+.coninfo-content-hold .coninfo-box-second small {
+    text-align: right;
+    display: block;
+    margin-top: 8px;
+}
+.coninfo-box-second small::before {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    background-color: #14FF56;
+    content: '';
+    display: inline-block;
+    border-radius: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+.content-info-one-custom .coninfo-box-second.desktop-hide {
+    display: none;
+}
+
+
+
+
+/********* Start  Style  Responsive ********/
+@media (min-width: 1500px) {}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {}
+
+@media(max-width:768px) {
+.coninfo-icons-hold {
+    padding: 10px 10px;
+    background-color: var(--color10);
+    display: flex;
+    width: 52px;
+    margin-bottom: 8px;
+    height: 52px;
+}
+.coninfo-content-hold {
+    padding: 40px 24px 40px;
+    margin-left: 0px;
+}
+.coninfo-content-hold .coninfo-box-second {
+    display: none;
+}
+.content-info-one-custom .coninfo-box-second.desktop-hide {
+    display: block;
+}
+.content-info-one-custom {
+    display: flex;
+}
+.content-info-one-custom .coninfo-box-second.desktop-hide {
+    display: flex;
+    background-color: var(--color10);
+    margin-left: 12px;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 14px 16px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 52px;
+}
+.content-info-one-custom .coninfo-box-second.desktop-hide small {
+    color: var(--color8);
+    text-decoration: unset;
+    font-weight: var(--font-weight-400);
+}
 }

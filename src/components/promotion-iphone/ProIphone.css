@@ -3,9 +3,16 @@
     height: 297px;
     overflow-y: visible;
 }
+.promotion-section-hold .resp-flow-hold {
+    height: 297px;
+}
 .promotion-img-hold.proiphone {
     text-align: right;
     margin-top: -80px;
+    position: relative;
+}
+.section-hight-hold {
+    height: 100%;
 }
 .promotion-content-hold h2 {
     font-size: var(--h2_typography-font-size);
@@ -20,7 +27,33 @@
 .promotion-img-hold.proiphone img {
     width: 565px;
 }
-
+.promotion-img-hold.proiphone img.resp-hold {
+    display: none;
+}
+.price-tages-pro-h {
+    position: relative;
+    z-index: 11;
+    background-repeat: no-repeat;
+    height: 111px;
+    object-fit: contain;
+    width: 119px;
+    bottom: 130px;
+    left: 120px;
+}
+.price-tages-pro-h span.price-tag {
+    position: absolute;
+    top: 35px;
+    font-size: var(--h4_typography-font-size);
+    color: var(--color8);
+    z-index: 1020;
+    left: 25px;
+    rotate: -14deg;
+    font-weight: bold;
+}
+.promotion-content-hold {
+    position: relative;
+    top: -24px;
+}
 
 /********* Start  Style  Responsive ********/
 @media (min-width: 1500px) {
@@ -40,7 +73,58 @@
   }
   
   @media(max-width:768px){
- 
+    .promotion-img-hold.proiphone img.desktop {
+        display: none;
+    }
+    .promotion-img-hold.proiphone img.resp-hold {
+        display: block;
+        width: 123px !important;
+        margin-left: auto;
+    }
+    .promotion-content-hold h2 {
+        font-size: 24px !important;
+    }
+    .promotion-content-hold p {
+        display: none;
+    }
+    .promotion-content-hold a.button.button-with-border-dark {
+        font-size: 14px;
+        padding: 8px 7px;
+        border: 2px solid;
+    }
+    .promotion-content-hold {
+        padding-top: 12px;
+    }
+    .promotion-section-hold {
+        height: 115px !important;
+        margin-bottom: 16px;
+    }
+    .promotion-section-hold .resp-flow-hold{
+        height: 115px !important;
+    }
+    .promotion-img-hold.proiphone {
+        margin-top: -101px;
+    }
+    .proiphone .price-tages-pro-h {
+        height: 85px;
+        width: 85px;
+        bottom: 82px;
+        left: 190px;
+        background-size: contain;
+    }
+    .price-tages-pro-h span.price-tag {
+        top: 25px;
+        font-size: 18px;
+        left: 18px;
+    }
+    .promotion-img-hold small {
+        top: -20px !important;
+        left: -30px;
+        font-size: 12px;
+    }
+    .promotion-content-hold {
+        top: 0px !important;
+    }
   }
   
   

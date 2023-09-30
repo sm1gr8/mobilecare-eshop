@@ -9,10 +9,10 @@ function Footer() {
             <div className='footer-upper-content-holds left-side'>
               <img src='images/footer-logo.svg'></img>
               <h2>Postaráme sa o vás</h2>
-              <p>Odomknite nekonečné možnosti s naším prémiovým  <br /> výberom Apple produktov.</p>
+              <p>Odomknite nekonečné možnosti s naším prémiovým výberom Apple produktov.</p>
             </div>
           </div>
-          <div className='col-md-6'>
+          <div className='col-md-6 resp-pd-zero-hold'>
             <div className='footer-upper-content-holds right-side'>
               <div className='discount-content-left'>
                 <div className='upper-text'>
@@ -40,7 +40,7 @@ function Footer() {
                 <li><a href="#">Rastislavova 68, Košice</a></li>
               </ul>
             </div>
-            <div className='footer-content-links left-side'>
+            <div className='footer-content-links left-side footer-desktop-media'>
               <h3 class="footer-heading">Sledujte nás</h3>
               <ul class="footer-detail-box-social-media">
                 <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
@@ -53,7 +53,7 @@ function Footer() {
           </div>
           <div className='col-md-6'>
             <div className='row'>
-              <div className='col-md-3'>
+              <div className='col-md-3 inner_class_mobile_responsive_grid'>
                 <div className='footer-content-links left-side'>
                   <h3 class="footer-heading">Customer service</h3>
                   <ul class="footer-detail-box-content-list">
@@ -66,7 +66,7 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div className='col-md-3'>
+              <div className='col-md-3 inner_class_mobile_responsive_grid'>
                 <div className='footer-content-links left-side'>
                   <h3 class="footer-heading">Iné</h3>
                   <ul class="footer-detail-box-content-list">
@@ -77,7 +77,7 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div className='col-md-3'>
+              <div className='col-md-3 inner_class_mobile_responsive_grid'>
                 <div className='footer-content-links left-side'>
                   <h3 class="footer-heading">Mobilecare</h3>
                   <ul class="footer-detail-box-content-list">
@@ -87,15 +87,25 @@ function Footer() {
                   </ul>
                 </div>
               </div>
-              <div className='col-md-3'>
+              <div className='col-md-3 inner_class_mobile_responsive_grid'>
                 <div className='footer-content-links left-side'>
-                  <h3 class="footer-heading">Kontaktné údaje</h3>
+                  <h3 class="footer-heading">Členstvo, zľavy a akcie</h3>
                   <ul class="footer-detail-box-content-list">
                     <li><a href="/">Odporuč nás a dostaň zľavu 10%</a></li>
                     <li><a href="/">Vernostný program</a></li>
                   </ul>
                 </div>
               </div>
+            </div>
+            <div className='footer-content-links left-side footer-responsive-media'>
+              <h3 class="footer-heading">Sledujte nás</h3>
+              <ul class="footer-detail-box-social-media">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -107,20 +117,21 @@ function Footer() {
           </div>
           <div className='col-md-3'>
             <div className='footerfooter-bottom'>
-            <a href='#'><h3>Česká republika</h3></a>
+              <a href='#'><h3>Česká republika</h3></a>
             </div>
           </div>
           <div className='col-md-3'>
             <div className='footerfooter-bottom'>
-            <a href='#'><h3>România</h3></a>
+              <a href='#'><h3>România</h3></a>
             </div>
           </div>
           <div className='col-md-3'>
             <div className='footerfooter-bottom'>
-            <a href='#'><h3>Polska</h3></a>
+              <a href='#'><h3>Polska</h3></a>
             </div>
           </div>
-
+        </div>
+        <div className='row footer-payment-links'>
           <div className='col-md-6'>
             <div className='footerfooter-bottom-content left-side'>
               <ul>
@@ -143,7 +154,6 @@ function Footer() {
               </ul>
             </div>
           </div>
-
         </div>
       </div>
 

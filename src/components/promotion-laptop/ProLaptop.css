@@ -3,50 +3,93 @@
     height: 297px;
     overflow-y: visible;
 }
+
 .promotion-content-hold h2 {
     font-size: var(--h2_typography-font-size);
     color: var(--color8);
     font-weight: var(--font-weight-700);
     margin-bottom: 16px;
 }
+
 .promotion-content-hold p {
     margin-bottom: 40px;
 }
+
 .promotion-img-hold {
     text-align: right;
     margin-top: -45px;
 }
+
 .promotion-img-hold img {
-    width: 565px;
+    width: 495px;
 }
+
 .promotion-img-hold small {
     display: block;
     position: relative;
-    top: -25px;
+    top: 30px;
     text-align: center;
 }
 
+.ProLaptop .price-tages-pro-h {
+    position: relative;
+    z-index: 11;
+    background-repeat: no-repeat;
+    height: 111px;
+    object-fit: contain;
+    width: 119px;
+    bottom: 105px;
+    right: 160px;
+    left: unset;
+    float: right;
+}
+
+.ProLaptop .price-tages-pro-h span.price-tag {
+    top: 40px;
+    left: 25px;
+    rotate: 20deg;
+    font-size: 22px;
+}
+
 /********* Start  Style  Responsive ********/
-@media (min-width: 1500px) {
+@media (min-width: 1500px) {}
 
-}
-@media (max-width: 1400px) {
+@media (max-width: 1400px) {}
 
+@media (max-width: 1200px) {}
 
-}
+@media (max-width: 1024px) {}
 
-@media (max-width: 1200px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
-@media(max-width:768px){
-    .promotion-img-hold img {
-        width: 100% !important;
+@media(max-width:768px) {
+    .promotion-img-hold.ProLaptop {
+        position: relative;
     }
+
+    .promotion-img-hold.ProLaptop img {
+        width: 175px;
+        margin-top: -45px;
+        float: right;
+    }
+
+    .ProLaptop .price-tages-pro-h {
+        height: 85px;
+        width: 85px;
+        bottom: 20px;
+        left: 60px;
+        background-size: contain;
+    }
+
+    .ProLaptop .price-tages-pro-h span.price-tag {
+        top: 25px;
+        left: 14px;
+        rotate: 11deg;
+        font-size: 16px;
+    }
+
+    .promotion-img-hold small {
+        display: none !important;
+    }
+
 }
 
 

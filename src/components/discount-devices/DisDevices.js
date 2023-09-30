@@ -4,7 +4,7 @@ export default function DisDevices() {
   return (
     <div className='discount-devices-section-hold'>
       <div className='container'>
-        <div className='row align-items-center'>
+        <div className='row align-items-center dis-resp-hold'>
           <di className='col-md-6'>
             <div className='discount-content-left'>
               <div className='upper-text'>
@@ -23,7 +23,8 @@ export default function DisDevices() {
           </di>
           <di className='col-md-6'>
             <div className='discount-content-right disdevices'>
-             <img src='images/disdevices-00.png'></img>
+             <img className='desk-hold' src='images/disdevices-00.png'/>
+             <img class="resp-hold" src="images/disdevices-res-00.png"/>
             </div>
           </di>
         </div>
