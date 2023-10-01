@@ -22,7 +22,7 @@ const ProductBox = ({ id, image, hoverImg, name, category, price }) => {
                     <span className="price">{price}</span>
                     <ul className="color_select">
                         <li>
-                            <span className="item_color_00" style={{ backgroundColor: "#F4E8CE" }}></span>
+                            <span className="active item_color_00" style={{ backgroundColor: "#F4E8CE" }}></span>
                         </li>
                         <li>
                             <span className="item_color_01" style={{ backgroundColor: "#594F63" }}></span>

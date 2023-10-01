@@ -119,7 +119,7 @@ function ProductDetail() {
                                 <span className='wish-list-icon'> <span class='icon-favourite-border'></span> </span>
                             </div>
                             <div className='review-recently-show'>
-                                <div className='box-left'><i class='far fa-lightbulb'></i> Vypočítať cenu na splátky</div>
+                                <div className='box-left'><i class='far fa-lightbulb'></i><small> Vypočítať cenu na splátky </small></div>
                                 <div className='box-right'>
                                     <div className='starts'>
                                         <fieldset className='rate'>
@@ -305,37 +305,37 @@ function ProductDetail() {
                     </div>
                 </div>
                 <div className='related-products-row'>
-                    <div className='row'>
+                    <div className='row featr-pd-bottom-hold'>
                         <div className='col-md-12'>
                             <div className='productd-main-heading'>
                                 <h5><span class="icon-bestseller"></span> Podobné produkty</h5>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row featr-pd-bottom-hold">
                         <ProductList products={Products} categories={['Smartfóny']} />
                     </div>
-                    <div className='row'>
+                    <div className='row featr-pd-bottom-hold'>
                         <div className='col-md-12'>
                             <div className='productd-main-heading'>
                                 <h5> Ostatní si kúpili </h5>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row featr-pd-bottom-hold">
                         <ProductList products={Products} categories={['Smartfóny']} />
                     </div>
                 </div>
             </div>
-            <div className='product-detail-discount-tags'>
+            <div className='product-detail-discount-tags product-detail-descount-pd-hold'>
                 <div className='row'>
                     <DisDevices />
                 </div>
             </div>
             <div className='container'>
-            <div className="row">
-                        <ProductList products={Products} categories={['Smartfone1','Featured','Airpods']} />
-                    </div>
+                <div className="row featr-pd-bottom-hold">
+                    <ProductList products={Products} categories={['Smartfone1', 'Featured', 'Airpods']} />
+                </div>
             </div>
         </div>
     );

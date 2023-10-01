@@ -54,7 +54,10 @@
     position: relative;
     top: -24px;
 }
-
+.promotion-img-hold.proiphone small {
+    text-align: left;
+    top: -30px;
+}
 /********* Start  Style  Responsive ********/
 @media (min-width: 1500px) {
 

@@ -131,11 +131,11 @@
 }
 .main-slider-hold .owl-nav button.owl-prev {
   position: absolute;
-  left: 25%;
+  left: 20%;
 }
 .main-slider-hold .owl-nav button.owl-next {
   position: absolute;
-  right: 25%;
+  right: 20%;
 }
 button.owl-prev span {
   font-size: var(--h3_typography-font-size);
@@ -157,7 +157,9 @@ button.owl-next span {
   flex-direction: column;
   align-items: flex-start;
 }
-
+.owl-carousel, .owl-carousel .owl-item {
+  border: unset !important;
+}
 /********* Start  Slider  Responsive ********/
 @media (min-width: 1500px) {
   .price-tag-head {
