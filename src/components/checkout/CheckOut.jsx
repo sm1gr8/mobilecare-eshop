@@ -225,13 +225,13 @@ function CheckOut() {
               <div className='payment-methods-holds'>
                 <div className='payment-heads'>Akceptujeme platby</div>
                 <ul className='payment-cards'>
-                  <li><img src='images/payment/paymt-00.png'></img></li>
-                  <li><img src='images/payment/paymt-01.png'></img></li>
-                  <li><img src='images/payment/paymt-02.png'></img></li>
-                  <li><img src='images/payment/paymt-03.png'></img></li>
-                  <li><img src='images/payment/paymt-04.png'></img></li>
-                  <li><img src='images/payment/paymt-05.png'></img></li>
-                  <li><img src='images/payment/paymt-06.png'></img></li>
+                  <li><img src='images/payment/paymt-00.svg'/></li>
+                  <li><img src='images/payment/paymt-01.svg'/></li>
+                  <li><img src='images/payment/paymt-02.svg'/></li>
+                  <li><img src='images/payment/paymt-03.svg'/></li>
+                  <li><img src='images/payment/paymt-04.svg'/></li>
+                  <li><img src='images/payment/paymt-05.svg'/></li>
+                  <li><img src='images/payment/paymt-06.svg'/></li>
                 </ul>
               </div>
               <div className='voucher-box'>

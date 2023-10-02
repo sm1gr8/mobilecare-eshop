@@ -22,7 +22,7 @@ carousel();
 
 function plusDivs(n) {
 
-    showDivs(slideIndex += n);
+  showDivs(slideIndex += n);
 
 }
 
@@ -30,7 +30,7 @@ function plusDivs(n) {
 
 function currentDiv(n) {
 
-    showDivs(slideIndex = n);
+  showDivs(slideIndex = n);
 
 }
 
@@ -38,7 +38,7 @@ function currentDiv(n) {
 
 function myFunction() {
 
-    myVar = setTimeout(carousel, 6000);
+  myVar = setTimeout(carousel, 6000);
 
 }
 
@@ -46,7 +46,7 @@ function myFunction() {
 
 function myStopFunction() {
 
-    clearTimeout(myVar);
+  clearTimeout(myVar);
 
 }
 
@@ -54,45 +54,45 @@ function myStopFunction() {
 
 function showDivs(n) {
 
-    if ($(".mySlides").length) {
+  if ($(".mySlides").length) {
 
-        var i;
+    var i;
 
-        var x = document.getElementsByClassName("mySlides");
+    var x = document.getElementsByClassName("mySlides");
 
-        var dots = document.getElementsByClassName("demo");
+    var dots = document.getElementsByClassName("demo");
 
-        if (n > x.length) {
-            slideIndex = 1
-        }
+    if (n > x.length) {
+      slideIndex = 1
+    }
 
-        if (n < 1) {
-            slideIndex = x.length
-        }
+    if (n < 1) {
+      slideIndex = x.length
+    }
 
-        for (i = 0; i < x.length; i++) {
+    for (i = 0; i < x.length; i++) {
 
-            x[i].style.display = "none";
-
-        }
-
-        for (i = 0; i < dots.length; i++) {
-
-            dots[i].className = dots[i].className.replace(" w3-white", "");
-
-        }
-
-        x[slideIndex - 1].style.display = "block";
-
-        dots[slideIndex - 1].className += " w3-white";
-
-
-
-        myStopFunction();
-
-        myFunction();
+      x[i].style.display = "none";
 
     }
+
+    for (i = 0; i < dots.length; i++) {
+
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+
+    }
+
+    x[slideIndex - 1].style.display = "block";
+
+    dots[slideIndex - 1].className += " w3-white";
+
+
+
+    myStopFunction();
+
+    myFunction();
+
+  }
 
 
 
@@ -102,49 +102,49 @@ function showDivs(n) {
 
 function carousel() {
 
-    var dots = document.getElementsByClassName("demo");
+  var dots = document.getElementsByClassName("demo");
 
-    var i;
+  var i;
 
-    if ($(".mySlides").length) {
+  if ($(".mySlides").length) {
 
-        var x = document.getElementsByClassName("mySlides");
+    var x = document.getElementsByClassName("mySlides");
 
-        for (i = 0; i < x.length; i++) {
+    for (i = 0; i < x.length; i++) {
 
-            x[i].style.display = "none";
-
-        }
-
-
-
-        slideIndex++;
-
-        if (slideIndex > x.length) {
-            slideIndex = 1
-        }
-
-        x[slideIndex - 1].style.display = "block";
-
-
-
-        for (i = 0; i < dots.length; i++) {
-
-            dots[i].className = dots[i].className.replace(" w3-white", "");
-
-        }
-
-
-
-        dots[slideIndex - 1].className += " w3-white";
-
-
-
-        myStopFunction();
-
-        myFunction();
+      x[i].style.display = "none";
 
     }
+
+
+
+    slideIndex++;
+
+    if (slideIndex > x.length) {
+      slideIndex = 1
+    }
+
+    x[slideIndex - 1].style.display = "block";
+
+
+
+    for (i = 0; i < dots.length; i++) {
+
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+
+    }
+
+
+
+    dots[slideIndex - 1].className += " w3-white";
+
+
+
+    myStopFunction();
+
+    myFunction();
+
+  }
 
 
 
@@ -154,23 +154,23 @@ function carousel() {
 
 // Start Mobile Side Nav
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-    $(".openNav").click(function() {
+  $(".openNav").click(function () {
 
-        $("#mySidenav").css("left", "0px");
+    $("#mySidenav").css("left", "0px");
 
-        $('body').addClass('mobileNav-active');
+    $('body').addClass('mobileNav-active');
 
-    });
+  });
 
-    $(".closeNav").click(function() {
+  $(".closeNav").click(function () {
 
-        $("#mySidenav").css("left", "-285px");
+    $("#mySidenav").css("left", "-285px");
 
-        $('body').removeClass('mobileNav-active');
+    $('body').removeClass('mobileNav-active');
 
-    });
+  });
 
 });
 
@@ -186,149 +186,150 @@ $(document).ready(function() {
 
 function filterdropdown() {
 
-    document.getElementById("filter_drop").classList.toggle("show");
+  document.getElementById("filter_drop").classList.toggle("show");
 
 }
 
 
-    
-$( document ).ready(function() {
-    //custom button for homepage
-     $( ".share-btn" ).click(function(e) {
-         $('.networks-5').not($(this).next( ".networks-5" )).each(function(){
-            $(this).removeClass("active");
-         });
-     
-            $(this).next( ".networks-5" ).toggleClass( "active" );
-    });   
+
+$(document).ready(function () {
+  //custom button for homepage
+  $(".share-btn").click(function (e) {
+    $('.networks-5').not($(this).next(".networks-5")).each(function () {
+      $(this).removeClass("active");
+    });
+
+    $(this).next(".networks-5").toggleClass("active");
+  });
 });
 
 
-
-jQuery("#carousel").owlCarousel({
-  autoplay: true,
-  rewind: true, /* use rewind if you don't want loop */
-  margin: 20,
-   /*
+$(document).ready(function () {
+  jQuery("#carousel").owlCarousel({
+    autoplay: true,
+    rewind: true, /* use rewind if you don't want loop */
+    margin: 20,
+    /*
   animateOut: 'fadeOut',
   animateIn: 'fadeIn',
   */
-  responsiveClass: true,
-  autoHeight: true,
-  autoplayTimeout: 7000,
-  smartSpeed: 800,
-  nav: true,
-  responsive: {
-    0: {
-      items: 1
-    },
+    responsiveClass: true,
+    autoHeight: true,
+    autoplayTimeout: 7000,
+    smartSpeed: 800,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1
+      },
 
-    600: {
-      items: 2
-    },
+      600: {
+        items: 2
+      },
 
-    1024: {
-      items: 2
-    },
+      1024: {
+        items: 2
+      },
 
-    1366: {
-      items: 3
+      1366: {
+        items: 3
+      }
     }
-  }
+  });
 });
 
 
-      var acc = document.getElementsByClassName("accordion");
-      var i;
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.display === "block") {
-            panel.style.display = "none";
-          } else {
-            panel.style.display = "block";
-          }
-        });
-      }
-
-
-
-    var acc = document.getElementsByClassName("accordion1");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
     }
-    
-    $(document).ready(function(){
-      $(".owl-carousel-1").owlCarousel({
-        items: 3,
-        margin: 10,
-        loop: true,
-        nav: true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          600: {
-            items: 2
-          },
-          1024: {
-            items: 2
-          },
-          1366: {
-            items: 2
-          }
-        }
-      });
-    });
+  });
+}
 
-    $(document).ready(function(){
-      $(".owl-carousel-2").owlCarousel({
-        margin: 0,
-        loop: true,
-        nav: true,
-        responsive: {
-          0: {
-            items: 2
-          },
-          600: {
-            items: 3
-          },
-          1024: {
-            items: 4
-          },
-          1366: {
-            items: 4
-          }
-        }
-      });
-    });
 
-$(document).ready(function() {
-  $('.cart-button').each(function() {
+
+var acc = document.getElementsByClassName("accordion1");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+$(document).ready(function () {
+  $(".owl-carousel-1").owlCarousel({
+    items: 3,
+    margin: 10,
+    loop: true,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1024: {
+        items: 2
+      },
+      1366: {
+        items: 2
+      }
+    }
+  });
+});
+
+$(document).ready(function () {
+  $(".owl-carousel-2").owlCarousel({
+    margin: 0,
+    loop: true,
+    nav: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1024: {
+        items: 4
+      },
+      1366: {
+        items: 4
+      }
+    }
+  });
+});
+
+$(document).ready(function () {
+  $('.cart-button').each(function () {
     const cartButton = $(this);
     const dropdownButton = cartButton.find('.cart-button');
     const productOptions = cartButton.find('.dropdown-options');
     const selectedOption = $('<div class="selected-option"><i class="fas fa-check"></i></div>');
     dropdownButton.append(selectedOption);
     let itemSelected = false;
-    dropdownButton.click(function() {
+    dropdownButton.click(function () {
       if (!itemSelected) {
         productOptions.toggle();
       }
     });
-    productOptions.on('click', 'li', function() {
+    productOptions.on('click', 'li', function () {
       const selectedText = $(this).text();
       dropdownButton.text('Added to Cart');
       dropdownButton.addClass('item-selected');
@@ -341,9 +342,9 @@ $(document).ready(function() {
 
 
 
-$(document).ready(function() {
+$(document).ready(function () {
   // Add a click event listener to each menu item
-  $('.site-menu-root-item').on('click', function(e) {
+  $('.site-menu-root-item').on('click', function (e) {
     // Prevent the default behavior of links
     e.preventDefault();
     // Get the parent's ID
@@ -376,7 +377,7 @@ $(document).ready(function() {
     }
   });
   // Handle click events for third-level menu items separately
-  $('.site-menu-sub-item').on('click', function(e) {
+  $('.site-menu-sub-item').on('click', function (e) {
     // Prevent the default behavior of links
     e.preventDefault();
     // Toggle the 'active' class for the clicked menu item
@@ -384,8 +385,8 @@ $(document).ready(function() {
     // Remove 'active' class from siblings
     $(this).siblings('.site-menu-sub-item').removeClass('active');
   });
-   // Handle clicks on the "Toggle Sidebar" button
-  $('#sidebarCollapse').on('click', function() {
+  // Handle clicks on the "Toggle Sidebar" button
+  $('#sidebarCollapse').on('click', function () {
     // Toggle sidebar by changing the left property
     $('.site-sidenav-menu').toggleClass('active');
     $('.overlay').toggleClass('active');
@@ -393,20 +394,20 @@ $(document).ready(function() {
     // $('a[aria-expanded=true]').attr('aria-expanded', 'false');
   });
   // Handle the click event for the close button
-  $('#dismiss, .overlay').on('click', function() {
-  // Hide the sidebar when the close button is clicked
-  $('.site-sidenav-menu').removeClass('active');
-  $('.overlay').removeClass('active');
-  
-  // Reset all menus and classes
-  resetMenus();
-});
-// Function to reset all menus and classes
-function resetMenus() {
-  $('.site-menu-root-item, .site-menu-sub-item, .site-menu-grand-item').removeClass('active');
-  $('.site-menu-sub, .site-menu-grand').removeClass('site-menu-sub-active site-menu-grand-active');
-}
-  
+  $('#dismiss, .overlay').on('click', function () {
+    // Hide the sidebar when the close button is clicked
+    $('.site-sidenav-menu').removeClass('active');
+    $('.overlay').removeClass('active');
+
+    // Reset all menus and classes
+    resetMenus();
+  });
+  // Function to reset all menus and classes
+  function resetMenus() {
+    $('.site-menu-root-item, .site-menu-sub-item, .site-menu-grand-item').removeClass('active');
+    $('.site-menu-sub, .site-menu-grand').removeClass('site-menu-sub-active site-menu-grand-active');
+  }
+
 });
 
 

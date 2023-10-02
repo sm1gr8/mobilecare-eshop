@@ -304,19 +304,19 @@ function ProductListen() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row featr-pd-bottom-hold">
           <ProductList products={Products} categories={['Smartfóny']} />
         </div>
-        <div className="row">
+        <div className="row featr-pd-bottom-hold">
           <ProductList products={Products} categories={['Smartfóny']} />
         </div>
-        <div className="row">
+        <div className="row featr-pd-bottom-hold">
           <ProductList products={Products} categories={['Smartfóny']} />
         </div>
-        <div className="row">
+        <div className="row featr-pd-bottom-hold">
           <ProductList products={Products} categories={['Smartfóny']} />
         </div>
-        <div className="row">
+        <div className="row featr-pd-bottom-hold">
           <ProductList products={Products} categories={['Smartfóny']} />
         </div>
       </div>

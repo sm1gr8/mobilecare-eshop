@@ -222,7 +222,7 @@ ul.color_select li span {
     cursor: pointer;
 }
 
-.new_product_box .new_product_box_text span.active.item_color_00:hover, span.active {
+.new_product_box .new_product_box_text span.active.item_color_00:hover, .new_product_box .new_product_box_text span.active.item_color_00.active {
     border: 2px solid var(--color8);
 }
 .new_product_box_text ul.color_select li span:hover {

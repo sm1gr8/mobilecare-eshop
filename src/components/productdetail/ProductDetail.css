@@ -133,7 +133,12 @@
     margin-right: 12px;
     margin-top: 3px;
 }
-
+.product-detail-content .product-color-select ul.slect-color li span:hover {
+    border: 2px solid var(--color8);
+}
+.product-detail-content .product-color-select ul.slect-color li span:hover, .product-detail-content .product-color-select ul.slect-color li span.active {
+    border: 2px solid var(--color8);
+}
 .product-detail-content .product-color-select {
     margin-bottom: 12px;
 }
@@ -169,17 +174,24 @@
 
 .product-detail-content .product-size-range ul.modal-size li span {
     padding: 8px;
-    border: 2px solid #F5F5F5;
+    border: 2px solid var(--color2);
     width: 73px;
     display: inline-block;
     text-align: center;
     margin: 0px 5px 5px -2px;
 }
-
+.product-detail-content .product-size-range ul.modal-size li span:hover, .product-detail-content .product-size-range ul.modal-size li .active span{
+    background: var(--color2);
+}
+.product-detail-content .product-size-range ul.modal-size li span:hover {
+    background: var(--color2);
+}
 .product-detail-content .add-to-cart a.pd-cart-btn {
     width: 92%;
     justify-content: center;
     margin-right: 8px;
+    height: 48px;
+    margin-top: 1px;
 }
 
 .product-detail-content .add-to-cart a.pd-cart-btn:hover {
@@ -202,8 +214,8 @@
 }
 
 .product-detail-content .add-to-cart span.wish-list-icon span {
-    padding: 11px 10px 9px 10px;
-    font-size: 23px;
+    padding: 10px 10px 10px 10px;
+    font-size: 24px;
     color: var(--color8);
     border: 2px solid var(--color8);
 }
@@ -254,8 +266,11 @@
     font-weight: var(--font-weight-700);
     position: relative;
     top: 0x;
+    cursor: pointer;
 }
-
+.product-detail-content .review-recently-show .box-left small:hover {
+    color: var(--color7);
+}
 .product-detail-content .review-recently-show .box-left i {
     color: var(--color8);
     font-size: 21px;
@@ -352,7 +367,12 @@ label:hover~input:checked~label
     font-size: var(--h6_typography-font-size);
     color: var(--color8);
 }
-
+.product-detail-content .info-content-add .main-box-content span img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    margin-right: 24px;
+}
 .productd-main-heading h5 {
     font-size: var(--h5_typography-font-size);
     color: var(--color8);
@@ -576,4 +596,11 @@ div#carouselExampleIndicators .carousel-inner.mb-5 {
 
 .featr-pd-bottom-hold {
     padding-bottom: 56px;
+}
+.productlisting-page .my-slider.carousel-indicators {
+    width: 125px;
+}
+.productlisting-page .my-slider.carousel-indicators img {
+    height: 125px !important;
+    object-fit: cover;
 }

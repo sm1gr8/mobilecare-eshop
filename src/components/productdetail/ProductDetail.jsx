@@ -27,16 +27,16 @@ function ProductDetail() {
                             <div className="my-slider carousel-indicators" style={{ marginBottom: '10px' }}>
                                 <div className="container op position-relative">
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" style={{ width: '100px' }}>
-                                        <img className="d-block w-100" src="images/pdslider/small03.png" alt="Slide 1" />
+                                        <img className="d-block w-100" src="images/pdslider/small03.jpg" alt="Slide 1" />
                                     </button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ width: '100px' }}>
-                                        <img className="d-block w-100" src="images/pdslider/small00.png" alt="Slide 2" />
+                                        <img className="d-block w-100" src="images/pdslider/small00.jpg" alt="Slide 2" />
                                     </button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" style={{ width: '100px' }}>
-                                        <img className="d-block w-100" src="images/pdslider/small01.png" alt="Slide 3" />
+                                        <img className="d-block w-100" src="images/pdslider/small01.jpg" alt="Slide 3" />
                                     </button>
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3" style={{ width: '100px' }}>
-                                        <img className="d-block w-100" src="images/pdslider/small02.png" alt="Slide 4" />
+                                        <img className="d-block w-100" src="images/pdslider/small02.jpg" alt="Slide 4" />
                                     </button>
                                 </div>
                             </div>
@@ -44,16 +44,16 @@ function ProductDetail() {
                             {/* Slides */}
                             <div className="carousel-inner mb-5">
                                 <div className="carousel-item active">
-                                    <img src="images/pdslider/small03.png" className="d-block w-100" alt="Slide 1" />
+                                    <img src="images/pdslider/small03.jpg" className="d-block w-100" alt="Slide 1" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="images/pdslider/small00.png" className="d-block w-100" alt="Slide 2" />
+                                    <img src="images/pdslider/small00.jpg" className="d-block w-100" alt="Slide 2" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="images/pdslider/small01.png" className="d-block w-100" alt="Slide 3" />
+                                    <img src="images/pdslider/small01.jpg" className="d-block w-100" alt="Slide 3" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="images/pdslider/small02.png" className="d-block w-100" alt="Slide 4" />
+                                    <img src="images/pdslider/small02.jpg" className="d-block w-100" alt="Slide 4" />
                                 </div>
                             </div>
                             {/* Slides */}
@@ -98,7 +98,7 @@ function ProductDetail() {
                                 <span>Farebné prevedenie</span>
                                 <ul className='slect-color'>
                                     <li><span style={{ backgroundColor: '#403E3D' }}></span></li>
-                                    <li><span style={{ backgroundColor: '#F0F2F2' }}></span></li>
+                                    <li><span className='active' style={{ backgroundColor: '#F0F2F2' }}></span></li>
                                     <li><span style={{ backgroundColor: '#594F63' }}></span></li>
                                     <li><span style={{ backgroundColor: '#F4E8CE' }}></span></li>
                                 </ul>
@@ -106,12 +106,12 @@ function ProductDetail() {
                             <div className='product-size-range'>
                                 <span>Kapacita úložiska</span>
                                 <ul className='modal-size'>
-                                    <li><span>64 GB</span></li>
-                                    <li><span>125 GB</span></li>
-                                    <li><span>256 GB</span></li>
-                                    <li><span>512 GB</span></li>
-                                    <li><span>1 TB</span></li>
-                                    <li><span>2 TB</span></li>
+                                    <li><a href='#' className='active'><span>64 GB</span></a></li>
+                                    <li><a href='#'><span>125 GB</span></a></li>
+                                    <li><a href='#'><span>256 GB</span></a></li>
+                                    <li><a href='#'><span>512 GB</span></a></li>
+                                    <li><a href='#'><span>1 TB</span></a></li>
+                                    <li><a href='#'><span>2 TB</span></a></li>
                                 </ul>
                             </div>
                             <div className='add-to-cart'>
@@ -143,10 +143,10 @@ function ProductDetail() {
                                 <h5>Čo sa nachádza v balení?</h5>
                                 <p>Tieto produkty nájdete v originálnom balení</p>
                                 <div className='main-box-content'>
-                                    <span>Nabíjací kábel</span>
+                                    <span><img src='images/product-details-info-img.jpg'/>Nabíjací kábel</span>
                                 </div>
                                 <div className='main-box-content'>
-                                    <span>Nabíjací adaptér</span>
+                                    <span><img src='images/product-details-info-img-00.jpg'/>Nabíjací adaptér</span>
                                 </div>
                             </div>
                             <div className='related-products'>

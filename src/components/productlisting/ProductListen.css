@@ -37,6 +37,9 @@ ul.breadcrumbs li+li::before {
     background-color: var(--color7);
     color: var(--color1);
 }
+.filter-button a{
+    font-weight: var( --font-weight-700);
+}
 .filter-button a span {
     margin-left: 12px;
 }
@@ -147,8 +150,8 @@ div#filter .offcanvas-header button.btn-close.text-reset i.fas.fa-times {
     color: unset !important;
     padding: 0px !important;
 }
-button.accordion-button.collapsed {
-    padding: 12px 0px !important;
+.related-products-acorrdin button.accordion-button.collapsed {
+    padding: 16px 0px 16px !important;
 }
 .custom-accordian-hold .accordion-item h2 button {
     font-weight: var(--font-weight-700);
@@ -281,10 +284,14 @@ button.accordion-button.collapsed {
     background: rgba(245, 245, 245, 1);
     text-align: center;
     border: 1px solid rgba(245, 245, 245, 1);
-    padding: 12px 14px 12px 14px;
+    padding: 11px 13px 11px 13px;
     color: var(--color8);
     font-weight: var(--font-weight-600);
     margin-right: 24px;
+    border: 2px solid rgba(245, 245, 245, 1);
+}
+.selected-filtered-items-pd .slect-item-filter-box:hover {
+    border: 2px solid var(--color8) !important;
 }
 .selected-filtered-items-pd .slect-item-filter-box i.fas.fa-times {
     font-size: 20px;
@@ -295,7 +302,10 @@ button.accordion-button.collapsed {
 }
 .selected-filtered-items-pd .slect-item-filter-box.underline-btn {
     background-color: unset;
-    border: unset;
+    border: unset !important;
     cursor: pointer;
     text-decoration: underline;
+}
+.selected-filtered-items-pd .slect-item-filter-box.underline-btn:hover{
+    color: var(--color7);
 }
