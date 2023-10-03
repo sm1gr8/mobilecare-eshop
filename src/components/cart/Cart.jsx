@@ -34,7 +34,7 @@ function Cart() {
                   <span className='pro-price decurated-hold'>
                     <b className='new-price'>1299 €</b>
                     <b className='old-price'>1799 € </b>
-                    <a href='#' className='trash'><i class="fas fa-trash"></i></a>
+                    <a href='#' className='trash'><span class="icon-delete-outline"></span></a>
                   </span>
                   <p className='percentage-hold-item'>Uštríte 17% oproti pôvodnej sume</p>
                   <div className='select-items'>
@@ -68,7 +68,7 @@ function Cart() {
                   </a>
                 </div>
                 <div className='pro-items-prices'>
-                  <span className='pro-price'>1299 € <a href='#' className='trash'><i class="fas fa-trash"></i></a></span>
+                  <span className='pro-price'>1299 € <a href='#' className='trash'><span class="icon-delete-outline"></span></a></span>
                   <div className='select-items'>
                     <label>Zadajte množstvo tu</label>
                     <select class="form-select select">
@@ -100,7 +100,7 @@ function Cart() {
                   </a>
                 </div>
                 <div className='pro-items-prices'>
-                  <span className='pro-price'>1299 € <a href='#' className='trash'><i class="fas fa-trash"></i></a></span>
+                  <span className='pro-price'>1299 € <a href='#' className='trash'><span class="icon-delete-outline"></span></a></span>
                   <div className='select-items'>
                     <label>Zadajte množstvo tu</label>
                     <select class="form-select select">
@@ -133,13 +133,13 @@ function Cart() {
               <div className='payment-methods-holds'>
                 <div className='payment-heads'>Akceptujeme platby</div>
                 <ul className='payment-cards'>
-                  <li><img src='images/payment/paymt-00.png'></img></li>
-                  <li><img src='images/payment/paymt-01.png'></img></li>
-                  <li><img src='images/payment/paymt-02.png'></img></li>
-                  <li><img src='images/payment/paymt-03.png'></img></li>
-                  <li><img src='images/payment/paymt-04.png'></img></li>
-                  <li><img src='images/payment/paymt-05.png'></img></li>
-                  <li><img src='images/payment/paymt-06.png'></img></li>
+                  <li><img src='images/payment/paymt-00.svg'></img></li>
+                  <li><img src='images/payment/paymt-01.svg'></img></li>
+                  <li><img src='images/payment/paymt-02.svg'></img></li>
+                  <li><img src='images/payment/paymt-03.svg'></img></li>
+                  <li><img src='images/payment/paymt-04.svg'></img></li>
+                  <li><img src='images/payment/paymt-05.svg'></img></li>
+                  <li><img src='images/payment/paymt-06.svg'></img></li>
                 </ul>
               </div>
               <div className='voucher-box'>
@@ -188,7 +188,7 @@ function Cart() {
         <div className='row'>
           <div className='col-md-12'>
             <div className='productd-main-heading'>
-              <h5><span class="icon-bestseller"></span> Mohlo by vás zaujímať </h5>
+              <h2><span class="icon-bestseller"></span> Mohlo by vás zaujímať </h2>
             </div>
           </div>
         </div>

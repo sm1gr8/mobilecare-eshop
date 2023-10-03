@@ -308,7 +308,7 @@ function ProductDetail() {
                     <div className='row featr-pd-bottom-hold'>
                         <div className='col-md-12'>
                             <div className='productd-main-heading'>
-                                <h5><span class="icon-bestseller"></span> Podobné produkty</h5>
+                                <h2><span class="icon-bestseller"></span> Podobné produkty</h2>
                             </div>
                         </div>
                     </div>
@@ -318,7 +318,7 @@ function ProductDetail() {
                     <div className='row featr-pd-bottom-hold'>
                         <div className='col-md-12'>
                             <div className='productd-main-heading'>
-                                <h5> Ostatní si kúpili </h5>
+                                <h2> Ostatní si kúpili </h2>
                             </div>
                         </div>
                     </div>
@@ -333,6 +333,13 @@ function ProductDetail() {
                 </div>
             </div>
             <div className='container'>
+            <div className='row featr-pd-bottom-hold'>
+                        <div className='col-md-12'>
+                            <div className='productd-main-heading'>
+                                <h2> Naposledy prezerané </h2>
+                            </div>
+                        </div>
+                    </div>
                 <div className="row featr-pd-bottom-hold">
                     <ProductList products={Products} categories={['Smartfone1', 'Featured', 'Airpods']} />
                 </div>
