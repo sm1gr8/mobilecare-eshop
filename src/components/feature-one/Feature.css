@@ -84,6 +84,21 @@ ul.color_select li span {
     color: var(--color8);
 }
 
+.wishlist span:hover {
+    cursor: pointer;
+    animation: shake 0.3s infinite both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
 .dis_percentage {
     position: absolute;
     left: 0px;
