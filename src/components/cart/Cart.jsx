@@ -192,7 +192,7 @@ function Cart() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row owl-carousel owl-carousel-3 custom-colum-hide">
           <ProductList products={Products} categories={['Smartfóny']} />
         </div>
       </div>

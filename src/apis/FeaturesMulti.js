@@ -47,7 +47,6 @@ const Features = [
     price: '1299 €',
     wishlist: 'Add to Wishlist',
     dis_percentage: '-39%',
-    item_brand: '',
   },
   {
     id: 6,
@@ -57,7 +56,6 @@ const Features = [
     price: '999 €',
     wishlist: 'Add to Wishlist',
     dis_percentage: '-39%',
-    item_brand: '',
   },
   {
     id: 7,
@@ -67,7 +65,6 @@ const Features = [
     price: '999 €',
     wishlist: 'Add to Wishlist',
     dis_percentage: '-39%',
-    item_brand: '',
   },
   {
     id: 8,
@@ -77,7 +74,6 @@ const Features = [
     price: '999 €',
     wishlist: 'Add to Wishlist',
     dis_percentage: '-39%',
-    item_brand: '',
   },
 
 

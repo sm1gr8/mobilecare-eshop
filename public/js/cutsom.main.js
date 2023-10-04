@@ -315,6 +315,30 @@ $(document).ready(function () {
     }
   });
 });
+$(document).ready(function () {
+  $(".owl-carousel-3").owlCarousel({
+    margin: 0,
+    stagePadding: 50,
+    loop: true,
+    nav: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1024: {
+        items: 4
+      },
+      1366: {
+        items: 5
+      }
+    }
+  });
+});
+
+
 
 $(document).ready(function () {
   $('.cart-button').each(function () {

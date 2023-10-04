@@ -604,3 +604,15 @@ div#carouselExampleIndicators .carousel-inner.mb-5 {
     height: 125px !important;
     object-fit: cover;
 }
+.owl-carousel.owl-carousel-3.custom-colum-hide .col-md-3 {
+    width: unset;
+}
+.owl-carousel-3 .owl-item img {
+    display: block;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 0;
+}
+.owl-carousel.owl-carousel-3 .owl-stage { left: -50px; }

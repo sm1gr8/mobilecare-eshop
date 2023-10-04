@@ -27,7 +27,6 @@ const Features = [
     price: '1299 €',
     wishlist: 'Add to Wishlist',
     dis_percentage: '-39%',
-    item_brand: 'Novinka',
   },
   {
     id: 4,
@@ -36,7 +35,6 @@ const Features = [
     category: 'Smartfóny',
     price: '1299 €',
     wishlist: 'Add to Wishlist',
-    dis_percentage: '-39%',
     item_brand: 'Novinka',
   },
 

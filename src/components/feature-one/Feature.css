@@ -101,7 +101,7 @@ ul.color_select li span {
 
 .dis_percentage {
     position: absolute;
-    left: 0px;
+    left: 73px;
     top: 0px;
     background-color: var(--dis_percentage_color);
     color: var(--color1);

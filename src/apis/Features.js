@@ -18,8 +18,6 @@ const Features = [
     category: 'Smartfóny',
     price: '999 €',
     wishlist: 'Add to Wishlist',
-    dis_percentage: '',
-    item_brand: '',
   },
   {
     id: 3,
@@ -29,8 +27,6 @@ const Features = [
     category: 'Smartfóny',
     price: '999 €',
     wishlist: 'Add to Wishlist',
-    dis_percentage: '',
-    item_brand: '',
   },
   {
     id: 4,
@@ -40,8 +36,6 @@ const Features = [
     category: 'Smartfóny',
     price: '999 €',
     wishlist: 'Add to Wishlist',
-    dis_percentage: '',
-    item_brand: '',
   },
 
 

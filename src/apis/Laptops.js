@@ -6,8 +6,7 @@ const Features = [
     category: 'Smartfóny',
     price: '999 €',
     wishlist: 'Add to Wishlist',
-    dis_percentage: '',
-    item_brand: '',
+    item_brand: 'Novinka',
   },
   {
     id: 2,
@@ -16,8 +15,7 @@ const Features = [
     category: 'Smartfóny',
     price: '999 €',
     wishlist: 'Add to Wishlist',
-    dis_percentage: '',
-    item_brand: '',
+    dis_percentage: '-39%',
   },
   {
     id: 3,
@@ -26,8 +24,8 @@ const Features = [
     category: 'Smartfóny',
     price: '999 €',
     wishlist: 'Add to Wishlist',
-    dis_percentage: '',
-    item_brand: '',
+    dis_percentage: '-39%',
+    item_brand: 'Novinka',
   },
   {
     id: 4,
@@ -36,8 +34,6 @@ const Features = [
     category: 'Smartfóny',
     price: '999 €',
     wishlist: 'Add to Wishlist',
-    dis_percentage: '',
-    item_brand: '',
   },
 
 

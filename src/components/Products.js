@@ -18,8 +18,6 @@ const Products = [
         category: 'Smartfóny',
         price: '999 €',
         wishlist: 'Add to Wishlist',
-        dis_percentage: '',
-        item_brand: '',
     },
     {
         id: 3,
@@ -29,8 +27,6 @@ const Products = [
         category: 'Smartfóny',
         price: '999 €',
         wishlist: 'Add to Wishlist',
-        dis_percentage: '',
-        item_brand: '',
     },
     {
         id: 4,
@@ -40,8 +36,6 @@ const Products = [
         category: 'Smartfóny',
         price: '999 €',
         wishlist: 'Add to Wishlist',
-        dis_percentage: '',
-        item_brand: '',
     },
 
     {
@@ -52,8 +46,6 @@ const Products = [
         category: 'Featured',
         price: '999 €',
         wishlist: 'Add to Wishlist',
-        dis_percentage: '',
-        item_brand: '',
     },
     {
         id: 6,
@@ -63,8 +55,6 @@ const Products = [
         category: 'Airpods',
         price: '999 €',
         wishlist: 'Add to Wishlist',
-        dis_percentage: '',
-        item_brand: '',
     },
     {
         id: 7,

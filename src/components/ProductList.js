@@ -18,6 +18,9 @@ const ProductList = ({ products, categories }) => {
                     name={product.name}
                     category={product.category}
                     price={product.price}
+                    dis_percentage={product.dis_percentage}
+                    item_brand={product.item_brand}
+                    
                 />
             ))}
         </>

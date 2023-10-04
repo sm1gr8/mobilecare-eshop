@@ -312,7 +312,7 @@ function ProductDetail() {
                             </div>
                         </div>
                     </div>
-                    <div className="row featr-pd-bottom-hold">
+                    <div className="row owl-carousel owl-carousel-3 custom-colum-hide featr-pd-bottom-hold">
                         <ProductList products={Products} categories={['Smartfóny']} />
                     </div>
                     <div className='row featr-pd-bottom-hold'>
@@ -322,7 +322,7 @@ function ProductDetail() {
                             </div>
                         </div>
                     </div>
-                    <div className="row featr-pd-bottom-hold">
+                    <div className="row owl-carousel owl-carousel-3 custom-colum-hide featr-pd-bottom-hold">
                         <ProductList products={Products} categories={['Smartfóny']} />
                     </div>
                 </div>

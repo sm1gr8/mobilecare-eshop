@@ -6,8 +6,10 @@ export default function FeatureMulti() {
   return (
     <div className='feature-section multi-feature-holds'>
       <div className='container'>
-      <div className="row">
+      <div className="row   featr-pd-bottom-hold">
             <ProductList products={Products} categories={['Smartfóny',]} />
+          </div>
+          <div className="row">
             <ProductList products={Products} categories={['Smartfóny',]} />
           </div>
       </div>

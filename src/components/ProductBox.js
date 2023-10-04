@@ -1,7 +1,7 @@
 import React from 'react'
 import Cartbutton from './Cartbutton1';
 
-const ProductBox = ({ id, image, hoverImg, name, category, price }) => {
+const ProductBox = ({ id, image, hoverImg, name, category, price ,dis_percentage,item_brand}) => {
     return (
         <div className="col-md-3" key={id} curelm={id}>
             <div className="new_product_box">
@@ -37,9 +37,20 @@ const ProductBox = ({ id, image, hoverImg, name, category, price }) => {
                     <div className="wishlist">
                         <span className="icon-favourite-border"></span>
                     </div>
-                    {/* Uncomment and use other props as needed */}
+                    {
+                        dis_percentage ? 
+<span className='dis_percentage'> {dis_percentage} </span>
+                        : ""
+                    }
+
                     {/* <span className='dis_percentage'>{dis_percentage}</span> */}
-                    {/* <span className='item_brand'>{item_brand}</span> */}
+                    {
+                        item_brand ? 
+<span className='item_brand'> {item_brand} </span>
+                        : ""
+                    }
+                    {/* <span className='item_brand'>{item_brand ?item_brand:   }</span> */}
+                   
                 </div>
             </div>
         </div>
