@@ -294,9 +294,10 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
+$(document).ready(function () { 
   $(".owl-carousel-2").owlCarousel({
     margin: 0,
+    stagePadding: 22,
     loop: true,
     nav: true,
     responsive: {

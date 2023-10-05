@@ -264,8 +264,8 @@ ul.color_select li span {
         display: none;
     }
 
-    .feature-section .owl-carousel .owl-stage {
-        margin-left: -18%;
+    .owl-carousel.owl-carousel-2 .owl-stage {
+        left: -22px;
     }
 
     /* cart-box-style start */
