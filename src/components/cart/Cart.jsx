@@ -2,8 +2,11 @@ import React from 'react';
 import './Cart.css';
 import ProductList from '../ProductList'; // call the product boxs where we define products with category
 import Products from '../Products'; // also call the data API of products
+import Header from '../header/Header';
 function Cart() {
   return (
+    <>
+    <Header />
     <div className='empty-cart-secton-hold'>
       <div className='container'>
         <div className='row'>
@@ -197,7 +200,7 @@ function Cart() {
         </div>
       </div>
     </div>
-
+</>
   );
 }
 

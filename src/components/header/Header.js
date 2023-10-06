@@ -1,11 +1,20 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
-function Header() {
+import HeaderCart  from '../header-cart/HeaderCart';
+// import './HeaderCart.css';
+const Header = () => {
 
   const [btnshow, setBtnShow] = useState(false);
+  const headerSwap = [
+    "/CheckOut", "/cart", "/emptycart",
+  ]
 
   return (
+  
+      headerSwap?.includes(window.location.pathname) ? 
+      <HeaderCart /> : 
+
     <header>
       {/* Start topbar here  */}
       <div className='topbar dark-bg pt-1 pb-1'>
@@ -580,8 +589,8 @@ function Header() {
         </div>
       </div>
     </header>
+
   );
 }
+
 export default Header;
-
-

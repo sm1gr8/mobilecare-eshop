@@ -259,6 +259,17 @@ ul.color_select li span {
 @media (max-width: 1024px) {}
 
 @media(max-width:768px) {
+    .item_brand {
+        padding: 2px 6px;
+        font-size: 11px;
+        margin: 10px 8px 0px 0px;
+    }
+    .dis_percentage {
+        padding: 2px 6px;
+        font-size: 11px;
+        left: 62px;
+        margin: 10px 8px 0px 0px;
+    }
 
     .feature-section .view-more {
         display: none;

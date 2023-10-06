@@ -2,9 +2,11 @@ import React from 'react';
 import './CheckOut.css';
 import ProductList from '../ProductList'; // call the product boxs where we define products with category
 import Products from '../Products'; // also call the data API of products
-
+import Header from '../header/Header';
 function CheckOut() {
   return (
+    <>
+    <Header/>
     <div className='productlisting-page'>
       <div className='container'>
         <div className='row'>
@@ -278,6 +280,7 @@ function CheckOut() {
         </div>
       </div>
     </div >
+    </>
   );
 }
 

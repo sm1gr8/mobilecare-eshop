@@ -10,7 +10,10 @@
   margin-bottom: 0px;
   display: flex;
 }
-
+.second-conten-left img {
+  text-align: left;
+  float: left;
+}
 .header-bottom-pd {
   padding-top: 24px;
 }

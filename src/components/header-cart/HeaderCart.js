@@ -63,8 +63,8 @@ function HeaderCart() {
       <div className='navbar-hold dark-bg pt-3 pb-3 mb-3'>
         <div className='container'>
           <div className='row'>
-            <div className='col-sm-6'>
-              <NavLink className='navbar-brand' to='/'>
+            <div className='col-sm-6 text-left'>
+              <NavLink className='navbar-brand second-conten-left' to='/'>
                 <img src='images/logo.svg' alt='Logo' className='img-fluid' />
               </NavLink>
             </div>

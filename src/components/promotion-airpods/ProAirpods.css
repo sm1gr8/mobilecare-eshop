@@ -3,7 +3,7 @@
     height: 297px;
     overflow-y: visible;
     margin-bottom: 56px;
-    padding-top: 16px;
+    /* padding-top: 16px; */
 }
 
 .promotion-img-hold {
@@ -64,9 +64,11 @@
         float: right;
         margin-top: -60px;
     }
+
     .promotion-img-hold.airpods {
         position: relative;
     }
+
     .airpods .price-tages-pro-h {
         height: 85px;
         width: 85px;
@@ -75,6 +77,14 @@
         float: right;
         bottom: 18px;
         left: 65px;
+    }
+
+    .promotion-section-hold {
+        margin-bottom: 16px;
+    }
+
+    .custom-colum-hide {
+        margin-bottom: 16px;
     }
 }
 

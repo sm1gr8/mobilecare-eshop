@@ -83,6 +83,10 @@
 @media (max-width: 1024px) {}
 
 @media(max-width:768px) {
+    .coninfo-section-hold {
+        padding-bottom: 24px;
+    }
+    
 .coninfo-icons-hold {
     padding: 10px 10px;
     background-color: var(--color10);

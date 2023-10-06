@@ -1,6 +1,7 @@
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Header from './components/header/Header';
+import HeaderCart from "./components/header-cart/HeaderCart"
 import Footer from './components/footer/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
@@ -13,11 +14,10 @@ import ProductDetail from './components/productdetail/ProductDetail';
 import EmptyCart from './components/emptycart/EmptyCart';
 import Cart from './components/cart/Cart';
 import CheckOut from './components/checkout/CheckOut';
-function App() {
+function App() { 
   return (
     <div className="app">
       <Router>
-      <Header />
         <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/výpredaj' element={<Výpredaj/>}></Route>
