@@ -1,0 +1,102 @@
+.promotion-section-hold {
+    background-color: var(--color10);
+    height: 297px;
+    overflow-y: visible;
+}
+
+.promotion-content-hold h2 {
+    font-size: var(--h2_typography-font-size);
+    color: var(--color8);
+    font-weight: var(--font-weight-700);
+    margin-bottom: 16px;
+}
+
+.promotion-content-hold p {
+    margin-bottom: 40px;
+}
+
+.promotion-img-hold.pro-dis-tag {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.promotion-img-hold.pro-dis-tag img {
+    width: auto;
+}
+
+.promotion-content-hold.five-starts-holds span p b {
+    color: var(--color8);
+    font-weight: var(--font-weight-700);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    margin: 4px 0px 4px 0px;
+}
+
+.promotion-content-hold.five-starts-holds h5 {
+    font-size: 24px;
+    font-style: normal;
+    color: var(--color8);
+    font-weight: var(--font-weight-700);
+}
+
+.promotion-content-hold.five-starts-holds span p b span {
+    font-size: 24px;
+    position: relative;
+    top: 5px;
+}
+
+.pd-middle-hold {
+    padding-top: 100px;
+}
+
+.promotion-img-hold.five-starts-holds img {
+    width: 231.859px;
+    height: 213.078px;
+    margin-top: 90px;
+}
+
+.promotion-content-hold.five-starts-holds img {
+    margin-bottom: 24px;
+}
+
+/********* Start  Style  Responsive ********/
+@media (min-width: 1500px) {}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {}
+
+@media(max-width:768px) {
+
+    .pd-middle-hold {
+        padding-top: 5px;
+    }
+
+    .promotion-content-hold.five-starts-holds img {
+        width: 85px;
+        margin-bottom: 16px;
+    }
+
+    .promotion-content-hold.five-starts-holds h5 {
+        font-size: 20px;
+    }
+
+    .promotion-content-hold.five-starts-holds span p b {
+        font-size: 13px;
+    }
+
+    .promotion-content-hold.five-starts-holds span p {
+        font-size: 13px;
+    }
+
+    .promotion-img-hold.five-starts-holds img {
+        width: 86.947px;
+        margin-top: -103px;
+    }
+
+}
+
+/********* End  Style  Responsive ********/

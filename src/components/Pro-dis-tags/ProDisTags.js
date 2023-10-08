@@ -5,7 +5,7 @@ export default function ProDisTags() {
     <div className='promotion-section-hold'>
       <div className='container'>
         <div className='row'>
-          <div className='col-md-6 align-self-center'>
+          <div className='col-md-6 align-self-center pd-middle-hold'>
             <div className='promotion-content-hold'>
                 <h2>Zľavy až 60%</h2>
               <p>Na vybrané produkty</p>

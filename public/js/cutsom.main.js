@@ -319,7 +319,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".owl-carousel-3").owlCarousel({
     margin: 0,
-    stagePadding: 50,
+    stagePadding: 22,
     loop: true,
     nav: true,
     responsive: {
@@ -338,7 +338,32 @@ $(document).ready(function () {
     }
   });
 });
-
+$(document).ready(function () {
+  $(".owl-carousel-4").owlCarousel({
+    margin: 0,
+    stagePadding: 22,
+    loop: true,
+    nav: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      600: {
+        items: 2
+      },
+      1024: {
+        items: 3
+      },
+      1366: {
+        stagePadding: 40,
+        loop:false,
+        margin:2,
+        nav:false,
+        items:3
+      }
+    }
+  });
+});
 
 
 $(document).ready(function () {

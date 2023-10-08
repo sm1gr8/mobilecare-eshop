@@ -116,10 +116,6 @@
         font-size: 24px !important;
     }
 
-    .promotion-content-hold p {
-        display: none;
-    }
-
     .promotion-content-hold a.button.button-with-border-dark {
         font-size: 14px;
         padding: 8px 7px;

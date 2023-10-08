@@ -12,6 +12,7 @@ import AirPods from './components/airpods/AirPods';
 import DisDevices from './components/discount-devices/DisDevices';
 import ProDisTags from './components/Pro-dis-tags/ProDisTags';
 import FeatureMulti from './components/feature-multi/FeatureMulti';
+import ProFiveStars from './components/Pro-five-stars/ProFiveStars';
 import ConInfo from './components/con-info/ConInfo';
 import HeaderCart from './components/header-cart/HeaderCart';
 import Header from './components/header/Header';
@@ -34,6 +35,7 @@ const Home = () => {
       <DisDevices />
       <ProDisTags />
       <FeatureMulti />
+      <ProFiveStars />
       <ConInfo />
     </>
   )

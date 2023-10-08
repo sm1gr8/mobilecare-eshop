@@ -7,7 +7,7 @@ const Header = () => {
 
   const [btnshow, setBtnShow] = useState(false);
   const headerSwap = [
-    "/CheckOut", "/cart", "/emptycart",
+    "/CheckOut",
   ]
 
   return (
