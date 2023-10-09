@@ -6,7 +6,7 @@ export default function ProDisTags() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-6 align-self-center pd-middle-hold'>
-            <div className='promotion-content-hold'>
+            <div className='promotion-content-hold pro-dis-tag'>
                 <h2>Zľavy až 60%</h2>
               <p>Na vybrané produkty</p>
               <a href='#' className='button button-with-border-dark '> Zobraziť viac </a>

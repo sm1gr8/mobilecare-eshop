@@ -19,3 +19,28 @@
 .promotion-img-hold.pro-dis-tag img {
     width: auto;
 }
+/********* Start  Style  Responsive ********/
+@media (min-width: 1500px) {}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {}
+
+@media(max-width:768px) {
+    .promotion-content-hold p {
+       display: none;
+    }
+    .promotion-content-hold h2 {
+        margin-bottom: 16px !important;
+    }
+    .promotion-img-hold.pro-dis-tag img {
+        width: 87px !important;
+        position: relative;
+        top: 0px;
+    }
+
+}
+
+/********* End  Style  Responsive ********/

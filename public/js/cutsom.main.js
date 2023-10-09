@@ -364,7 +364,32 @@ $(document).ready(function () {
     }
   });
 });
-
+$(document).ready(function () {
+  $(".owl-carousel-5").owlCarousel({
+    margin: 0,
+    stagePadding: 50,
+    loop: true,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1024: {
+        items: 2
+      },
+      1366: {
+        stagePadding: 250,
+        loop:false,
+        margin:50,
+        nav:false,
+        items:2
+      }
+    }
+  });
+});
 
 $(document).ready(function () {
   $('.cart-button').each(function () {

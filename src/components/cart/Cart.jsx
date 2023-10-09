@@ -29,11 +29,34 @@ function Cart() {
                   <div className='pro-items-des'>
                     <span className='pro-name'>iPhone 14</span>
                     <p className='descrip'>Kapacita: 256 GB, Farba: Silver</p>
+                    <div className='pro-items-prices responsive-only'>
+                    <span className='pro-price decurated-hold'>
+                      <b className='new-price'>1299 €</b>
+                      <b className='old-price'>1799 € </b>
+                      <a href='#' className='trash'><span class="icon-delete-outline"></span></a>
+                    </span>
+                    <p className='percentage-hold-item'>Uštríte 17% oproti pôvodnej sume</p>
+                    <div className='select-items'>
+                      <label>Zadajte množstvo tu</label>
+                      <select class="form-select select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                  </div>
                     <a className='add-to-cart-items button button-with-border-dark '>
                       <span class="icon-favourite-border"></span> Odložiť na neskôr
                     </a>
                   </div>
-                  <div className='pro-items-prices'>
+                  <div className='pro-items-prices desktop-hide'>
                     <span className='pro-price decurated-hold'>
                       <b className='new-price'>1299 €</b>
                       <b className='old-price'>1799 € </b>
@@ -66,11 +89,29 @@ function Cart() {
                   <div className='pro-items-des'>
                     <span className='pro-name'> iPhone 14 PRO </span>
                     <p className='descrip'>Kapacita: 256 GB, Farba: Silver</p>
+                    <div className='pro-items-prices responsive-only'>
+                    <span className='pro-price'>1299 € <a href='#' className='trash'><span class="icon-delete-outline"></span></a></span>
+                    <div className='select-items'>
+                      <label>Zadajte množstvo tu</label>
+                      <select class="form-select select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                  </div>
                     <a className='add-to-cart-items button button-with-border-dark '>
                       <span class="icon-favourite-border"></span> Odložiť na neskôr
                     </a>
                   </div>
-                  <div className='pro-items-prices'>
+                  <div className='pro-items-prices desktop-hide'>
                     <span className='pro-price'>1299 € <a href='#' className='trash'><span class="icon-delete-outline"></span></a></span>
                     <div className='select-items'>
                       <label>Zadajte množstvo tu</label>
@@ -98,11 +139,29 @@ function Cart() {
                   <div className='pro-items-des'>
                     <span className='pro-name'>Apple AirPods 2 GEN</span>
                     <p className='descrip'>Kapacita: 256 GB, Farba: Silver</p>
+                    <div className='pro-items-prices responsive-only'>
+                    <span className='pro-price'>1299 € <a href='#' className='trash'><span class="icon-delete-outline"></span></a></span>
+                    <div className='select-items'>
+                      <label>Zadajte množstvo tu</label>
+                      <select class="form-select select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                  </div>
                     <a className='add-to-cart-items button button-with-border-dark '>
                       <span class="icon-favourite-border"></span> Odložiť na neskôr
                     </a>
                   </div>
-                  <div className='pro-items-prices'>
+                  <div className='pro-items-prices desktop-hide'>
                     <span className='pro-price'>1299 € <a href='#' className='trash'><span class="icon-delete-outline"></span></a></span>
                     <div className='select-items'>
                       <label>Zadajte množstvo tu</label>

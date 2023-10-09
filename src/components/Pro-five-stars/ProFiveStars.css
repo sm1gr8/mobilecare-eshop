@@ -82,6 +82,7 @@
 
     .promotion-content-hold.five-starts-holds h5 {
         font-size: 20px;
+        margin-bottom: 0px;
     }
 
     .promotion-content-hold.five-starts-holds span p b {
@@ -94,7 +95,12 @@
 
     .promotion-img-hold.five-starts-holds img {
         width: 86.947px;
+        height: 79.904px;
         margin-top: -103px;
+    }
+    .five-starts-holds span p {
+        font-size: 13px;
+        display: block !important;
     }
 
 }
