@@ -80,7 +80,11 @@
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .coninfo-icons-hold {
+        padding: 48px 50px !important;
+    }
+}
 
 @media(max-width:768px) {
     .coninfo-section-hold {
