@@ -179,6 +179,10 @@ button.owl-next span {
 }
 
 @media (max-width: 1024px) {
+  .middle-slider .box-content h2 {
+    margin-bottom: 19px;
+    font-size: 30px !important;
+}
 
 }
 

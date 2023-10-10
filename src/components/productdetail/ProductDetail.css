@@ -744,7 +744,24 @@ div#carouselExampleIndicators .carousel-inner.mb-5 {
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    div#carouselExampleIndicators .carousel-inner.mb-5 {
+        width: 400px !important;
+    }
+    .productlisting-page .my-slider.carousel-indicators {
+        width: 70px !important;
+    }
+    .productlisting-page .my-slider.carousel-indicators img {
+        height: 70px !important;
+        object-fit: cover;
+        width: 70px !important;
+    }
+    .carousel-fade .carousel-item img.d-block.w-100 {
+        width: 400px !important;
+        height: unset !important;
+    }
+
+}
 
 @media(max-width:768px) {
     .featr-pd-bottom-hold.heading-resp-pd {

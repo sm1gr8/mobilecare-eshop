@@ -1032,14 +1032,18 @@ ul.site-menu-sub .scroll-hold::-webkit-scrollbar-track {
 
 @media (max-width: 1400px) {
   ul.navbar-nav.left-side li a {
-    padding: 12px 14px !important;
+    padding: 12px 12px !important;
   }
 
 }
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+  ul.navbar-nav.left-side li a {
+    padding: 12px 5px !important;
+}
+}
 
 @media(max-width:768px) {
 

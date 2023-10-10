@@ -148,9 +148,21 @@ ul.footer-detail-box-social-media li a {
 
 @media (max-width: 1400px) {}
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .inner_class_mobile_responsive_grid {
+        flex: 0 0 auto !important;
+        width: 50% !important;
+    }
+}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+
+    .inner_class_mobile_responsive_grid {
+        flex: 0 0 auto !important;
+        width: 50% !important;
+    }
+
+}
 
 @media(max-width:768px) {
     .footer-bottom-links {

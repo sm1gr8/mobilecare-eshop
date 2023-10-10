@@ -338,9 +338,31 @@ b.old-price {
 
 @media (max-width: 1400px) {}
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    .item-add-cart-box .item-content-detail-all .pro-items-des p.descrip {
+        font-size: 14px !important;
+        line-height: 157% !important;
+        margin-bottom: 16px !important;
+    }
+    .item-add-cart-box .item-cart-img-lef img {
+        width: 75px !important;
+        height: unset !important;
+    }
+}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .main-payemnt-content-box .payment-methods-holds {
+        flex-direction: column;
+    }
+    .main-payemnt-content-box .payment-methods-holds .payment-heads {
+        margin-bottom: 8px;
+    }
+    .main-payemnt-content-box .payment-btn-holds a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
 
 @media(max-width:768px) {
 

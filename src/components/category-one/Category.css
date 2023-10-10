@@ -52,7 +52,16 @@
   }
   
   @media (max-width: 1024px) {
-  
+    .cate-item-box .cate-content-hold {
+        width: 50%;
+      }
+      .cate-item-box .cate-img-holder {
+        width: 50%;
+      }
+      .cate-item-box .cate-content-hold span {
+        font-size: 18px;
+        padding-right: 10px;
+      }
   }
   
   @media(max-width:768px){
