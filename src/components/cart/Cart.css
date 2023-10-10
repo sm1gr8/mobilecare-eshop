@@ -348,18 +348,23 @@ b.old-price {
         margin-top: 0px;
         margin-bottom: 12px;
     }
+
     .item-add-cart-box .item-cart-img-lef {
         width: 30% !important;
     }
+
     .item-add-cart-box .item-content-detail-all {
         width: 70% !important;
     }
+
     .item-add-cart-box .item-content-detail-all .pro-items-des p.descrip {
         margin-bottom: 8px !important;
     }
+
     .item-add-cart-box .item-content-detail-all .pro-items-prices span.pro-price {
         text-align: left !important;
     }
+
     .item-add-cart-box .item-content-detail-all .pro-items-prices p.percentage-hold-item {
         text-align: left !important;
     }

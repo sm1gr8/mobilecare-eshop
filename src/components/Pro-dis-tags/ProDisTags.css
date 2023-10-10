@@ -3,23 +3,29 @@
     height: 297px;
     overflow-y: visible;
 }
+
 .promotion-content-hold h2 {
     font-size: var(--h2_typography-font-size);
     color: var(--color8);
     font-weight: var(--font-weight-700);
     margin-bottom: 16px;
 }
+
 .promotion-content-hold p {
     margin-bottom: 40px;
 }
+
 .promotion-img-hold.pro-dis-tag {
     text-align: right;
     margin-top: 25px;
 }
+
 .promotion-img-hold.pro-dis-tag img {
     width: auto;
 }
+
 /********* Start  Style  Responsive ********/
+
 @media (min-width: 1500px) {}
 
 @media (max-width: 1400px) {}
@@ -30,11 +36,13 @@
 
 @media(max-width:768px) {
     .promotion-content-hold p {
-       display: none;
+        display: none;
     }
+
     .promotion-content-hold h2 {
         margin-bottom: 16px !important;
     }
+
     .promotion-img-hold.pro-dis-tag img {
         width: 87px !important;
         position: relative;
