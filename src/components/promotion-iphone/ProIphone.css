@@ -78,6 +78,7 @@
         left: 180px;
     }
 }
+
 @media (max-width: 1300px) {
     .price-tages-pro-h {
         bottom: 145px;
@@ -85,11 +86,15 @@
         left: 150px;
     }
 }
+
 @media (max-width: 1200px) {
     .price-tages-pro-h {
         bottom: 145px;
         right: 0px;
         left: 100px;
+    }
+    .promotion-img-hold.proiphone img {
+        width: 445px;
     }
 }
 
@@ -99,9 +104,46 @@
         right: 0px;
         left: 100px;
     }
+
+    .promotion-img-hold.proiphone {
+        margin-top: -31px !important;
+    }
+
+    .proiphone-content-holds {
+        margin-top: -80px !important;
+    }
+
+    .promotion-img-hold.proiphone img {
+        width: 220px;
+    }
+
+    .promotion-img-hold.proiphone img {
+        width: 100%;
+    }
+    .promotion-content-hold {
+        top: -10px !important;
+    }
+    .promotion-img-hold.proiphone {
+        top: 85px;
+    }
 }
 
-@media(max-width:768px) {
+@media (min-width:769px) and (max-width:1024px) {
+    .promotion-img-hold.proiphone {
+        margin-top: -83px !important;
+    }
+    .promotion-img-hold.proiphone img {
+        width: 440px;
+    }
+    
+    
+}
+
+@media(max-width:767px) {
+    .promotion-img-hold.proiphone {
+        top: -109px !important;
+        margin-top: 0px !important;
+    }
     .promotion-img-hold.proiphone img.desktop {
         display: none;
     }
@@ -123,7 +165,8 @@
     }
 
     .promotion-content-hold {
-        padding-top: 12px;
+        padding-top: 19px !important;
+        margin-top: 0px !important;
     }
 
     .promotion-section-hold {
@@ -133,10 +176,6 @@
 
     .promotion-section-hold .resp-flow-hold {
         height: 115px !important;
-    }
-
-    .promotion-img-hold.proiphone {
-        margin-top: -101px;
     }
 
     .proiphone .price-tages-pro-h {
@@ -159,9 +198,6 @@
         font-size: 12px;
     }
 
-    .promotion-content-hold {
-        top: 0px !important;
-    }
 }
 
 

@@ -54,9 +54,28 @@
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .promotion-img-hold.airpods img {
+        width: 270px !important;
+        height: unset !important;
+    }
 
-@media(max-width:768px) {
+    .promotion-img-hold.airpods {
+        margin-top: 48px !important;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .promotion-img-hold.airpods {
+        margin-top: -55px !important;
+    }
+        .promotion-img-hold.airpods img {
+        width: 385px !important;
+        height: unset !important;
+    }
+}
+
+@media(max-width:767px) {
 
     .promotion-img-hold.airpods img {
         width: 140px !important;

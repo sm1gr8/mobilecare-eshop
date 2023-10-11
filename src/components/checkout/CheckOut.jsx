@@ -202,7 +202,7 @@ function CheckOut() {
                 <div className='col-md-12'>
                   <div className='checkout-check'>
                     <input class="input-checkout" type="checkbox" name="" id="checkout-08" value="" />
-                    <label for="checkout-08">Súhlasím s obchodnými podmienkami a podmienky ochrany osobných údajov</label>
+                    <label for="checkout-08" className='with-hold-check-out'>Súhlasím s obchodnými podmienkami a podmienky ochrany osobných údajov</label>
                   </div>
                 </div>
                 <div className='col-md-12'>

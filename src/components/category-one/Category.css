@@ -62,6 +62,10 @@
         font-size: 18px;
         padding-right: 10px;
       }
+      .cate-item-box .cate-img-holder img {
+        height: auto;
+        width: 100%;
+    }
   }
   
   @media(max-width:768px){

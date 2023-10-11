@@ -5,7 +5,7 @@ export default function ConInfo() {
     <div className='coninfo-section-hold'>
       <div className='container'>
         <div className='row align-items-center'>
-          <div className='col-md-1'>
+          <div className='col-lg-1 col-md-12'>
             <div className='content-info-one-custom'>
               <div className='coninfo-icons-hold'>
                 <a href='#'><span class="icon-contact"></span></a>
@@ -18,7 +18,7 @@ export default function ConInfo() {
               </div>
             </div>
           </div>
-          <di className='col-md-11'>
+          <di className='col-lg-11 col-md-12'>
             <div className='coninfo-content-hold'>
               <div className='coninfo-box-one'>
                 <h5>Chcete sa pred nákupom rýchlo poradiť? </h5>

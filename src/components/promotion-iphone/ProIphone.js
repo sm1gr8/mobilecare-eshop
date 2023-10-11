@@ -6,7 +6,7 @@ export default function ProIphone() {
       <div className='container'>
         <div className='row resp-flow-hold'>
           <div className='col-md-6 align-self-center'>
-            <div className='promotion-content-hold'>
+            <div className='promotion-content-hold proiphone-content-holds'>
                 <h2>Apple iPhone</h2>
               <p>Apple iPhone za najlepšie ceny široko ďaleko</p>
               <a href='#' className='button button-with-border-dark '>Zobraziť viac</a>

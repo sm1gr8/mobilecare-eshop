@@ -58,11 +58,32 @@
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 1024px) {}
-
-@media(max-width:768px) {
+@media (max-width: 1024px) {
     .promotion-img-hold.ProLaptop {
+        margin-top: 50px !important;
+    }
+
+    .promotion-img-hold img {
+        width: 290px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .promotion-img-hold {
+        margin-top: 40px;
+    }
+
+    .promotion-img-hold.ProLaptop {
+        margin-top: 50px !important;
+    }
+}
+
+@media(max-width:767px) {
+
+    .promotion-img-hold {
         position: relative;
+        top: -105px;
     }
 
     .promotion-img-hold.ProLaptop img {
