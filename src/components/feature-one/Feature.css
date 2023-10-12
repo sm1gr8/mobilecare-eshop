@@ -258,7 +258,10 @@ ul.color_select li span {
 
 @media (max-width: 1024px) {}
 
-@media(max-width:768px) {
+@media(max-width:767px) {
+    .product-cart-button-container .cart-dropdown{
+        bottom: -133px;
+    }
     .item_brand {
         padding: 2px 6px;
         font-size: 11px;

@@ -764,6 +764,11 @@ div#carouselExampleIndicators .carousel-inner.mb-5 {
 }
 
 @media(max-width:768px) {
+    .product-detail-descount-pd-hold {
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .featr-pd-bottom-hold.heading-resp-pd {
         padding-bottom: 24px;
     }
@@ -778,7 +783,10 @@ div#carouselExampleIndicators .carousel-inner.mb-5 {
         padding: 7px !important;
     }
     .new_product_box_text .wishlist span {
-        right: -10px;
+        right: 0px;
+    }
+    .related-products-row .col-md-3 {
+        padding: 0px 10px;
     }
     .product-detail-content .info-content-add h5 {
         font-size: 20px;
@@ -898,7 +906,22 @@ div#carouselExampleIndicators .carousel-inner.mb-5 {
         margin-top: 5px;
     }
     .owl-carousel.owl-carousel-4 .owl-stage {
-        left: -22px;
+        left:-32px !important;
+    }
+    .owl-carousel.owl-carousel-4.custom-colum-hide .col-md-4 {
+        width: unset;
+    }
+    .owl-carousel.owl-carousel-4 .owl-stage-outer {
+        padding: 0px 10px 0px 22px !important;
+    }
+    .product-detail-content .related-pro-card-item .img-hold img {
+        width: 173px !important;
+        height: 155px !important;
+        object-fit: contain !important;
+        position: unset !important;
+        margin: auto !important;
+        justify-content: center !important;
+        text-align: center !important;
     }
 }
 

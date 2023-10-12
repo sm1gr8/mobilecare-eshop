@@ -279,15 +279,18 @@ $(document).ready(function () {
     nav: true,
     responsive: {
       0: {
+        dots: true,
         items: 1
       },
       600: {
+        dots: true,
         items: 2
       },
       1024: {
         items: 2
       },
       1366: {
+        dots: false,
         items: 2
       }
     }
@@ -302,9 +305,11 @@ $(document).ready(function () {
     nav: true,
     responsive: {
       0: {
+        margin: 12,
         items: 2
       },
       600: {
+        margin: 12,
         items: 3
       },
       1024: {
@@ -324,9 +329,11 @@ $(document).ready(function () {
     nav: true,
     responsive: {
       0: {
+        margin: 12,
         items: 2
       },
       600: {
+        margin: 12,
         items: 3
       },
       1024: {
@@ -346,9 +353,11 @@ $(document).ready(function () {
     nav: true,
     responsive: {
       0: {
+        margin: 12,
         items: 2
       },
       600: {
+        margin: 12,
         items: 2
       },
       1024: {
@@ -372,9 +381,11 @@ $(document).ready(function () {
     nav: true,
     responsive: {
       0: {
+        dots: true,
         items: 1
       },
       600: {
+        dots: true,
         items: 1
       },
       1024: {

@@ -1272,12 +1272,20 @@ a.close-back-btn-hold {
 }
 
 @media(max-width:767px) {
+
+
+  .site-sidenav-menu ul.site-menu-root {
+    padding-left: 24px !important;
+  }
+
   .header-bottom-pd {
     padding-top: 0px !important;
-}
+  }
+
   .mobile-resp-h ul.navbar-nav.right-side {
     top: -6px !important;
   }
+
   .topbar {
     text-align: center;
   }
@@ -1324,13 +1332,15 @@ a.close-back-btn-hold {
     color: var(--color1) !important;
     border: 2px solid var(--color1) !important;
     position: absolute;
-    top:-55px;
+    top: -55px;
     z-index: 9999;
   }
+
   a.navbar-brand {
     top: -5px !important;
-    z-index:1 !important;
-}
+    z-index: 1 !important;
+  }
+
   .button-with-icon span {
     font-size: 24px;
     margin-left: 8px;
@@ -1364,8 +1374,20 @@ a.close-back-btn-hold {
   }
 
   .sidenav-logos a img {
-    padding: 32px 10px;
+    padding: 32px 0px 32px 16px !important;
     width: 205px;
+  }
+
+  .site-menu-sub-item .site-menu-grand li.site-menu-sub-item.third-menu-gard {
+    padding-left: 32px !important;
+  }
+
+  .site-menu-sub-item.active .site-menu-grand .back-level h4 {
+    margin-left: 14px !important;
+  }
+
+  ul.site-menu-sub .back-level {
+    padding: 40px 0px 24px 16px !important;
   }
 
   .site-sidenav-menu {
